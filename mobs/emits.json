@@ -1,0 +1,32 @@
+[
+  {
+    "id": "emit_rad_cloud_deathclaw",
+    "type": "emit",
+    "field": "fd_nuke_gas",
+    "intensity": 3,
+    "qty": 5
+  },
+  {
+    "id": "emit_rad_cloud",
+    "//": "Negative, negative, it's a large reactor leak, very dangerous",
+    "type": "emit",
+    "field": "fd_nuke_gas",
+    "intensity": 3,
+    "qty": 100
+  },
+  {
+    "id": "emit_rad_cloud_small",
+    "//": "Negative, negative, it's a large reactor leak, very dangerous",
+    "type": "emit",
+    "field": "fd_nuke_gas",
+    "intensity": 1,
+    "qty": 20
+  },
+  {
+    "id": "emit_antifungal_blast",
+    "type": "emit",
+    "//": "Large blast of toxic gas (example: bloated zombie explosion)",
+    "field": "fd_fungicidal_gas",
+    "qty": 200
+  }
+]

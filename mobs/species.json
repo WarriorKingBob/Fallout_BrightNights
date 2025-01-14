@@ -1,0 +1,9 @@
+[
+  {
+    "type": "SPECIES",
+    "id": "FO_GHOUL",
+    "name": { "str": "ghoul" },
+    "description": "a ghoul",
+    "footsteps": "shuffling."
+  }
+]
