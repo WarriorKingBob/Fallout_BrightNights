@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "fallout_combined",
+    "name": "Fallout: New England Combined",
+    "authors": [ "Tefnut", "Jolmar7", "WarriorKingBob" ],
+    "maintainers": [ "Zlorthishen", "WarriorKingBob" ],
+    "description": "Brings the retro-futuristic feel of Fallout series to the Cataclysm. Guns, factions, monsters, craftable items, mutations, food, drinks, locations and even more. Stuff from the Core Region, all the way to the Commonwealth. Fusion of the two fallout mods by tefnut and Jolmar7.",
+    "category": "content",
+    "dependencies": [ "bn" ]
+  }
+]

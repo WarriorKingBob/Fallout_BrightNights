@@ -1,0 +1,14 @@
+[
+  {
+    "type" : "start_location",
+    "id" : "fo_vault_start_op",
+    "name" : "Vault",
+    "terrain": [ "FO_PLAYER_VAULT_H" ]
+  },
+  {
+    "type" : "start_location",
+    "id" : "fo_vault_wastetown_start_op",
+    "name" : "Wasteland Town",
+    "terrain": [ "FO_WASTETOWN_5" ]
+  }
+]

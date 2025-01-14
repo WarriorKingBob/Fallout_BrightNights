@@ -1,0 +1,164 @@
+[
+  {
+    "type": "mutation",
+    "id": "mut_fo_ghoulification",
+    "name": { "str": "Ghoul" },
+    "points": -3,
+    "description": "You have been exposed to an immense amount of radiation at some point in the past and became a ghoul rather than dying. Your skin has the consistency of dried leather, your nose, hair and ears are gone, and your face as the consistency of three-week old chopped liver. At least you have more radiation resistance and are ignored by your feral peers now.",
+    "starting_trait": true,
+    "social_modifiers": { "persuade": -2 },
+    "ignored_by": [ "FO_GHOUL" ],
+    "visibility": 5,
+    "ugliness": 5
+  },
+  {
+    "type": "mutation_category",
+    "id": "FEVMUTANT",
+    "name": "Super Mutant",
+    "threshold_mut": "THRESH_FEVMUTANT",
+    "mutagen_message": "You feel your body changing, very painfully... But you hear a voice guiding you... Master?",
+    "iv_message": "The master's voice beckons, and with glee, you inject yourself.",
+    "iv_min_mutations": 2,
+    "iv_additional_mutations": 2,
+    "iv_additional_mutations_chance": 4,
+    "iv_hunger": 20,
+    "iv_thirst": 20,
+    "iv_pain": 4,
+    "iv_fatigue": 20,
+    "iv_morale": -40,
+    "iv_morale_max": -200,
+    "iv_sound": true,
+    "iv_sound_message": "your pained grunts and moans.",
+    "iv_sound_id": "grunt and moan",
+    "iv_sound_variant": "grunt and moan",
+    "iv_noise": 25,
+    "iv_sleep": true,
+    "iv_sleep_dur": 800,
+    "iv_sleep_message": "You finally fall asleep to the master's soothing words of unity.",
+    "memorial_message": "You are with the master now."
+  },
+  {
+    "type": "mutation",
+    "id": "UGLY",
+    "copy-from": "UGLY",
+    "extend": { "category": [ "FEVMUTANT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "MUT_JUNKIE",
+    "copy-from": "MUT_JUNKIE",
+    "extend": { "category": [ "FEVMUTANT" ], "threshreq": [ "THRESH_FEVMUTANT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "UNSTABLE",
+    "copy-from": "UNSTABLE",
+    "extend": { "category": [ "FEVMUTANT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "CHAOTIC",
+    "copy-from": "CHAOTIC",
+    "extend": { "category": [ "FEVMUTANT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ROBUST",
+    "copy-from": "ROBUST",
+    "extend": { "category": [ "FEVMUTANT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "HAMFISTS",
+    "name": { "str": "Ham Fisted" },
+    "points": -4,
+    "visibility": 4,
+    "ugliness": 3,
+    "mixed_effect": true,
+    "description": "Your hands have become massive fists. Manual dexterity has become harder, and handguns just dont fit your hands as well. But you can punch good.",
+    "craft_skill_bonus": [
+      [ "electronics", -4 ],
+      [ "tailor", -4 ],
+      [ "mechanics", -4 ],
+      [ "firstaid", -2 ],
+      [ "computer", -2 ],
+      [ "traps", -2 ],
+      [ "fabrication", -1 ]
+    ],
+    "passive_mods": { "str_mod": 2 },
+    "encumbrance_always": [ [ "hand_l", 10 ], [ "hand_r", 10 ] ],
+    "restricts_gear": [ "hand_l", "hand_r" ],
+    "types": [ "HANDS" ],
+    "prereqs": [ "PAWS" ],
+    "cancels": [ "TALONS" ],
+    "category": [ "FEVMUTANT" ]
+  },
+  {
+    "type": "mutation",
+    "id": "THRESH_FEVMUTANT",
+    "name": { "str": "FEV mutant" },
+    "points": 1,
+    "description": "The master has blessed you with the next step in human evolution. The world is good as yours.",
+    "cancels": [ "CARNIVORE" ],
+    "social_modifiers": { "intimidate": 2 },
+    "valid": false,
+    "purifiable": false,
+    "threshold": true
+  },
+  {
+    "type": "mutation",
+    "id": "INT_FEVMUTANT",
+    "name": { "str": "Strong Bond" },
+    "points": 6,
+    "description": "The master's words help you understand things better.",
+    "valid": false,
+    "prereqs": [ "INT_UP" ],
+    "threshreq": [ "THRESH_FEVMUTANT" ],
+    "category": [ "FEVMUTANT" ],
+    "passive_mods": { "int_mod": 1 }
+  },
+  {
+    "type": "mutation",
+    "id": "SCHIZOPHRENIC",
+    "copy-from": "SCHIZOPHRENIC",
+    "extend": { "category": [ "FEVMUTANT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "DEFORMED",
+    "copy-from": "DEFORMED",
+    "extend": { "category": [ "FEVMUTANT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "DEFORMED2",
+    "copy-from": "DEFORMED2",
+    "extend": { "category": [ "FEVMUTANT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "DEFORMED3",
+    "copy-from": "DEFORMED3",
+    "extend": { "category": [ "FEVMUTANT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "SPIRITUAL",
+    "copy-from": "SPIRITUAL",
+    "extend": { "category": [ "FEVMUTANT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "TOUGH_FEVMUTANT",
+    "name": { "str": "Vat Skin" },
+    "points": 2,
+    "description": "Your skin is tough from your evolution. You can take a lot more punishment, but can't move as good.",
+    "starting_trait": false,
+    "valid": false,
+    "cancels": [ "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW" ],
+    "social_modifiers": { "intimidate": 8 },
+    "hp_modifier": 1.5,
+    "movecost_obstacle_modifier": 1.25,
+    "category": [ "FEVMUTANT" ]
+  }
+]

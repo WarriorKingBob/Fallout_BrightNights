@@ -1,0 +1,181 @@
+[
+  {
+    "id": "wattz_1000",
+    "type": "GUN",
+    "copy-from": "pistol_energy",
+    "symbol": "{",
+    "name": { "str": "Wattz 1000 Laser Pistol" },
+    "description": "A Wattz 1000 Laser Pistol. Civilian model, so the wattage is lower than military or police versions. Uses batteries.",
+    "price": "424 USD",
+    "material": [ "steel", "wood" ],
+    "weight": "2940 g",
+    "volume": "1 L",
+    "bashing": 3,
+    "to_hit": -1,
+    "ammo_effects": [ "LASER" ],
+    "delete": { "flags": [ "NO_UNLOAD" ] },
+    "ammo": [ "battery" ],
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "250 ml",
+    "ranged_damage": { "damage_type": "heat", "amount": 6, "armor_penetration": 2 },
+    "range": 30,
+    "dispersion": 5,
+    "sight_dispersion": 20,
+    "recoil": 0,
+    "durability": 8,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "spray", 10 ], [ "AUTO", "auto", 15 ] ],
+    "reload": 140,
+    "loudness": 2,
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
+  },
+  {
+    "id": "wattz_1000_magneto",
+    "type": "GUN",
+    "copy-from": "wattz_1000",
+    "color": "white",
+    "symbol": "{",
+    "name": { "str": "Wattz 1000 Magneto Laser Pistol" },
+    "description": "This Wattz 1000 laser pistol has been upgraded with a magnetic field targeting system that tightens the laser emission, giving this pistol extra penetrating power.",
+    "extend": { "flags": [ "FIRE_20" ] },
+    "magazines": [
+      [
+        "battery",
+        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      ]
+    ],
+    "ranged_damage": { "damage_type": "heat", "amount": 8, "armor_penetration": 4 },
+    "reload": 300
+  },
+  {
+    "id": "laser_pistol_aep",
+    "type": "GUN",
+    "copy-from": "pistol_energy",
+    "symbol": "{",
+    "name": { "str": "AEP7 Laser Pistol" },
+    "description": "The AEP7 laser pistol was put into service to replace the aging Wattz 1000 model. With a generous battery size, tight shot grouping at range, resilience to extended use, and fairly decent damage output, it is a very good choice for a sidearm.",
+    "price": "424 USD",
+    "material": [ "steel", "wood" ],
+    "weight": "2940 g",
+    "volume": "1 L",
+    "bashing": 3,
+    "to_hit": -1,
+    "ammo_effects": [ "LASER" ],
+    "extend": { "flags": [ "FIRE_20" ] },
+    "delete": { "flags": [ "NO_UNLOAD" ] },
+    "ammo": [ "battery" ],
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "500 ml",
+    "ranged_damage": { "damage_type": "heat", "amount": 15, "armor_penetration": 5 },
+    "range": 30,
+    "dispersion": 5,
+    "sight_dispersion": 20,
+    "recoil": 0,
+    "durability": 8,
+    "reload": 300,
+    "loudness": 2,
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
+  },
+  {
+    "id": "laser_pistol_aep_pewpew",
+    "type": "GUN",
+    "copy-from": "laser_pistol_aep",
+    "name": { "str": "Sunset Sasparilla AEP7 Laser Pistol" },
+    "description": "The AEP7 laser pistol was put into service to replace the aging Wattz 1000 model. With a generous battery size, tight shot grouping at range, resilience to extended use, and fairly decent damage output, it is a very good choice for a sidearm. This one was customized with the logo of Sunset Sasparilla, and fires 5 shots at once, kind of like a shotgun. The beam has a distinct red color.",
+    "magazine_well": "250 ml",
+    "ranged_damage": { "damage_type": "heat", "amount": 20, "armor_penetration": 5 },
+    "modes": [ [ "DEFAULT", "Single Fire", 5 ] ]
+  },
+  {
+    "id": "fo_ppk12gausspistol",
+    "type": "GUN",
+    "weapon_category": [ "PISTOLS", "MAGNETIC" ],
+    "reload_noise_volume": 10,
+    "symbol": "(",
+    "color": "green",
+    "name": { "str": "PPK12 Gauss pistol" },
+    "description": "Praised for its range and stopping power, the PPK12 Gauss Pistol is of German design. The pistol uses an electromagnetic field to propel rounds at tremendous speed and punch through almost any armor.",
+    "price": "17500 USD",
+    "material": [ "steel" ],
+    "ups_charges": 25,
+    "ammo": [ "fo_2mmec" ],
+    "skill": "rifle",
+    "weight": "1900 g",
+    "volume": "1000 ml",
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": { "damage_type": "bullet", "amount": 2, "armor_penetration": 3 },
+    "clip_size": 12,
+    "dispersion": 130,
+    "durability": 7,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
+    "reload": 350,
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "grip", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
+  },
+  {
+    "id": "institute_laser_pistol",
+    "type": "GUN",
+    "copy-from": "pistol_energy",
+    "symbol": "{",
+    "name": { "str": "Institute Laser Pistol" },
+    "description": "A laser pistol developed by the mysterious institute. What it lacks in direct damage dealing potential it more than makes up for with its ability to penetrate the armor of a would-be assailant due to its optimized laser wavelengths. Commonly seen in use among the synths of the institute when performing missions on the New England surface.",
+    "price": "424 USD",
+    "material": [ "aluminum", "plastic" ],
+    "weight": "3100 g",
+    "volume": "1250 ml",
+    "bashing": 3,
+    "to_hit": -1,
+    "ammo_effects": [ "LASER" ],
+    "flags": [ "FIRE_20", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "ammo": [ "battery" ],
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "500 ml",
+    "ranged_damage": { "damage_type": "heat", "amount": 16, "armor_penetration": 9 },
+    "range": 20,
+    "dispersion": 15,
+    "sight_dispersion": 35,
+    "recoil": 0,
+    "durability": 8,
+    "reload": 300,
+    "loudness": 2,
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
+  }
+]
