@@ -6,10 +6,12 @@
 The fusion mainly combines all content of the two mods together, with some bugfixes, lore changes, rebalances, and updates by me.
 There are also some items that are deleted. These are listed in the changes below.
 
-*Changelog:*
+## Changelog:
+
 Reorganized everything into appropriately named files which are placed into appropriately named folders, for both my sanity and easier to make changes in the future.
 
-Deleted items:
+**Deleted items:**
+
 10mm Auto - Base game already contains 10mm Auto FMJ.
 
 10mm HP - Removed in favour of 10mm JHP.
@@ -30,25 +32,30 @@ Gunsmith Guru - Never implemented to spawn in game. Doesn't fit the mod anyway s
 
 Rusty T45 - Made sense in the Fallout universe given how much time has passed, but not here.
 
-Fixes:
+**Fixes:**
+
 Golden Gecko boots & mask - Armor pieces now use golden gecko hide instead of the normal variant.
 
-Rebalances:
+**Rebalances:**
+
 All ballistic ammo - All the ballistic ammo have very poor stats. I went through and changed them based on fallout lore and comparing with vanilla ammo.
 
 Energy Weapons - Using base game weapons and other mod weapons as a reference, energy weapons have have been changed.
 
 Feel free to let me know if you think some weapons should be buffed or nerfed.
 
-Lore changes:
+**Lore changes:**
+
 Revised description of many Fallout weapons and items to fit the universe of Cataclysm.
 
 Gun Runners are now a post-cataclysm faction, similar to Fallout lore.
 
-Updates:
+**Updates:**
+
 In accordance to the recent monster hunter updates, all monsters now drop new monster parts where applicable. EX. Reptile monsters drop scutes and sharp teeth.
 
-**Description:**
+## Description:
+
 Experience Fallout in Cataclysm: Bright Nights! Intended for players that are familiar with the Fallout universe, this mod adds many Fallout weapons, clothing, armor and factions (including DLCs) into Bright Nights.
 
 Now you can roleplay as a member of the many Fallout factions available!
