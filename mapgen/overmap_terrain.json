@@ -1,0 +1,1480 @@
+[
+  {
+    "id": "FO_BOSOUTPOST_1",
+    "type": "overmap_terrain",
+    "name": "BoS Outpost",
+    "sym": "B",
+    "color": "blue",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_BOSOUTPOST_2",
+    "type": "overmap_terrain",
+    "name": "BoS Outpost",
+    "sym": "B",
+    "color": "blue",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_BOSOUTPOST_1_roof",
+    "type": "overmap_terrain",
+    "name": "BoS Outpost roof",
+    "sym": "B",
+    "color": "blue",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_CARAVAN_OUTPOST_A",
+    "type": "overmap_terrain",
+    "name": "Caravan Outpost",
+    "sym": "%",
+    "color": "yellow_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_CARAVAN_OUTPOST_A_roof",
+    "type": "overmap_terrain",
+    "name": "Caravan Outpost roof",
+    "sym": "%",
+    "color": "yellow_yellow",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_CARAVAN_OUTPOST_B",
+    "type": "overmap_terrain",
+    "name": "Caravan Outpost",
+    "sym": "%",
+    "color": "yellow_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_CARAVAN_OUTPOST_B_roof",
+    "type": "overmap_terrain",
+    "name": "Caravan Outpost roof",
+    "sym": "%",
+    "color": "yellow_yellow",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_CARAVAN_OUTPOST_C",
+    "type": "overmap_terrain",
+    "name": "Caravan Outpost",
+    "sym": "%",
+    "color": "yellow_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_CARAVAN_OUTPOST_C_roof",
+    "type": "overmap_terrain",
+    "name": "Caravan Outpost roof",
+    "sym": "%",
+    "color": "yellow_yellow",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_PLAYER_VAULT_1_1",
+    "type": "overmap_terrain",
+    "name": "Vault",
+    "sym": "V",
+    "color": "yellow_cyan",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_PLAYER_VAULT_1_2",
+    "type": "overmap_terrain",
+    "name": "Vault",
+    "sym": "V",
+    "color": "yellow_cyan",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_PLAYER_VAULT_1_3",
+    "type": "overmap_terrain",
+    "name": "Vault",
+    "sym": "V",
+    "color": "yellow_cyan",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_PLAYER_VAULT_1_4",
+    "type": "overmap_terrain",
+    "name": "Vault",
+    "sym": "V",
+    "color": "yellow_cyan",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_PLAYER_VAULT_D",
+    "type": "overmap_terrain",
+    "name": "Vault",
+    "sym": "V",
+    "color": "yellow_cyan",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_PLAYER_VAULT_H",
+    "type": "overmap_terrain",
+    "name": "Vault Entrance",
+    "sym": "V",
+    "color": "yellow_cyan",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_PLAYER_VAULT_H_roof",
+    "type": "overmap_terrain",
+    "name": "Vault Entrance roof",
+    "sym": "V",
+    "color": "yellow_cyan",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_DEATHCLAW_WARREN_1",
+    "type": "overmap_terrain",
+    "name": "Deathclaw Warren",
+    "sym": "D",
+    "color": "i_brown",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_DEATHCLAW_WARREN_2",
+    "type": "overmap_terrain",
+    "name": "Deathclaw Warren",
+    "sym": "D",
+    "color": "i_brown",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_DEATHCLAW_WARREN_1_roof",
+    "type": "overmap_terrain",
+    "name": "Deathclaw Warren roof",
+    "sym": "D",
+    "color": "i_brown",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_COMMON_VAULT_1_1",
+    "type": "overmap_terrain",
+    "name": "Common Vault",
+    "sym": "V",
+    "color": "blue",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_COMMON_VAULT_1_roof_1",
+    "type": "overmap_terrain",
+    "name": "Common Vault roof",
+    "sym": "V",
+    "color": "blue",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_COMMON_VAULT_1_2",
+    "type": "overmap_terrain",
+    "name": "Common Vault",
+    "sym": "V",
+    "color": "blue",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_COMMON_VAULT_1_roof_2",
+    "type": "overmap_terrain",
+    "name": "Common Vault roof",
+    "sym": "V",
+    "color": "blue",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_COMMON_VAULT_1_3",
+    "type": "overmap_terrain",
+    "name": "Common Vault",
+    "sym": "V",
+    "color": "blue",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_COMMON_VAULT_1_roof_3",
+    "type": "overmap_terrain",
+    "name": "Common Vault roof",
+    "sym": "V",
+    "color": "blue",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_COMMON_VAULT_1_4",
+    "type": "overmap_terrain",
+    "name": "Common Vault",
+    "sym": "V",
+    "color": "blue",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_COMMON_VAULT_1_roof_4",
+    "type": "overmap_terrain",
+    "name": "Common Vault roof",
+    "sym": "V",
+    "color": "blue",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_COMMON_VAULT_D",
+    "type": "overmap_terrain",
+    "name": "Common Vault",
+    "sym": "V",
+    "color": "blue",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_COMMON_VAULT_D_roof",
+    "type": "overmap_terrain",
+    "name": "Common Vault roof",
+    "sym": "V",
+    "color": "blue",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_COMMON_VAULT_H",
+    "type": "overmap_terrain",
+    "name": "Vault Entrance",
+    "sym": "V",
+    "color": "blue",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_COMMON_VAULT_H_roof",
+    "type": "overmap_terrain",
+    "name": "Vault Entrance roof",
+    "sym": "V",
+    "color": "blue",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_DOCQUEST_HOUSE_1",
+    "type": "overmap_terrain",
+    "name": "Isolated House",
+    "sym": "H",
+    "color": "brown_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_DOCQUEST_HOUSE_1_roof",
+    "type": "overmap_terrain",
+    "name": "Isolated House roof",
+    "sym": "H",
+    "color": "brown_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_RAD_VAULT_1_1",
+    "type": "overmap_terrain",
+    "name": "Irradiated Vault",
+    "sym": "V",
+    "color": "i_green",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_RAD_VAULT_1_2",
+    "type": "overmap_terrain",
+    "name": "Irradiated Vault",
+    "sym": "V",
+    "color": "i_green",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_RAD_VAULT_1_3",
+    "type": "overmap_terrain",
+    "name": "Irradiated Vault",
+    "sym": "V",
+    "color": "i_green",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_RAD_VAULT_1_4",
+    "type": "overmap_terrain",
+    "name": "Irradiated Vault",
+    "sym": "V",
+    "color": "i_green",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_RAD_VAULT_D",
+    "type": "overmap_terrain",
+    "name": "Irradiated Vault",
+    "sym": "V",
+    "color": "i_green",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_RAD_VAULT_D_roof",
+    "type": "overmap_terrain",
+    "name": "Irradiated Vault roof",
+    "sym": "V",
+    "color": "i_green",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_RAD_VAULT_H",
+    "type": "overmap_terrain",
+    "name": "Irradiated Vault Entrance",
+    "sym": "V",
+    "color": "i_green",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_RAD_VAULT_H_roof",
+    "type": "overmap_terrain",
+    "name": "Irradiated Vault Entrance roof",
+    "sym": "V",
+    "color": "i_green",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_LARGECRATER_1_1",
+    "type": "overmap_terrain",
+    "name": "Crater",
+    "sym": "O",
+    "color": "red_yellow",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_LARGECRATER_1_2",
+    "type": "overmap_terrain",
+    "name": "Crater",
+    "sym": "O",
+    "color": "red_yellow",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_LARGECRATER_1_3",
+    "type": "overmap_terrain",
+    "name": "Crater",
+    "sym": "O",
+    "color": "red_yellow",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_LARGECRATER_1_4",
+    "type": "overmap_terrain",
+    "name": "Crater",
+    "sym": "O",
+    "color": "red_yellow",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_LARGECRATER_1_5",
+    "type": "overmap_terrain",
+    "name": "Crater",
+    "sym": "O",
+    "color": "red_yellow",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_LARGECRATER_1_6",
+    "type": "overmap_terrain",
+    "name": "Crater",
+    "sym": "O",
+    "color": "red_yellow",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_LARGECRATER_1_7",
+    "type": "overmap_terrain",
+    "name": "Crater",
+    "sym": "O",
+    "color": "red_yellow",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_LARGECRATER_1_8",
+    "type": "overmap_terrain",
+    "name": "Crater",
+    "sym": "O",
+    "color": "red_yellow",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_LARGECRATER_1_9",
+    "type": "overmap_terrain",
+    "name": "Crater",
+    "sym": "O",
+    "color": "red_yellow",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_LEGIONCAMP_1",
+    "type": "overmap_terrain",
+    "name": "Legion Camp",
+    "sym": "L",
+    "color": "black_red",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_LEGIONCAMP_1_roof",
+    "type": "overmap_terrain",
+    "name": "Legion Camp roof",
+    "sym": "L",
+    "color": "black_red",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_QST_MAINFRAME_1",
+    "type": "overmap_terrain",
+    "name": "Mainframe Center",
+    "sym": "M",
+    "color": "black_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_QST_MAINFRAME_1_roof",
+    "type": "overmap_terrain",
+    "name": "Mainframe Center roof",
+    "sym": "M",
+    "color": "black_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_QST_MAINFRAME_2",
+    "type": "overmap_terrain",
+    "name": "Mainframe Center",
+    "sym": "M",
+    "color": "black_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_QST_MAINFRAME_3",
+    "type": "overmap_terrain",
+    "name": "Mainframe Center",
+    "sym": "M",
+    "color": "black_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_QST_MAINFRAME_4",
+    "type": "overmap_terrain",
+    "name": "Mainframe Center",
+    "sym": "M",
+    "color": "black_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_QST_MAINFRAME_5",
+    "type": "overmap_terrain",
+    "name": "Mainframe Center",
+    "sym": "M",
+    "color": "black_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NCRRANGERP_1",
+    "type": "overmap_terrain",
+    "name": "NCR Ranger Station",
+    "sym": "R",
+    "color": "yellow_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NCRRANGERP_1_roof",
+    "type": "overmap_terrain",
+    "name": "NCR Ranger Station roof",
+    "sym": "R",
+    "color": "yellow_yellow",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NATGUARDH_1_1",
+    "type": "overmap_terrain",
+    "name": "National Guard Army Depot",
+    "sym": "N",
+    "color": "brown_green",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_NATGUARDH_B_1",
+    "type": "overmap_terrain",
+    "name": "National Guard Army Depot",
+    "sym": "N",
+    "color": "brown_green",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_NATGUARDH_1_roof_1",
+    "type": "overmap_terrain",
+    "name": "National Guard Army Depot roof",
+    "sym": "N",
+    "color": "brown_green",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NATGUARDH_1_2",
+    "type": "overmap_terrain",
+    "name": "National Guard Army Depot",
+    "sym": "N",
+    "color": "brown_green",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_NATGUARDH_B_2",
+    "type": "overmap_terrain",
+    "name": "National Guard Army Depot",
+    "sym": "N",
+    "color": "brown_green",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_NATGUARDH_1_roof_2",
+    "type": "overmap_terrain",
+    "name": "National Guard Army Depot roof",
+    "sym": "N",
+    "color": "brown_green",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NATGUARDH_1_3",
+    "type": "overmap_terrain",
+    "name": "National Guard Army Depot",
+    "sym": "N",
+    "color": "brown_green",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_NATGUARDH_B_3",
+    "type": "overmap_terrain",
+    "name": "National Guard Army Depot",
+    "sym": "N",
+    "color": "brown_green",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_NATGUARDH_1_roof_3",
+    "type": "overmap_terrain",
+    "name": "National Guard Army Depot roof",
+    "sym": "N",
+    "color": "brown_green",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NATGUARDH_1_4",
+    "type": "overmap_terrain",
+    "name": "National Guard Army Depot",
+    "sym": "N",
+    "color": "brown_green",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_NATGUARDH_B_4",
+    "type": "overmap_terrain",
+    "name": "National Guard Army Depot",
+    "sym": "N",
+    "color": "brown_green",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_NATGUARDH_1_roof_4",
+    "type": "overmap_terrain",
+    "name": "National Guard Army Depot roof",
+    "sym": "N",
+    "color": "brown_green",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_1",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_2_1",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_roof_1",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant roof",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_2",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_2_2",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_roof_2",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant roof",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_3",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_2_3",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_roof_3",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant roof",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_4",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_2_4",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_roof_4",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant roof",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_5",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_2_5",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_roof_5",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant roof",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_6",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_2_6",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_roof_6",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant roof",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_7",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_2_7",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_roof_7",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant roof",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_8",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_2_8",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_roof_8",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant roof",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_9",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_2_9",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_NUKAPLANT_1_roof_9",
+    "type": "overmap_terrain",
+    "name": "Nuka Cola Plant roof",
+    "sym": "N",
+    "color": "red_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_QST_RIVALHOUSE_1",
+    "type": "overmap_terrain",
+    "name": "Rival Gang Safehouse",
+    "sym": "S",
+    "color": "red_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_QST_RIVALHOUSE_2",
+    "type": "overmap_terrain",
+    "name": "Rival Gang Safehouse",
+    "sym": "S",
+    "color": "red_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_QST_RIVALHOUSE_1_roof",
+    "type": "overmap_terrain",
+    "name": "Rival Gang Safehouse roof",
+    "sym": "S",
+    "color": "red_yellow",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_GHOUL_MILBASE_1",
+    "type": "overmap_terrain",
+    "name": "Ghoul Militant Base",
+    "sym": "G",
+    "color": "brown_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_GHOUL_MILBASE_1_roof",
+    "type": "overmap_terrain",
+    "name": "Ghoul Militant Base roof",
+    "sym": "G",
+    "color": "brown_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_GHOUL_MILBASE_2",
+    "type": "overmap_terrain",
+    "name": "Ghoul Militant Base",
+    "sym": "G",
+    "color": "brown_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_GHOUL_MILBASE_3",
+    "type": "overmap_terrain",
+    "name": "Ghoul Militant Base",
+    "sym": "G",
+    "color": "brown_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_S_RADKING1",
+    "type": "overmap_terrain",
+    "name": "radiation king store",
+    "sym": "R",
+    "color": "yellow_white",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_S_RADKING1_2",
+    "type": "overmap_terrain",
+    "name": "radiation king store",
+    "sym": "R",
+    "color": "yellow_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_S_RADKING1_ROOF",
+    "type": "overmap_terrain",
+    "name": "radiation king store roof",
+    "sym": "R",
+    "color": "yellow_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_ROBREPAIR_1",
+    "type": "overmap_terrain",
+    "name": "Robot Repair Facility",
+    "sym": "R",
+    "color": "black_white",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_ROBREPAIR_1_roof",
+    "type": "overmap_terrain",
+    "name": "Robot Repair Facility roof",
+    "sym": "R",
+    "color": "black_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_ROBREPAIR_2",
+    "type": "overmap_terrain",
+    "name": "Robot Repair Facility",
+    "sym": "R",
+    "color": "black_white",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_ROBREPAIR_2_roof",
+    "type": "overmap_terrain",
+    "name": "Robot Repair Facility roof",
+    "sym": "R",
+    "color": "black_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_SUPERMART_1",
+    "type": "overmap_terrain",
+    "name": "Super-Duper Mart",
+    "sym": "S",
+    "color": "blue_white",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_SUPERMART_1_roof",
+    "type": "overmap_terrain",
+    "name": "Super-Duper Mart roof",
+    "sym": "S",
+    "color": "blue_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_WESTTEK_2_1",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WESTTEK_2_roof_1",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility roof",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_WESTTEK_2_2",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WESTTEK_2_roof_2",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility roof",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_WESTTEK_2_3",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WESTTEK_2_roof_3",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility roof",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_WESTTEK_2_4",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WESTTEK_2_roof_4",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility roof",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_WESTTEK_3_1",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WESTTEK_3_2",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WESTTEK_3_3",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WESTTEK_3_4",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WESTTEK_4_1",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WESTTEK_4_2",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WESTTEK_4_3",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WESTTEK_4_4",
+    "type": "overmap_terrain",
+    "name": "West-Tek Research Facility",
+    "sym": "W",
+    "color": "yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_VAULTOFFICE_1",
+    "type": "overmap_terrain",
+    "name": "Vault-Tec Office",
+    "sym": "V",
+    "color": "yellow_cyan",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_VAULTOFFICE_2",
+    "type": "overmap_terrain",
+    "name": "Vault-Tec Office",
+    "sym": "V",
+    "color": "yellow_cyan",
+    "see_cost": 10,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "id": "FO_VAULTOFFICE_2_roof",
+    "type": "overmap_terrain",
+    "name": "Vault-Tec Office roof",
+    "sym": "V",
+    "color": "yellow_cyan",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_WANAMINGO_1_1",
+    "type": "overmap_terrain",
+    "name": "Wanamingo Mine",
+    "sym": "W^",
+    "color": "black_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WANAMINGO_1_2",
+    "type": "overmap_terrain",
+    "name": "Wanamingo Mine",
+    "sym": "W",
+    "color": "black_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WANAMINGO_1_3",
+    "type": "overmap_terrain",
+    "name": "Wanamingo Mine",
+    "sym": "W",
+    "color": "black_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WANAMINGO_1_4",
+    "type": "overmap_terrain",
+    "name": "Wanamingo Mine",
+    "sym": "W",
+    "color": "black_white",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WANAMINGO_2_1",
+    "type": "overmap_terrain",
+    "name": "Wanamingo Mine Entrance",
+    "sym": "W",
+    "color": "black_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_WANAMINGO_2_R",
+    "type": "overmap_terrain",
+    "name": "Wanamingo Mine Entrance Roof",
+    "sym": "W",
+    "color": "black_white",
+    "see_cost": 2
+  },
+  {
+    "id": "FO_WASTETOWN_1",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_1_R",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_2",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_2_U",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_2_R",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_3",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_3_R",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_4",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_4_R",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_5",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_5_R",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_6",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_6_R",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_7",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_7_R",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_8",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_8_R",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_9",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "FO_WASTETOWN_9_R",
+    "type": "overmap_terrain",
+    "name": "Wasteland Town",
+    "sym": "T",
+    "color": "green_yellow",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "wasteland_BATTLEFIELD1_1",
+    "type": "overmap_terrain",
+    "name": "Wasteland battlefield",
+    "sym": "b",
+    "color": "yellow_red",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "wasteland_BATTLEFIELD1_roof_1",
+    "type": "overmap_terrain",
+    "name": "Wasteland battlefield roof",
+    "sym": "b",
+    "color": "yellow_red",
+    "see_cost": 2
+  },
+  {
+    "id": "wasteland_BATTLEFIELD1_2",
+    "type": "overmap_terrain",
+    "name": "Wasteland battlefield",
+    "sym": "b",
+    "color": "yellow_red",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "wasteland_BATTLEFIELD1_roof_2",
+    "type": "overmap_terrain",
+    "name": "Wasteland battlefield roof",
+    "sym": "b",
+    "color": "yellow_red",
+    "see_cost": 2
+  },
+  {
+    "id": "wasteland_BATTLEFIELD1_3",
+    "type": "overmap_terrain",
+    "name": "Wasteland battlefield",
+    "sym": "b",
+    "color": "yellow_red",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "wasteland_BATTLEFIELD1_roof_3",
+    "type": "overmap_terrain",
+    "name": "Wasteland battlefield roof",
+    "sym": "b",
+    "color": "yellow_red",
+    "see_cost": 2
+  },
+  {
+    "id": "wasteland_BATTLEFIELD1_4",
+    "type": "overmap_terrain",
+    "name": "Wasteland battlefield",
+    "sym": "b",
+    "color": "yellow_red",
+    "see_cost": 10,
+    "mondensity": 2
+  },
+  {
+    "id": "wasteland_BATTLEFIELD1_roof_4",
+    "type": "overmap_terrain",
+    "name": "Wasteland battlefield roof",
+    "sym": "b",
+    "color": "yellow_red",
+    "see_cost": 2
+  }
+]
