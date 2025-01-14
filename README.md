@@ -4,7 +4,10 @@
 **Creator of Fallout_CDDA_BrightNights mod is Tefnut. Creator of Fallout_Mod_Expansion_jm is Tefnut and Jolmar7**
 
 The fusion mainly combines all content of the two mods together, with some bugfixes, lore changes, rebalances, and updates by me.
+
 There are also some items that are deleted. These are listed in the changes below.
+
+*Be advised that ths mod is only compatible with the lastest version of Cataclysm: Bright Nights. Cataclysm: Dark Days Ahead is not supported.*
 
 ## Changelog:
 
