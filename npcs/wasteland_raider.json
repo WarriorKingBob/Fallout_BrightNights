@@ -160,9 +160,8 @@
           { "item": "survivor223mag", "charges": 5, "count": [ 1, 2 ], "prob": 65 },
           { "item": "stanag10", "charges": [ 7, 10 ], "count": [ 1, 2 ], "prob": 35 },
           { "item": "stanag30", "charges": [ 17, 30 ], "count": [ 1, 3 ], "prob": 35 },
-          { "item": "223", "charges": [ 10, 35 ], "prob": 35 },
-          { "item": "556", "charges": [ 5, 20 ], "prob": 25 },
-          { "item": "reloaded_223", "charges": [ 8, 25 ], "prob": 40 }
+          { "item": "223", "charges": [ 15, 40 ], "prob": 45 },
+          { "item": "556", "charges": [ 10, 25 ], "prob": 35 }
         ],
         "prob": 100
       },
@@ -307,7 +306,7 @@
         "collection": [
           { "item": "rifle_223", "dirt": [ 0, 4000 ] },
           { "item": "bp_223", "charges": [ 0, 10 ] },
-          { "item": "reloaded_223", "charges": [ 3, 16 ] }
+          { "item": "223", "charges": [ 3, 16 ] }
         ],
         "prob": 100
       },
@@ -316,8 +315,7 @@
           { "item": "2_shot_special", "dirt": [ 0, 4000 ] },
           { "item": "bp_38_fmj", "charges": [ 0, 8 ] },
           { "item": "38_special", "charges": [ 5, 25 ] },
-          { "item": "38_fmj", "charges": [ 4, 7 ], "prob": 35 },
-          { "item": "reloaded_38_fmj", "charges": [ 4, 25 ], "prob": 35 }
+          { "item": "38_fmj", "charges": [ 8, 25 ], "prob": 35 }
         ],
         "prob": 100
       },
@@ -326,8 +324,7 @@
           { "item": "cop_38", "dirt": [ 0, 4000 ] },
           { "item": "bp_38_fmj", "charges": [ 0, 8 ] },
           { "item": "38_special", "charges": [ 5, 25 ] },
-          { "item": "38_fmj", "charges": [ 4, 7 ], "prob": 35 },
-          { "item": "reloaded_38_fmj", "charges": [ 4, 25 ], "prob": 35 }
+          { "item": "38_fmj", "charges": [ 8, 25 ], "prob": 35 }
         ],
         "prob": 35
       },
@@ -336,8 +333,7 @@
           { "item": "rifle_38", "dirt": [ 0, 4000 ] },
           { "item": "bp_38_fmj", "charges": [ 0, 8 ] },
           { "item": "38_special", "charges": [ 5, 25 ] },
-          { "item": "38_fmj", "charges": [ 4, 7 ], "prob": 35 },
-          { "item": "reloaded_38_fmj", "charges": [ 4, 25 ], "prob": 35 }
+          { "item": "38_fmj", "charges": [ 8, 25 ], "prob": 35 }
         ],
         "prob": 35
       },
@@ -347,8 +343,7 @@
           { "item": "38_speedloader6", "charges": [ 6, 6 ], "prob": 50 },
           { "item": "bp_38_fmj", "charges": [ 0, 8 ] },
           { "item": "38_special", "charges": [ 5, 25 ] },
-          { "item": "38_fmj", "charges": [ 4, 7 ], "prob": 35 },
-          { "item": "reloaded_38_fmj", "charges": [ 4, 25 ], "prob": 35 }
+          { "item": "38_fmj", "charges": [ 8, 25 ], "prob": 35 }
         ],
         "prob": 50
       },
@@ -358,8 +353,7 @@
           { "item": "38_speedloader5", "charges": [ 5, 5 ], "prob": 50 },
           { "item": "bp_38_fmj", "charges": [ 0, 8 ] },
           { "item": "38_special", "charges": [ 5, 25 ] },
-          { "item": "38_fmj", "charges": [ 4, 7 ], "prob": 35 },
-          { "item": "reloaded_38_fmj", "charges": [ 4, 25 ], "prob": 35 }
+          { "item": "38_fmj", "charges": [ 8, 25 ], "prob": 35 }
         ],
         "prob": 50
       },
@@ -367,10 +361,9 @@
         "collection": [
           { "item": "rifle_22", "dirt": [ 0, 4000 ] },
           { "item": "22_cphp", "charges": [ 0, 10 ], "prob": 25 },
-          { "item": "22_lr", "charges": [ 3, 16 ], "prob": 25 },
+          { "item": "22_lr", "charges": [ 6, 16 ], "prob": 55 },
           { "item": "22_ratshot", "charges": [ 3, 16 ], "prob": 25 },
-          { "item": "bp_22_lr", "charges": [ 3, 16 ], "prob": 25 },
-          { "item": "reloaded_22_lr", "charges": [ 3, 16 ], "prob": 55 }
+          { "item": "bp_22_lr", "charges": [ 3, 16 ], "prob": 25 }
         ],
         "prob": 100
       },
@@ -378,10 +371,9 @@
         "collection": [
           { "item": "moss_brownie", "dirt": [ 0, 4000 ] },
           { "item": "22_cphp", "charges": [ 0, 10 ], "prob": 25 },
-          { "item": "22_lr", "charges": [ 3, 16 ], "prob": 25 },
+          { "item": "22_lr", "charges": [ 6, 16 ], "prob": 55 },
           { "item": "22_ratshot", "charges": [ 3, 16 ], "prob": 25 },
-          { "item": "bp_22_lr", "charges": [ 3, 16 ], "prob": 25 },
-          { "item": "reloaded_22_lr", "charges": [ 3, 16 ], "prob": 55 }
+          { "item": "bp_22_lr", "charges": [ 3, 16 ], "prob": 25 }
         ],
         "prob": 50
       },
@@ -389,10 +381,9 @@
         "collection": [
           { "item": "marlin_9a", "dirt": [ 0, 4000 ] },
           { "item": "22_cphp", "charges": [ 0, 10 ], "prob": 25 },
-          { "item": "22_lr", "charges": [ 3, 16 ], "prob": 25 },
+          { "item": "22_lr", "charges": [ 6, 16 ], "prob": 55 },
           { "item": "22_ratshot", "charges": [ 3, 16 ], "prob": 25 },
-          { "item": "bp_22_lr", "charges": [ 3, 16 ], "prob": 25 },
-          { "item": "reloaded_22_lr", "charges": [ 3, 16 ], "prob": 55 }
+          { "item": "bp_22_lr", "charges": [ 3, 16 ], "prob": 25 }
         ],
         "prob": 50
       },
@@ -402,10 +393,9 @@
           { "item": "a180mag", "charges": [ 50, 165 ] },
           { "item": "a180mag", "charges": [ 50, 165 ], "prob": 25 },
           { "item": "22_cphp", "charges": [ 0, 10 ], "prob": 25 },
-          { "item": "22_lr", "charges": [ 3, 16 ], "prob": 25 },
+          { "item": "22_lr", "charges": [ 6, 16 ], "prob": 55 },
           { "item": "22_ratshot", "charges": [ 3, 16 ], "prob": 25 },
-          { "item": "bp_22_lr", "charges": [ 3, 16 ], "prob": 25 },
-          { "item": "reloaded_22_lr", "charges": [ 3, 16 ], "prob": 55 }
+          { "item": "bp_22_lr", "charges": [ 3, 16 ], "prob": 25 }
         ],
         "prob": 50
       },
@@ -414,10 +404,9 @@
           { "item": "sig_mosquito", "dirt": [ 0, 4000 ] },
           { "item": "mosquitomag", "charges": [ 5, 10 ], "count": [ 1, 3 ] },
           { "item": "22_cphp", "charges": [ 0, 10 ], "prob": 25 },
-          { "item": "22_lr", "charges": [ 3, 16 ], "prob": 25 },
+          { "item": "22_lr", "charges": [ 6, 16 ], "prob": 55 },
           { "item": "22_ratshot", "charges": [ 3, 16 ], "prob": 25 },
-          { "item": "bp_22_lr", "charges": [ 3, 16 ], "prob": 25 },
-          { "item": "reloaded_22_lr", "charges": [ 3, 16 ], "prob": 55 }
+          { "item": "bp_22_lr", "charges": [ 3, 16 ], "prob": 25 }
         ],
         "prob": 50
       },
@@ -427,10 +416,9 @@
           { "item": "ruger1022mag", "charges": [ 8, 10 ], "count": [ 1, 4 ] },
           { "item": "ruger1022bigmag", "charges": [ 10, 25 ], "prob": 25 },
           { "item": "22_cphp", "charges": [ 0, 10 ], "prob": 25 },
-          { "item": "22_lr", "charges": [ 3, 16 ], "prob": 25 },
+          { "item": "22_lr", "charges": [ 6, 16 ], "prob": 55 },
           { "item": "22_ratshot", "charges": [ 3, 16 ], "prob": 25 },
-          { "item": "bp_22_lr", "charges": [ 3, 16 ], "prob": 25 },
-          { "item": "reloaded_22_lr", "charges": [ 3, 16 ], "prob": 55 }
+          { "item": "bp_22_lr", "charges": [ 3, 16 ], "prob": 25 }
         ],
         "prob": 50
       },
@@ -440,8 +428,7 @@
           { "item": "38_speedloader", "charges": [ 7, 7 ], "prob": 50 },
           { "item": "bp_38_fmj", "charges": [ 0, 8 ] },
           { "item": "38_special", "charges": [ 5, 25 ] },
-          { "item": "38_fmj", "charges": [ 4, 7 ], "prob": 35 },
-          { "item": "reloaded_38_fmj", "charges": [ 4, 25 ], "prob": 35 }
+          { "item": "38_fmj", "charges": [ 4, 25 ], "prob": 35 }
         ],
         "prob": 50
       },
@@ -455,8 +442,7 @@
           { "item": "ruger30", "charges": [ 3, 30 ], "count": [ 1, 3 ], "prob": 20 },
           { "item": "bp_223", "charges": [ 10, 20 ], "prob": 30 },
           { "item": "223", "charges": [ 10, 35 ], "prob": 45 },
-          { "item": "556", "charges": [ 5, 20 ], "prob": 20 },
-          { "item": "reloaded_223", "charges": [ 8, 25 ], "prob": 35 }
+          { "item": "556", "charges": [ 10, 20 ], "prob": 25 }
         ],
         "prob": 35
       },
@@ -469,8 +455,7 @@
           { "item": "stanag30", "charges": [ 17, 30 ], "count": [ 1, 3 ], "prob": 20 },
           { "item": "bp_223", "charges": [ 10, 20 ], "prob": 30 },
           { "item": "223", "charges": [ 10, 35 ], "prob": 45 },
-          { "item": "556", "charges": [ 5, 20 ], "prob": 20 },
-          { "item": "reloaded_223", "charges": [ 8, 25 ], "prob": 35 }
+          { "item": "556", "charges": [ 10, 20 ], "prob": 25 }
         ],
         "prob": 35
       },
