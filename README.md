@@ -1,70 +1,646 @@
-# Fallout Mods Combined
-**This is a fusion of the Fallout_CDDA_BrightNights mod and the Fallout_Mod_Expansion_jm into one mod**
+# Fallout Mods Combined big changes branch
 
-**Creator of Fallout_CDDA_BrightNights mod is Tefnut. Creator of Fallout_Mod_Expansion_jm is Tefnut and Jolmar7**
+**This is for testing changes that are significant enough to warrant testing, user feedback is appreciated!**
 
-The fusion mainly combines all content of the two mods together, with some bugfixes, lore changes, rebalances, and updates by me.
+Current idea:
 
-There are also some items that are deleted. These are listed in the changes below.
+Complete rebalance of gear pool for all legion soldiers, from recruit to veteran legionary, based on Fallout lore and gameplay. Remove all knives from all melee weapons pools. All soldiers will have either a sword, blunt weapon, reach weapon, or unarmed weapon. Firearm pool also rebalanced based on caliber. This affects the combat difficulty of all soldiers when facing them. 
 
-*Be advised that ths mod is only compatible with the lastest version of Cataclysm: Bright Nights. Cataclysm: Dark Days Ahead is not supported.*
+According to Fallout lore and Fallout New Vegas gameplay, as recruit legionaries are viewed as disposable and not expected to survive long in war, they are only given basic makeshift melee weapons. Prime legionaries are the primary fighting force of the legion, so they are either provided better quality makeshift weapons, or looted one. Veteran legionaries are the most experienced soldiers, so they have access to even better quality weapons.
 
-## Changelog:
+In combining Fallout lore and Cataclysm lore, I decided that since civilization collapsed due to alien invasion instead of nuclear war, plenty of industrial equipment still exists, along with books on blacksmithing techniques. This is unlike the Fallout universe, where except for The Pitt and NCR, there is no industry available. Following the changes, legion blacksmiths are actually capable of reproducing historial medieval weapons for the legionaries who can afford it, and make pipe guns for the recruit legionaries.
 
-Reorganized everything into appropriately named files which are placed into appropriately named folders, for both my sanity and easier to make changes in the future.
+Recruit legionaries:
+- Makeshift machete, cut (Highest chance)
+- Makeshift crowbar, bash
+- Makeshift macuahuitl, cut
+- Crude sword, Cut
+- Nail sword, pierce
+- Razorbar katar, unarmed cut
+- Cestus, unarmed bash
+- Spike on a stick, reach
+- Knife spear, reach
 
-**Deleted items:**
+Prime Legionaries:
+- Survivor machete, cut (Highest chance)
+- Machete, cut (Highest chance)
+- Razorblade macuahuitl, cut
+- Hatchet, cut
+- Wood axe, cut
+- Hand-forged sword, cut
+- Arming sword replica, cut
+- Longsword replica, cut
+- Broadsword replica, cut
+- Battle axe replica, cut
+- Mace replica, bash
+- Pipe spear, reach
 
-10mm Auto - Base game already contains 10mm Auto FMJ.
+Veteran Legionaries
+- Machete gladius, cut (Highest chance)
+- Fireaxe, cut
+- Hand-forged sword, cut
+- Arming sword replica, cut
+- Longsword replica, cut
+- Broadsword replica, cut
+- Battle axe replica, cut
+- Mace replica, cut
+- Arming sword, cut
+- Longsword, cut
+- Broadsword, cut
+- Battle axe, cut
+- Mace, bash
+- Steel spear, reach
 
-10mm HP - Removed in favour of 10mm JHP.
 
-Spear and the replica - Description makes them basically just knife spear and simple knife spear but with unreasonbly higher stats.
 
-H&K P90c - Base game already contains FN P90. Note that Fallout's P90 is chambered in 10mm, so vanilla P90 is deadlier.
 
-Boxing Gloves - Base game already contains boxing gloves.
 
-Nuka cola & Sunset Sarsaparilla glass bottles - Unfortunately new glass bottles cannot be used for crafting. Note that I retained the data, in case in the future we can get recipes to recognize multiple similar items as the same thing.
 
-105mm & 144mm tank rounds, 70mm autocannon rounds, the casings, and the guns - I'm leaving tank related stuff to Tankmod Revived.
 
-All cannon ammo - Base game recently introduced cannons and cannon ammo, so we'll use those instead for broadsider's ammo.
 
-Gunsmith Guru - Never implemented to spawn in game. Doesn't fit the mod anyway so I got rid of it.
 
-Rusty T45 - Made sense in the Fallout universe given how much time has passed, but not here.
 
-**Fixes:**
 
-Golden Gecko boots & mask - Armor pieces now use golden gecko hide instead of the normal variant.
 
-**Rebalances:**
 
-All ballistic ammo - All the ballistic ammo have very poor stats. I went through and changed them based on fallout lore and comparing with vanilla ammo.
 
-Energy Weapons - Using base game weapons and other mod weapons as a reference, energy weapons have have been changed.
 
-Feel free to let me know if you think some weapons should be buffed or nerfed.
 
-**Lore changes:**
 
-Revised description of many Fallout weapons and items to fit the universe of Cataclysm.
 
-Gun Runners are now a post-cataclysm faction, similar to Fallout lore.
 
-**Updates:**
 
-In accordance to the recent monster hunter updates, all monsters now drop new monster parts where applicable. EX. Reptile monsters drop scutes and sharp teeth.
 
-## Description:
 
-Experience Fallout in Cataclysm: Bright Nights! Intended for players that are familiar with the Fallout universe, this mod adds many Fallout weapons, clothing, armor and factions (including DLCs) into Bright Nights.
 
-Now you can roleplay as a member of the many Fallout factions available!
 
-Significant lore differences from the videogames:
 
-Great War never happened, instead you have the cataclysm. Nuclear science was still going strong though.
 
-Since smartphones and laptops exist, this is an alternate universe where transisters were invented earlier compared to the original. Item descriptions were changed where appropriate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
