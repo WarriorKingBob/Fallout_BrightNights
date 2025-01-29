@@ -363,7 +363,7 @@
     "looks_like": "bbgun",
     "to_hit": 1,
     "range": 12,
-    "ranged_damage": { "damage_type": "stab", "amount": 4 },
+    "ranged_damage": { "damage_type": "bullet", "amount": 0 },
     "dispersion": 150,
     "durability": 7,
     "clip_size": 150,
@@ -377,7 +377,6 @@
     "name": { "str": "Red Ryder LE BB gun" },
     "description": "Popular among children.  It's fairly accurate, but BBs deal nearly no damage. The Red Ryder itself performs better than most of it's kind. This specialty model comes with a compass on the stock, and has several more spots for modification.",
     "price": "160 USD",
-    "ranged_damage": { "damage_type": "stab", "amount": 35 },
     "clip_size": 300,
     "valid_mod_locations": [
       [ "accessories", 4 ],
