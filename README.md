@@ -12,11 +12,23 @@ NCR service rifle - Based on M16A1 with wood furniture. I will replace it with M
 
 AC-5 (Assault carbine) and MC-223 (Marksman carbine) - Colt AR-15 derivatives, removed. In their place is M4A1.
 
+R91 Assault Rifle - Replaced by H&K G3. Be aware that the real gun uses 7.62x51mm instead of 5.56x45mm so whoever is carrying the game will be deadlier.
+
 .357 Magnum revolver - Renamed to Colt Single Action Army
 
-Brush Gun - Renamed to Winchester 1886
+.44 Magnum revolver - Replaced by S&W 629. The revolver is based on S&W model 29, which is the 629 but not stainless steel, which is kinda pointless to be added imo.
 
-More to add
+Brush Gun - Renamed to Winchester 1886.
+
+Cowboy repeater - Renamed as Winchester 1892.
+
+Varmint rifle - Removed. A bolt action 5.56 rifle isn't useful in a sea of semi-auto and auto 5.56 rifles. Just use the Colt Rangemaster. The Ratslayer will be reimagined as a unique colt rangemaster.
+
+Derringer RF2076 - Renamed to M199. The FO4 assault rifle, sensibly reintroduced as a machine gun. idk how the original author came up with this name, but I'll be using the internal name created by the devs: https://fallout.wiki/wiki/Assault_Rifle_(Fallout_4)#cite_note-M199-2.
+
+Winchester widowmaker - Replaced by double barrel shotgun. It's literally a db shotgun lol.
+
+Caravan shotgun - Renamed to Winchester 101.
 
 ***Legion gear rebalance***
 
