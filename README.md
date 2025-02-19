@@ -8,27 +8,27 @@
 
 Fallout, being a commercial game, genericized their firearm names possibly to avoid legal issues. This game doesn't have that issue, so I've renamed them to real life counterparts they're based on in line with the base game. I also decided to remove most of the 5.56 rifles, because they're based on AR-15 rifles anyway, and we have enough 5.56 rifles already.
 
-NCR service rifle - Based on M16A1 with wood furniture. I will replace it with M16A4, mainly because M4A1 is dropped enough already, could use more of other 5.56 rifles. Unless you guys want me to keep this.
+NCR Service Rifle - Based on M16A1 with wood furniture. I will replace it with M16A4, mainly because M4A1 is dropped enough already, could use more of other 5.56 rifles. Unless you guys want me to keep this.
 
 AC-5 (Assault carbine) and MC-223 (Marksman carbine) - Colt AR-15 derivatives, removed. In their place is M4A1.
 
 R91 Assault Rifle - Replaced by H&K G3. Be aware that the real gun uses 7.62x51mm instead of 5.56x45mm so whoever is carrying the game will be deadlier.
 
-.357 Magnum revolver - Renamed to Colt Single Action Army
+.357 Magnum Revolver - Replaced by Police Pistol and renamed to Colt Official Police. A vintage revolver that can only reload one round at a time cannot compete against modern revolvers with swing out cylinders.
 
-.44 Magnum revolver - Replaced by S&W 629. The revolver is based on S&W model 29, which is the 629 but not stainless steel, which is kinda pointless to be added imo.
+.44 Magnum Revolver - Replaced by S&W 629. The revolver is based on S&W Model 29, which is the 629 but not stainless steel, which is kinda pointless to be added imo.
 
 Brush Gun - Renamed to Winchester 1886.
 
-Cowboy repeater - Renamed as Winchester 1892.
+Cowboy Repeater - Renamed as Winchester 1892.
 
-Varmint rifle - Removed. A bolt action 5.56 rifle isn't useful in a sea of semi-auto and auto 5.56 rifles. Just use the Colt Rangemaster. The Ratslayer will be reimagined as a unique colt rangemaster.
+Varmint Rifle - Removed. A bolt action 5.56 rifle isn't useful against all the semi-auto and auto 5.56 rifles. Just use the Colt Rangemaster. The Ratslayer will be reimagined as a unique Colt Rangemaster.
 
 Derringer RF2076 - Renamed to M199. The FO4 assault rifle, sensibly reintroduced as a machine gun. idk how the original author came up with this name, but I'll be using the internal name created by the devs: https://fallout.wiki/wiki/Assault_Rifle_(Fallout_4)#cite_note-M199-2.
 
-Winchester widowmaker - Replaced by double barrel shotgun. It's literally a db shotgun lol.
+Winchester Widowmaker - Replaced by double barrel shotgun. It's literally a db shotgun lol.
 
-Caravan shotgun - Renamed to Winchester 101.
+Caravan Shotgun - Renamed to Winchester 101.
 
 ***Legion gear rebalance***
 
