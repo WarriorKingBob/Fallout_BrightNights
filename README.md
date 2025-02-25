@@ -10,7 +10,9 @@ Fallout, being a commercial game, genericized their firearm names possibly to av
 
 NCR Service Rifle - Based on M16A1 with wood furniture. I will replace it with M16A4, mainly because M4A1 is dropped enough already, could use more of other 5.56 rifles. Unless you guys want me to keep this.
 
-AC-5 (Assault carbine) and MC-223 (Marksman carbine) - Colt AR-15 derivatives, removed. In their place is M4A1.
+AC-5 (Assault carbine) - Renamed to Colt 735. It's based on Colt 733 but fires 5mm, so I just changed number to 735 in reference to the caliber.
+
+MC-223 (Marksman carbine) - Colt AR-15 derivative, removed. In its place is M4A1.
 
 R91 Assault Rifle - Replaced by H&K G3. Be aware that the real gun uses 7.62x51mm instead of 5.56x45mm so whoever is carrying the game will be deadlier.
 
@@ -36,9 +38,12 @@ Complete rebalance of gear pool for all legion soldiers, from recruit to veteran
 
 According to Fallout lore and Fallout New Vegas gameplay, as recruit legionaries are viewed as disposable and not expected to survive long in war, they are only given basic makeshift melee weapons. Prime legionaries are the primary fighting force of the legion, so they are provided better quality makeshift weapons. Veteran legionaries are the most experienced soldiers, so they have access to even better quality weapons.
 
-In combining Fallout lore and Cataclysm lore, I decided that since civilization collapsed due to alien invasion instead of nuclear war, plenty of industrial equipment still exists, along with books on blacksmithing techniques. This is unlike the Fallout universe, where except for The Pitt and NCR, there is no industry available. Following the changes, legion blacksmiths are actually capable of reproducing historial medieval weapons for the legionaries who can afford it.
+In combining Fallout lore and Cataclysm lore, I decided that since civilization collapsed due to alien invasion instead of nuclear war, plenty of industrial equipment still exists, along with books on blacksmithing techniques. This is unlike the Fallout universe, where except for The Pitt and NCR, there is no industry available. Following the changes, legion blacksmiths are actually capable of reproducing historial medieval weapons for the legionaries who can afford it. 
+
+Guns have also been changed. Calibers become higher with rank, but rifles will always be bolt-action/semi auto, because legion blacksmiths aren't good enough to maintain automatic rifles.
 
 Recruit legionaries:
+Melee:
 - Makeshift machete (Highest chance)
 - Makeshift crowbar
 - Makeshift macuahuitl
@@ -48,8 +53,12 @@ Recruit legionaries:
 - Cestus
 - Spike on a stick
 - Knife spear
+Ranged:
+- Browning Hi-Power (9x19mm pistol)
+- M3A1 "Grease Gun" (9x19mm smg)
 
 Prime Legionaries:
+Melee:
 - Survivor machete/Machete (Highest chance)
 - Razorblade macuahuitl
 - Hatchet
@@ -60,9 +69,19 @@ Prime Legionaries:
 - Broadsword replica
 - Battle axe replica
 - Mace replica
+- Sledgehammer
+- Impact knuckles
+- Katar
 - Pipe spear
+Ranged:
+- Colt 6520 (10mm pistol)
+- H&K MP9 (10mm smg)
+- Colt Rangemaster (.223 semi-auto rifle)
+- Single barrel shotgun (12 ga shotgun)
+- Double barrel shotgun (12 ga shotgun)
 
 Veteran Legionaries
+Melee:
 - Machete gladius (Highest chance)
 - Fireaxe
 - Hand-forged sword
@@ -76,8 +95,12 @@ Veteran Legionaries
 - Broadsword
 - Battle axe
 - Mace
+- Sledgehammer
 - Power fist
 - Steel spear
+Ranged:
+- S&W 629 (.44 revolver)
+- M1A (.308 semi-auto rifle)
 
 
 
