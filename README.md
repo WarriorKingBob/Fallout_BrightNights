@@ -30,6 +30,8 @@ Derringer RF2076 - Renamed to M199. The FO4 assault rifle, sensibly reintroduced
 
 Winchester Widowmaker - Replaced by double barrel shotgun. It's literally a db shotgun lol.
 
+Single shotgun - Renamed to H&R Pardner.
+
 Caravan Shotgun - Renamed to Winchester 101.
 
 ***Legion gear rebalance***
@@ -40,7 +42,7 @@ According to Fallout lore and Fallout New Vegas gameplay, as recruit legionaries
 
 In combining Fallout lore and Cataclysm lore, I decided that since civilization collapsed due to alien invasion instead of nuclear war, plenty of industrial equipment still exists, along with books on blacksmithing techniques. This is unlike the Fallout universe, where except for The Pitt and NCR, there is no industry available. Following the changes, legion blacksmiths are actually capable of reproducing historial medieval weapons for the legionaries who can afford it. 
 
-Guns have also been changed. Calibers become higher with rank, but rifles will always be bolt-action/semi auto, because legion blacksmiths aren't good enough to maintain automatic rifles.
+Guns have also been changed. Calibers become higher with rank and guns will be focused on ones that existed in Fallout.
 
 Recruit legionaries:
 Melee:
@@ -56,6 +58,9 @@ Melee:
 Ranged:
 - Browning Hi-Power (9x19mm pistol)
 - M3A1 "Grease Gun" (9x19mm smg)
+- Winchester 1892 (.357 rifle)
+- H&R Pardner (20 ga shotgun)
+- Winchester 101 (20 ga shotgun)
 
 Prime Legionaries:
 Melee:
@@ -75,10 +80,11 @@ Melee:
 - Pipe spear
 Ranged:
 - Colt 6520 (10mm pistol)
+- Colt Official Police (.357 revolver)
 - H&K MP9 (10mm smg)
 - Colt Rangemaster (.223 semi-auto rifle)
 - Single barrel shotgun (12 ga shotgun)
-- Double barrel shotgun (12 ga shotgun)
+- Winchester 101 (12 ga shotgun)
 
 Veteran Legionaries
 Melee:
@@ -100,7 +106,11 @@ Melee:
 - Steel spear
 Ranged:
 - S&W 629 (.44 revolver)
-- M1A (.308 semi-auto rifle)
+- Thompson submachine gun (.45 smg)
+- 5.56x45mm Revolver
+- DKS-501 (.308 semi-auto rifle)
+- Winchester 1887 (12 ga shotgun)
+- Remington 870 Wingmaster (12 ga shotgun)
 
 
 
