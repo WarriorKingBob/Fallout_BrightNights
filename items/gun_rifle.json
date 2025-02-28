@@ -169,7 +169,8 @@
         "m14_makeshiftmag"
       ]
     ]
-  ],
+	]
+  },
   {
     "id": "fo_ncr_service_rifle",
     "copy-from": "rifle_semi",
