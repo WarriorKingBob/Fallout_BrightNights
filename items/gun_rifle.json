@@ -146,8 +146,8 @@
     "material": [ "steel", "wood" ],
     "symbol": "(",
     "color": "yellow",
-    "ammo": [ "223" ],
-    "ranged_damage": { "damage_type": "bullet", "amount": 4 },
+    "ammo": [ "308" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 0 },
     "dispersion": 100,
     "durability": 8,
     "barrel_length": "750 ml",
@@ -160,8 +160,16 @@
       [ "sling", 1 ],
       [ "sights", 1 ]
     ],
-	"magazines": [ [ "223", [ "rangemastermag" ] ], [ "223", [ "rangemastermag2" ] ], [ "223", [ "survivor223mag" ] ], [ "223", [ "stanag30" ] ], [ "223", [ "stanag10" ] ], [ "223", [ "stanag50" ] ] ]
-  },
+	"magazines": [
+    [
+      "308",
+      [
+        "m14mag",
+        "m14smallmag",
+        "m14_makeshiftmag"
+      ]
+    ]
+  ],
   {
     "id": "fo_ncr_service_rifle",
     "copy-from": "rifle_semi",
@@ -327,8 +335,8 @@
     "copy-from": "rifle_auto",
     "looks_like": "ar15",
     "type": "GUN",
-    "name": { "str": "Type 93 assault rifle" },
-    "description": "A chinese make of assault rifle, rechambered to 5.56 to allow infiltrators to easily restock ammo at american gun stores.",
+    "name": { "str": "Type 93" },
+    "description": "A chinese assault rifle based on the AK-47, chambered in 5.56x45mm and uses STANAG mags to allow infiltrators to easily restock ammo at american gun stores.",
     "weight": "3160 g",
     "volume": "1750 ml",
     "price": "2400 USD",
@@ -338,12 +346,31 @@
     "symbol": "(",
     "color": "dark_gray",
     "ammo": [ "223" ],
-    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
+    "ranged_damage": { "damage_type": "bullet", "amount": 0 },
     "dispersion": 180,
     "durability": 5,
     "min_cycle_recoil": 1350,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
-	"magazines": [ [ "223", [ "stanag30" ] ], [ "223", [ "stanag50" ] ], [ "223", [ "survivor223mag" ] ] ]
+	"magazines": [
+      [
+        "223",
+        [
+          "stanag30",
+          "stanag5",
+          "stanag10",
+          "stanag20",
+          "stanag40",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "survivor223mag"
+        ]
+      ]
+    ]
   },
   {
     "id": "redryder",
@@ -466,8 +493,8 @@
     "id": "brush_gun",
     "copy-from": "rifle_manual",
     "type": "GUN",
-    "name": { "str": "Brush Gun", "str_pl": "Brush Guns" },
-    "description": "A classic rifle, chambered in .45-70 ammunition. The ammo sacrifices long ranged accuracy for sheer damage. Popular among Veteran Desert Rangers.",
+    "name": { "str": "Winchester 1886" },
+    "description": "A classic lever action rifle, chambered in .45-70 ammunition. The ammo sacrifices long ranged accuracy for sheer damage. Popular among Veteran Desert Rangers.",
     "weight": "3937 g",
     "volume": "3 L",
     "price": "899 USD",

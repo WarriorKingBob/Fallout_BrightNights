@@ -256,8 +256,8 @@
       {
         "collection": [
           { "item": "dks501", "dirt": [ 0, 4000 ], "charges": 10 },
-          { "item": "rangemastermag", "charges": 10, "count": [ 1, 2 ], "prob": 100 },
-          { "item": "223", "charges": [ 10, 35 ], "prob": 100 }
+          { "item": "m14mag", "charges": 10, "count": [ 1, 2 ], "prob": 100 },
+          { "item": "308", "charges": [ 10, 35 ], "prob": 100 }
         ],
         "prob": 100
       },
@@ -265,8 +265,8 @@
       {
         "collection": [
           { "item": "dks501", "dirt": [ 0, 4000 ], "charges": 10 },
-          { "item": "rangemastermag", "charges": 10, "count": [ 1, 2 ], "prob": 100 },
-          { "item": "223", "charges": [ 10, 35 ], "prob": 100 }
+          { "item": "m14mag", "charges": 10, "count": [ 1, 2 ], "prob": 100 },
+          { "item": "308", "charges": [ 5, 20 ], "prob": 100 }
         ],
         "prob": 100
       },
