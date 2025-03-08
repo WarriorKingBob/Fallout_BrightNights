@@ -177,7 +177,7 @@
     "symbol": "(",
     "color": "brown",
     "name": { "str": "Laser Rcw" },
-    "description": "The \"Laser Rapid Capacitor Weapon\". This rapid fire laser submachine gun is based on the Thompson submachine gun.",
+    "description": "The Laser \"Rapid Capacitor Weapon\". This rapid fire laser submachine gun is based on the Thompson submachine gun.",
     "price": "16000 USD",
     "looks_like": "tommygun",
     "material": [ "steel", "plastic" ],
@@ -195,6 +195,7 @@
     "sight_dispersion": 60,
     "recoil": 0,
     "durability": 10,
+	"modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 10 ] ],
     "reload": 100,
     "valid_mod_locations": [
       [ "accessories", 4 ],
