@@ -1,7 +1,7 @@
 [
   {
     "type": "palette",
-    "id": "sewage_treatment_palette",
+    "id": "sewage_treatment_palette_fallout",
     "terrain": {
       " ": [ "t_dirt", "t_grass" ],
       "?": "t_shrub",
@@ -229,7 +229,7 @@
         "|  zzzzzzz    zzzzzzz     zzzzzzzzzzzzzzzzzz   |",
         "||||||||||||||||||||||||||||||||||||||||||||||||"
       ],
-      "palettes": [ "sewage_treatment_palette" ],
+      "palettes": [ "sewage_treatment_palette_fallout" ],
       "furniture": {
         "#": "f_chair",
         "x": "f_sink",
