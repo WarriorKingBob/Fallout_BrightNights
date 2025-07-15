@@ -58,7 +58,7 @@
     "id": "NC_WASTEFENCE_weapon",
     "subtype": "collection",
     "entries": [
-      { "item": "14mmpistol", "charges": 7, "prob": 100 }
+      { "item": "127mmpistol", "charges": 7, "prob": 100 }
 
     ]
   },

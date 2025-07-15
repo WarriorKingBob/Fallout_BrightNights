@@ -6,7 +6,7 @@
   },
   {
     "type": "vehicle_group",
-    "id": "crashed_helicopters",
-    "vehicles": [ [ "ufo_zetan", 1 ] ]
+    "id": "crashed_ufos",
+    "vehicles": [ [ "ufo_zetan1", 1 ], [ "ufo_zetan2", 1 ] ]
   }
 ]

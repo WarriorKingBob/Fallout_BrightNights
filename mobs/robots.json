@@ -659,7 +659,8 @@
     "id": "mon_fallout_sentrybot",
     "type": "MONSTER",
     "name": { "str": "sentry bot" },
-    "description": "Widely considered to be Robco's finest autonomous weapon system, the Sentry bot was first used by the United States Army to in both offensive and defensive capacities across the continental United States and its overseas territories. It is a supremely well armed robot, with most variants featuring at the very least a 5mm minigun and a rocket laucher. They are extremely durable, owed in large part to their thick armor and many redundant systems, allowing it to survive protracted engagements.",
+    "//": "Game limitations does not permit monsters from firing multiple guns",
+    "description": "Widely considered to be Robco's finest autonomous weapon system, the Sentry bot was first used by the United States Army to in both offensive and defensive capacities across the continental United States and its overseas territories. It is a supremely well armed robot, with most variants featuring at the very least a 5mm minigun and a rocket laucher. They are extremely durable, owed in large part to their thick armor and many redundant systems, allowing it to survive protracted engagements. For some reason, it appears that this one does not have loaded rockets.",
     "default_faction": "military",
     "species": [ "ROBOT" ],
     "diff": 2,
@@ -684,7 +685,7 @@
     "vision_day": 33,
     "vision_night": 8,
     "revert_to_itype": "dep_fallout_sentrybot",
-    "starting_ammo": { "fo_sentry_bbrocket": 6, "5mm": 450 },
+    "starting_ammo": { "5mm": 450 },
     "death_drops": { "groups": [ [ "robots", 4 ] ] },
     "special_attacks": [
       [ "PARROT", 20 ],

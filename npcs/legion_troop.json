@@ -104,7 +104,6 @@
       { "item": "cowboy_repeater", "prob": 55, "charges": 7 },
       { "item": "cowboy_repeater_longue", "prob": 3, "charges": 7 },
       { "item": "colt_rangemaster", "prob": 20, "charges": 30 },
-      { "item": "varmint_rifle", "prob": 20, "charges": 30 },
       { "item": "colt6250", "prob": 5, "charges": 30 },
       { "item": "20ga_singleshot", "prob": 25, "charges": 7 },
       { "item": "caravan_shotgun", "prob": 20, "charges": 7 }
@@ -254,10 +253,9 @@
       { "item": "greasegun", "prob": 40, "charges": 30 },
       { "item": "colt_rangemaster", "prob": 40, "charges": 15 },
       { "item": "carbine_assault", "prob": 40, "charges": 30 },
-      { "item": "14mmpistol", "prob": 40, "charges": 7 },
+      { "item": "127mmpistol", "prob": 40, "charges": 7 },
       { "item": "cowboy_repeater_longue", "prob": 3, "charges": 7 },
       { "item": "colt_rangemaster", "prob": 20, "charges": 30 },
-      { "item": "varmint_rifle", "prob": 20, "charges": 30 },
       { "item": "colt6250", "prob": 5, "charges": 30 },
       { "item": "20ga_singleshot", "prob": 25, "charges": 7 },
       { "item": "caravan_shotgun", "prob": 20, "charges": 7 }
@@ -378,7 +376,7 @@
       { "item": "greasegun", "prob": 40, "charges": 30 },
       { "item": "colt_rangemaster", "prob": 40, "charges": 15 },
       { "item": "carbine_assault", "prob": 40, "charges": 30 },
-      { "item": "14mmpistol", "prob": 40, "charges": 7 },
+      { "item": "127mmpistol", "prob": 40, "charges": 7 },
       { "item": "cowboy_repeater_longue", "prob": 3, "charges": 7 }
 
     ]

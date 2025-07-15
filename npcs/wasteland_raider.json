@@ -209,7 +209,7 @@
         "collection": [
           { "item": "colt6250", "dirt": [ 0, 4000 ], "charges": 12 },
           { "item": "colt6250mag", "charges": 12, "count": [ 1, 2 ], "prob": 100 },
-          { "item": "40sw", "charges": [ 10, 35 ], "prob": 100 }
+          { "item": "10mm_fmj", "charges": [ 10, 35 ], "prob": 100 }
         ],
         "prob": 100
       },
@@ -217,23 +217,23 @@
         "collection": [
           { "item": "10mmsmg", "dirt": [ 0, 4000 ], "charges": 30 },
           { "item": "10mmsmgmag", "charges": 30, "count": [ 1, 2 ], "prob": 100 },
-          { "item": "40sw", "charges": [ 10, 35 ], "prob": 100 }
+          { "item": "10mm_fmj", "charges": [ 10, 35 ], "prob": 100 }
         ],
         "prob": 100
       },
       {
         "collection": [
-          { "item": "14mmpistol", "dirt": [ 0, 4000 ], "charges": 7 },
-          { "item": "14mmpistolmag", "charges": 7, "count": [ 1, 2 ], "prob": 100 },
-          { "item": "14mm", "charges": [ 10, 35 ], "prob": 100 }
+          { "item": "127mmpistol", "dirt": [ 0, 4000 ], "charges": 7 },
+          { "item": "127mmpistolmag", "charges": 7, "count": [ 1, 2 ], "prob": 100 },
+          { "item": "127mm", "charges": [ 10, 35 ], "prob": 100 }
         ],
         "prob": 100
       },
       {
         "collection": [
-          { "item": "14mmsmg", "dirt": [ 0, 4000 ], "charges": 21 },
-          { "item": "14mmsmgmag", "charges": 21, "count": [ 1, 2 ], "prob": 100 },
-          { "item": "14mm", "charges": [ 10, 35 ], "prob": 100 }
+          { "item": "127mmsmg", "dirt": [ 0, 4000 ], "charges": 21 },
+          { "item": "127mmsmgmag", "charges": 21, "count": [ 1, 2 ], "prob": 100 },
+          { "item": "127mm", "charges": [ 10, 35 ], "prob": 100 }
         ],
         "prob": 100
       },
@@ -247,7 +247,7 @@
       },
       {
         "collection": [
-          { "item": "varmint_rifle", "dirt": [ 0, 4000 ], "charges": 10 },
+          { "item": "colt_rangemaster", "dirt": [ 0, 4000 ], "charges": 10 },
           { "item": "rangemastermag", "charges": 10, "count": [ 1, 2 ], "prob": 100 },
           { "item": "223", "charges": [ 10, 35 ], "prob": 100 }
         ],
@@ -272,15 +272,15 @@
       },
       {
         "collection": [
-          { "item": "rf2076", "dirt": [ 0, 4000 ], "charges": 30 },
-          { "item": "rf2076mag", "charges": 30, "count": [ 1, 2 ], "prob": 100 },
+          { "item": "m199", "dirt": [ 0, 4000 ], "charges": 30 },
+          { "item": "m199mag", "charges": 30, "count": [ 1, 2 ], "prob": 100 },
           { "item": "223", "charges": [ 10, 35 ], "prob": 100 }
         ],
         "prob": 100
       },
       {
         "collection": [
-          { "item": "r91", "dirt": [ 0, 4000 ], "charges": 30 },
+          { "item": "m4a1", "dirt": [ 0, 4000 ], "charges": 30 },
           { "item": "stanag30", "charges": 30, "count": [ 1, 2 ], "prob": 100 },
           { "item": "223", "charges": [ 10, 35 ], "prob": 100 }
         ],
@@ -288,7 +288,7 @@
       },
       {
         "collection": [
-          { "item": "carbine_marksman", "dirt": [ 0, 4000 ], "charges": 30 },
+          { "item": "m4a1", "contents-item": [ "acog_scope" ], "dirt": [ 0, 4000 ], "charges": 30 },
           { "item": "stanag30", "charges": 30, "count": [ 1, 2 ], "prob": 100 },
           { "item": "223", "charges": [ 10, 35 ], "prob": 100 }
         ],

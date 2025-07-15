@@ -45,7 +45,6 @@
       { "item": "meat_pickled", "prob": 75 },
       { "item": "dry_meat", "prob": 75 },
       { "item": "sausage", "prob": 75 }
-
     ]
   },
   {
@@ -61,7 +60,6 @@
       { "group": "ammo_rifle_reloaded", "prob": 65, "count": [ 3, 9 ] },
       { "group": "ammo_shotgun_common", "prob": 25, "count": [ 3, 9 ] },
       { "group": "ammo_shotgun_reloaded", "prob": 35, "count": [ 3, 9 ] }
-
     ]
   },
   {
@@ -77,7 +75,6 @@
       { "group": "ammo_rifle_reloaded", "prob": 65 },
       { "group": "ammo_shotgun_common", "prob": 25 },
       { "group": "ammo_shotgun_reloaded", "prob": 35 }
-
     ]
   },
   {
@@ -108,8 +105,14 @@
       { "item": "greasegun", "prob": 40, "charges": 30 },
       { "item": "colt_rangemaster", "prob": 40, "charges": 15 },
       { "item": "carbine_assault", "prob": 40, "charges": 30 },
-      { "item": "14mmpistol", "prob": 40, "charges": 7 },
-      { "item": "light_plus_battery_cell", "ammo-item": "battery", "charges": 150, "container-item": "laser_pistol_aep", "prob": 5 },
+      { "item": "127mmpistol", "prob": 40, "charges": 7 },
+      {
+        "item": "light_plus_battery_cell",
+        "ammo-item": "battery",
+        "charges": 150,
+        "container-item": "laser_pistol_aep",
+        "prob": 5
+      },
       { "item": "amr50", "prob": 6, "charges": 7 },
       { "item": "25mmapw", "prob": 6, "charges": 7 },
       { "item": "grenademg", "prob": 2, "charges": 7 },
@@ -123,11 +126,10 @@
       { "item": "10mmsmg", "prob": 20, "charges": 30 },
       { "item": "fn_p90", "prob": 5, "charges": 30 },
       { "item": "10mmgatling", "prob": 20, "charges": 30 },
-      { "item": "14mmsmg", "prob": 20, "charges": 30 },
-      { "item": "22_pistol", "prob": 5, "charges": 30 },
-      { "item": "22_smg", "prob": 5, "charges": 30 },
+      { "item": "127mmsmg", "prob": 20, "charges": 30 },
+      { "item": "sw_22", "contents-item": [ "suppressor_compact" ], "prob": 5, "charges": 30 },
+      { "item": "american_180", "contents-item": [ "suppressor_compact" ], "prob": 5, "charges": 30 },
       { "item": "colt_rangemaster", "prob": 20, "charges": 30 },
-      { "item": "varmint_rifle", "prob": 20, "charges": 30 },
       { "item": "varmint_rifle_ratslayer", "prob": 20, "charges": 30 },
       { "item": "thatgun", "prob": 20, "charges": 30 }
     ]
@@ -139,12 +141,13 @@
     "entries": [
       { "item": "25mmdrummag", "prob": 8, "charges": 30 },
       { "item": "25mmdrummagxl", "prob": 1, "charges": 300 },
-      { "item": "47mmminigunmag", "prob": 4, "charges": 300 },
+      { "item": "8x40_250_mag", "prob": 4, "charges": 150 },
+      { "item": "8x40_500_mag", "prob": 4, "charges": 300 },
       { "item": "amr50mag", "prob": 8, "charges": 30 },
       { "item": "rangemastermag", "prob": 45, "charges": 30 },
       { "item": "rangemastermag2", "prob": 25, "charges": 30 },
-      { "item": "rf2076mag", "prob": 25, "charges": 30 },
-      { "item": "rf2076drummag", "prob": 25, "charges": 30 },
+      { "item": "m199mag", "prob": 25, "charges": 30 },
+      { "item": "belt50", "prob": 25, "charges": 30 },
       { "item": "5mmmag", "prob": 25, "charges": 30 },
       { "item": "5mmlargemag", "prob": 25, "charges": 30 },
       { "item": "5mmdrummag", "prob": 25, "charges": 30 },
@@ -154,8 +157,8 @@
       { "item": "10mmgatlingmag", "prob": 10, "charges": 60 },
       { "item": "10mmgatlingmagxl", "prob": 8, "charges": 75 },
       { "item": "fnp90mag", "prob": 10, "charges": 30 },
-      { "item": "14mmpistolmag", "prob": 10, "charges": 30 },
-      { "item": "14mmsmgmag", "prob": 10, "charges": 30 },
+      { "item": "127mmpistolmag", "prob": 10, "charges": 30 },
+      { "item": "127mmsmgmag", "prob": 10, "charges": 30 },
       { "item": "citykillermag", "prob": 10, "charges": 30 }
     ]
   },
@@ -189,7 +192,4 @@
       { "item": "fo_powfist", "prob": 15 }
     ]
   }
-
-
-
 ]

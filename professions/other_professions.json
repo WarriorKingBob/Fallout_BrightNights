@@ -11,7 +11,7 @@
         "items": [
           "jeans",
           "tank_top",
-          "widowmaker",
+          "shotgun_d",
           "shot_00",
           "crackpipe",
           "crack",
@@ -89,7 +89,7 @@
           "winter_pants_enclave",
           "hat_enclave",
           "socks",
-          "14mm",
+          "127mm",
           "binoculars",
           "boots_combat",
           "two_way_radio",
@@ -97,7 +97,7 @@
         ],
         "entries": [
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
-          { "item": "14mmpistol", "ammo-item": "14mm", "charges": 7 }
+          { "item": "127mmpistol", "ammo-item": "127mm", "charges": 7 }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -339,8 +339,8 @@
           "shoulder_strap"
         ],
         "entries": [
-          { "item": "357_magnum", "charges": 35 },
-          { "item": "cowboy_repeater", "ammo-item": "357_magnum", "charges": 7, "contents-item": "shoulder_strap" }
+          { "item": "357mag_fmj", "charges": 35 },
+          { "item": "cowboy_repeater", "ammo-item": "357mag_fmj", "charges": 7, "contents-item": "shoulder_strap" }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -472,7 +472,7 @@
         ],
         "entries": [
           { "item": "556", "charges": 20 },
-          { "item": "fo_ncr_service_rifle", "ammo-item": "223", "charges": 30, "contents-item": "shoulder_strap" },
+          { "item": "m16a4", "ammo-item": "223", "charges": 30, "contents-item": "shoulder_strap" },
           { "item": "stanag30", "charges": 30 },
           { "item": "stanag30", "charges": 30 }
         ]
@@ -518,9 +518,9 @@
           "meat_smoked"
         ],
         "entries": [
-          { "item": "357_magnum", "charges": 55 },
-          { "item": "357_magnum_revolver", "ammo-item": "357_magnum", "charges": 6, "container-item": "holster" },
-          { "item": "cowboy_repeater", "ammo-item": "357_magnum", "charges": 7, "contents-item": "shoulder_strap" }
+          { "item": "357mag_fmj", "charges": 55 },
+          { "item": "357_magnum_revolver", "ammo-item": "357mag_fmj", "charges": 6, "container-item": "holster" },
+          { "item": "cowboy_repeater", "ammo-item": "357mag_fmj", "charges": 7, "contents-item": "shoulder_strap" }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -565,7 +565,7 @@
         ],
         "entries": [
           { "item": "556", "charges": 20 },
-          { "item": "fo_ncr_service_rifle", "ammo-item": "223", "charges": 30, "contents-item": "shoulder_strap" },
+          { "item": "m16a4", "ammo-item": "223", "charges": 30, "contents-item": "shoulder_strap" },
           { "item": "stanag30", "charges": 30 },
           { "item": "stanag30", "charges": 30 }
         ]
@@ -610,7 +610,7 @@
         ],
         "entries": [
           { "item": "223", "charges": 20 },
-          { "item": "varmint_rifle", "ammo-item": "223", "charges": 10, "contents-item": "shoulder_strap" },
+          { "item": "colt_rangemaster", "ammo-item": "223", "charges": 10, "contents-item": "shoulder_strap" },
           { "item": "rangemastermag", "charges": 10 },
           { "item": "rangemastermag", "charges": 10 }
         ]

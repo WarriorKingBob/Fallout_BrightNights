@@ -4,7 +4,7 @@
     "copy-from": "rifle_semi",
     "type": "GUN",
     "name": { "str": "Colt Rangemaster" },
-    "description": "A Colt Rangemaster semi-automatic rifle, in 5.56x45mm caliber. Single-shot only. It's popular for hunting vermin.",
+    "description": "A Colt Rangemaster semi-automatic rifle, in 5.56x45mm caliber. It's popular for hunting vermin. Can use STANAG magazines.",
     "weight": "2800 g",
     "volume": "2 L",
     "price": "921 USD",
@@ -50,61 +50,11 @@
     ]
   },
   {
-    "id": "varmint_rifle",
-    "copy-from": "rifle_semi",
-    "type": "GUN",
-    "name": { "str": "Varmint Rifle" },
-    "description": "A bolt-action 5.56x45mm rifle. It's popular for hunting vermin.",
-    "weight": "2800 g",
-    "volume": "2 L",
-    "price": "921 USD",
-    "to_hit": 1,
-    "bashing": 12,
-    "looks_like": "marlin_9a",
-    "material": [ "steel", "wood" ],
-    "symbol": "(",
-    "color": "brown",
-    "ammo": [ "223" ],
-    "ranged_damage": { "damage_type": "bullet", "amount": 2 },
-    "dispersion": 100,
-    "durability": 8,
-    "barrel_length": "250 ml",
-    "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "mechanism", 4 ],
-      [ "muzzle", 1 ],
-      [ "sling", 1 ],
-      [ "sights", 1 ]
-    ],
-    "magazines": [
-      [
-        "223",
-        [
-          "rangemastermag",
-          "rangemastermag2",
-          "survivor223mag",
-          "stanag30",
-          "stanag10",
-          "stanag50",
-          "stanag50",
-          "stanag60drum",
-          "stanag90",
-          "stanag100",
-          "stanag100drum",
-          "stanag150",
-          "survivor223mag"
-        ]
-      ]
-    ]
-  },
-  {
     "id": "varmint_rifle_ratslayer",
     "copy-from": "rifle_semi",
     "type": "GUN",
     "name": { "str": "Rat Slayer's Rifle" },
-    "description": "A varmint rifle that appears to have been customized by an exterminator to stealthily hunt vermin. It has a black finish, with a rat skull engraved upon it",
+    "description": "A Rangemaster rifle that appears to have been customized by an exterminator to stealthily hunt vermin. It has a black finish, with a rat skull engraved upon it",
     "weight": "2800 g",
     "volume": "2 L",
     "price": "921 USD",
@@ -129,7 +79,14 @@
       [ "sling", 1 ],
       [ "sights", 1 ]
     ],
-	"magazines": [ [ "223", [ "rangemastermag" ] ], [ "223", [ "rangemastermag2" ] ], [ "223", [ "survivor223mag" ] ], [ "223", [ "stanag30" ] ], [ "223", [ "stanag10" ] ], [ "223", [ "stanag50" ] ] ]
+    "magazines": [
+      [ "223", [ "rangemastermag" ] ],
+      [ "223", [ "rangemastermag2" ] ],
+      [ "223", [ "survivor223mag" ] ],
+      [ "223", [ "stanag30" ] ],
+      [ "223", [ "stanag10" ] ],
+      [ "223", [ "stanag50" ] ]
+    ]
   },
   {
     "id": "dks501",
@@ -160,59 +117,7 @@
       [ "sling", 1 ],
       [ "sights", 1 ]
     ],
-	"magazines": [
-    [
-      "308",
-      [
-        "m14mag",
-        "m14smallmag",
-        "m14_makeshiftmag"
-      ]
-    ]
-	]
-  },
-  {
-    "id": "fo_ncr_service_rifle",
-    "copy-from": "rifle_semi",
-    "type": "GUN",
-    "name": { "str": "NCR Service Rifle" },
-    "//": "This is assumed to be the standard model matching the (currently not in-game) M16. Tileset whitelist for rifles",
-    "description": "Due to the collapse of industry after the cataclysm, the New California Republic had to use surplus rifles from the US military stock as its service rifle. The rifles are improved by the Gun Runners for better reliablility for use with the infantry of the New California Republic. Wherever Shady Sands sends its soldiers, this rifle will soon follow, and for good reason.",
-    "weight": "3600 g",
-    "volume": "2 L",
-    "price": "1250 USD",
-    "price_postapoc": "40 USD",
-    "to_hit": -1,
-    "bashing": 12,
-    "material": [ "steel", "wood" ],
-    "symbol": "(",
-    "color": "dark_gray",
-    "ammo": [ "223" ],
-    "range": -1,
-    "ranged_damage": { "damage_type": "bullet", "amount": -3 },
-    "dispersion": 170,
-    "durability": 7,
-    "min_cycle_recoil": 1350,
-    "magazines": [
-      [
-        "223",
-        [
-          "stanag30",
-          "stanag5",
-          "stanag10",
-          "stanag20",
-          "stanag40",
-          "stanag50",
-          "stanag60",
-          "stanag60drum",
-          "stanag90",
-          "stanag100",
-          "stanag100drum",
-          "stanag150",
-          "survivor223mag"
-        ]
-      ]
-    ]
+    "magazines": [ [ "308", [ "m14mag", "m14smallmag", "m14_makeshiftmag" ] ] ]
   },
   {
     "id": "ak112",
@@ -255,8 +160,8 @@
     "type": "GUN",
     "copy-from": "rifle_auto",
     "reload_noise_volume": 10,
-    "name": { "str": "AC-5" },
-    "description": "The AC-5 is a sister to the MC-223, being a carbine made for use by paratroopers. While the MC-223 is focused on precision shots, the AC-5 is focused on pure fire rate.",
+    "name": { "str": "Colt 735" },
+    "description": "The Colt 735 is a carbine made for use by paratroopers. It is chambered in 5mm and has a folding stock.",
     "weight": "2710 g",
     "volume": "1750 ml",
     "price": "2900 USD",
@@ -281,55 +186,9 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-	"magazines": [ [ "5mm", [ "5mmmag" ] ], [ "5mm", [ "5mmlargemag" ] ], [ "5mm", [ "5mmdrummag" ] ], [ "5mm", [ "5mmminigunmag" ] ] ],
+    "default_mods": [ "folding_stock" ],
+    "magazines": [ [ "5mm", [ "5mmmag" ] ], [ "5mm", [ "5mmlargemag" ] ], [ "5mm", [ "5mmdrummag" ] ], [ "5mm", [ "5mmminigunmag" ] ] ],
     "flags": [ "NEVER_JAMS" ]
-  },
-  {
-    "id": "r91",
-    "copy-from": "rifle_auto",
-    "looks_like": "ar15",
-    "type": "GUN",
-    "name": { "str": "R91 Assault Rifle" },
-    "description": "The Stent Security Solutions R91. This baby was used all throughout Anchorage, as well as by the national guard, before the cataclysm. It has a classic wooden stock.",
-    "weight": "3160 g",
-    "volume": "1750 ml",
-    "price": "2400 USD",
-    "to_hit": -1,
-    "bashing": 12,
-    "material": [ "steel", "wood" ],
-    "symbol": "(",
-    "color": "dark_gray",
-    "ammo": [ "223" ],
-    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
-    "dispersion": 180,
-    "durability": 9,
-    "min_cycle_recoil": 1350,
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
-	"magazines": [ [ "223", [ "stanag30" ] ], [ "223", [ "stanag50" ] ], [ "223", [ "survivor223mag" ] ] ]
-  },
-  {
-    "id": "carbine_marksman",
-    "copy-from": "rifle_auto",
-    "looks_like": "ar15",
-    "type": "GUN",
-    "name": { "str": "MC-223" },
-    "description": "A popular compact carbine, long used by paradroopers in the U.S. air force. Its incredibly accurate and fires in decently sized bursts.",
-    "weight": "3160 g",
-    "volume": "1750 ml",
-    "price": "2400 USD",
-    "to_hit": -1,
-    "bashing": 12,
-    "material": [ "steel", "plastic" ],
-    "symbol": "(",
-    "color": "dark_gray",
-    "ammo": [ "223" ],
-    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
-    "dispersion": 180,
-    "durability": 8,
-    "min_cycle_recoil": 1350,
-    "default_mods": [ "rifle_scope" ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
-	"magazines": [ [ "223", [ "stanag30" ] ], [ "223", [ "stanag50" ] ], [ "223", [ "survivor223mag" ] ] ]
   },
   {
     "id": "type93",
@@ -337,7 +196,7 @@
     "looks_like": "ar15",
     "type": "GUN",
     "name": { "str": "Type 93" },
-    "description": "A chinese assault rifle based on the AK-47, chambered in 5.56x45mm and uses STANAG mags to allow infiltrators to easily restock ammo at american gun stores.",
+    "description": "A chinese assault rifle based on the AK-47, chambered in 5.56x45mm and uses STANAG mags to allow Chinese operatives and sympathizers to easily restock ammo at american gun stores.",
     "weight": "3160 g",
     "volume": "1750 ml",
     "price": "2400 USD",
@@ -352,7 +211,7 @@
     "durability": 5,
     "min_cycle_recoil": 1350,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
-	"magazines": [
+    "magazines": [
       [
         "223",
         [
@@ -424,7 +283,7 @@
     "id": "cowboy_repeater",
     "copy-from": "rifle_manual",
     "type": "GUN",
-    "name": { "str": "Cowboy Repeater", "str_pl": "Cowboy Repeaters" },
+    "name": { "str": "Winchester 1892" },
     "description": "This fine lever action rifle is chambered in the powerful .357 magnum cartridge and features a sleek barrel with a tube fed magazine. Popular among wild west re-enactors.",
     "weight": "3937 g",
     "volume": "3 L",
@@ -434,7 +293,7 @@
     "looks_like": "henry_big_boy",
     "material": [ "steel", "wood" ],
     "color": "light_gray",
-    "ammo": [ "38" ],
+    "ammo": [ "357mag", "38" ],
     "ranged_damage": { "damage_type": "bullet", "amount": 2 },
     "dispersion": 180,
     "durability": 8,
@@ -457,10 +316,10 @@
   },
   {
     "id": "cowboy_repeater_longue",
-    "copy-from": "rifle_manual",
+    "copy-from": "cowboy_repeater",
     "type": "GUN",
-    "name": { "str": "La Longue Carabine", "str_pl": "La Longue Carabine" },
-    "description": "A custom, heavily modified Cowboy Repeater. Has more room for ammo, and is generally more optimized.",
+    "name": { "str": "La Longue Carabine" },
+    "description": "A custom, heavily modified Winchester 1892. Has more room for ammo, and is generally more optimized.",
     "weight": "3937 g",
     "volume": "3 L",
     "price": "899 USD",
@@ -469,7 +328,7 @@
     "looks_like": "henry_big_boy",
     "material": [ "steel", "wood" ],
     "color": "brown",
-    "ammo": [ "38" ],
+    "ammo": [ "357mag", "38" ],
     "ranged_damage": { "damage_type": "bullet", "amount": 8 },
     "dispersion": 80,
     "durability": 10,
@@ -495,7 +354,7 @@
     "copy-from": "rifle_manual",
     "type": "GUN",
     "name": { "str": "Winchester 1886" },
-    "description": "A classic lever action rifle, chambered in .45-70 ammunition. The ammo sacrifices long ranged accuracy for sheer damage. Popular among Veteran Desert Rangers.",
+    "description": "A classic lever action rifle, chambered in .45-70 ammunition. The ammo sacrifices long ranged accuracy for sheer damage. Popular among NCR Veteran Rangers.",
     "weight": "3937 g",
     "volume": "3 L",
     "price": "899 USD",
@@ -529,7 +388,7 @@
     "copy-from": "rifle_manual",
     "type": "GUN",
     "name": { "str": "Medicine Stick", "str_pl": "Medicine Stick" },
-    "description": "A classic rifle, chambered in .45-70 ammunition. The ammo sacrifices long ranged accuracy for sheer damage. Popular among Veteran Desert Rangers, this one is an experimental model produced by the Gun Runners.",
+    "description": "A customized Winchester 1886 used by a veteran ranger.",
     "weight": "3937 g",
     "volume": "3 L",
     "price": "899 USD",

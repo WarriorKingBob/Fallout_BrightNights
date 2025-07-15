@@ -29,7 +29,6 @@
       { "item": "offalcooking", "prob": 75 },
       { "item": "cookbook_daintydishes", "prob": 75 },
       { "item": "baking_book", "prob": 75 }
-
     ]
   },
   {
@@ -54,7 +53,6 @@
       { "item": "omelette_survival", "prob": 25 },
       { "item": "pie_happy", "prob": 25 },
       { "item": "kebab_gecko", "prob": 25 }
-
     ]
   },
   {
@@ -87,7 +85,6 @@
       { "item": "sunset_sarsaparilla", "prob": 55 },
       { "item": "healing_powder_drink", "prob": 25 },
       { "item": "bottle_plastic_nukadark", "prob": 5 }
-
     ]
   },
   {
@@ -108,7 +105,6 @@
       { "item": "sunset_sarsaparilla", "prob": 5 },
       { "item": "cola_nuka_quantum", "prob": 3 },
       { "item": "fo_misc_pipboy", "prob": 5 }
-
     ]
   },
   {
@@ -123,7 +119,6 @@
       { "group": "file_room", "prob": 10, "count": [ 1, 2 ] },
       { "item": "sunset_sarsaparilla", "prob": 5 },
       { "item": "cola_nuka_quantum", "prob": 3 }
-
     ]
   },
   {
@@ -135,16 +130,15 @@
       { "item": "colt6250_weathered", "charges": 12, "prob": 5 },
       { "item": "10mmsmg", "charges": 30, "prob": 10 },
       { "item": "thatgun", "charges": 5, "prob": 3 },
-      { "item": "22_pistol", "charges": 10, "prob": 3 },
+      { "item": "sw_22", "contents-item": [ "suppressor_compact" ], "charges": 10, "prob": 3 },
       { "item": "mauser_9mm", "charges": 7, "prob": 3 },
       { "item": "357_magnum_revolver", "charges": 10, "prob": 3 },
-      { "item": "14mmpistol", "charges": 7, "prob": 3 },
+      { "item": "127mmpistol", "charges": 7, "prob": 3 },
       { "item": "colt_rangemaster", "ammo-item": "223", "charges": 10, "prob": 15 },
-      { "item": "varmint_rifle", "ammo-item": "223", "charges": 10, "prob": 10 },
       { "item": "bozar", "ammo-item": "223", "charges": 50, "prob": 2 },
-      { "item": "rf2076", "ammo-item": "223", "charges": 10, "prob": 5 },
-      { "item": "r91", "ammo-item": "223", "charges": 10, "prob": 15 },
-      { "item": "carbine_marksman", "ammo-item": "223", "charges": 10, "prob": 5 },
+      { "item": "m199", "ammo-item": "223", "charges": 10, "prob": 5 },
+      { "item": "m4a1", "ammo-item": "223", "charges": 10, "prob": 15 },
+      { "item": "m4a1", "contents-item": [ "acog_scope" ], "ammo-item": "223", "charges": 10, "prob": 5 },
       { "item": "type93", "ammo-item": "223", "charges": 10, "prob": 5 },
       { "item": "dks501", "ammo-item": "308", "charges": 10, "prob": 3 },
       { "item": "thatgun", "ammo-item": "223", "charges": 5, "prob": 3 },
@@ -160,7 +154,6 @@
       { "item": "laser_rcw", "prob": 2 },
       { "item": "p94_caster", "prob": 2 },
       { "item": "p94_rifle", "prob": 2 }
-
     ]
   },
   {
@@ -175,7 +168,6 @@
       { "group": "mags_pistol_rare", "prob": 5 },
       { "group": "mags_milspec", "prob": 5 },
       { "group": "mags_smg_common", "prob": 19 }
-
     ]
   },
   {
@@ -190,7 +182,6 @@
       { "group": "ammo_pistol_rare", "prob": 5 },
       { "group": "ammo_pistol_milspec", "prob": 3 },
       { "group": "ammo_rifle_rare", "prob": 3 }
-
     ]
   },
   {
@@ -211,7 +202,6 @@
       { "group": "clothing_military", "prob": 10 },
       { "item": "jumpsuit_vault_13_utility", "prob": 3 },
       { "item": "jumpsuit_vault_13_armored", "prob": 3 }
-
     ]
   },
   {
@@ -234,7 +224,6 @@
       { "group": "gear_survival", "prob": 25 },
       { "group": "swat_gear", "prob": 5 },
       { "item": "fo_misc_pipboy", "prob": 19 }
-
     ]
   },
   {
@@ -267,9 +256,6 @@
       { "item": "soup_chicken", "prob": 15 },
       { "item": "soup_mushroom", "prob": 15 },
       { "item": "can_coconut", "prob": 5 }
-
-
-
     ]
   },
   {
@@ -291,9 +277,6 @@
       { "item": "meat_canned", "prob": 50, "charges": 12, "container-item": "jar_3l_glass_sealed" },
       { "item": "fish_pickled", "prob": 4, "charges": 12, "container-item": "jar_3l_glass_sealed" },
       { "item": "meat_pickled", "prob": 4, "charges": 12, "container-item": "jar_3l_glass_sealed" }
-
-
-
     ]
   },
   {
@@ -329,7 +312,6 @@
       { "item": "nailbat", "prob": 25 },
       { "item": "football", "prob": 40, "count": [ 3, 5 ] },
       { "item": "baseball", "prob": 40, "count": [ 3, 5 ] }
-
     ]
   },
   {
@@ -341,16 +323,15 @@
       { "item": "colt6250_weathered", "charges": 12, "prob": 5 },
       { "item": "10mmsmg", "charges": 30, "prob": 10 },
       { "item": "thatgun", "charges": 5, "prob": 3 },
-      { "item": "22_pistol", "charges": 10, "prob": 3 },
+      { "item": "sw_22", "contents-item": [ "suppressor_compact" ], "charges": 10, "prob": 3 },
       { "item": "mauser_9mm", "charges": 7, "prob": 3 },
       { "item": "357_magnum_revolver", "charges": 10, "prob": 3 },
-      { "item": "14mmpistol", "charges": 7, "prob": 10 },
+      { "item": "127mmpistol", "charges": 7, "prob": 10 },
       { "item": "colt_rangemaster", "ammo-item": "223", "charges": 15, "prob": 15 },
-      { "item": "varmint_rifle", "ammo-item": "223", "charges": 10, "prob": 10 },
       { "item": "bozar", "ammo-item": "223", "charges": 50, "prob": 10 },
-      { "item": "rf2076", "ammo-item": "223", "charges": 10, "prob": 5 },
-      { "item": "r91", "ammo-item": "223", "charges": 10, "prob": 15 },
-      { "item": "carbine_marksman", "ammo-item": "223", "charges": 10, "prob": 10 },
+      { "item": "m199", "ammo-item": "223", "charges": 10, "prob": 5 },
+      { "item": "m4a1", "ammo-item": "223", "charges": 10, "prob": 15 },
+      { "item": "m4a1", "contents-item": [ "acog_scope" ], "ammo-item": "223", "charges": 10, "prob": 10 },
       { "item": "type93", "ammo-item": "223", "charges": 10, "prob": 5 },
       { "item": "dks501", "ammo-item": "308", "charges": 5, "prob": 15 },
       { "item": "thatgun", "ammo-item": "223", "charges": 5, "prob": 15 },
@@ -369,7 +350,6 @@
       { "item": "l30", "prob": 5 },
       { "item": "avenger", "prob": 5 },
       { "item": "grenademg", "charges": 30, "prob": 5 }
-
     ]
   }
 ]

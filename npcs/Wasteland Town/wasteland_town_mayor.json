@@ -205,7 +205,7 @@
         { "u_buy_item": "colt6250", "count": 1 },
         { "u_buy_item": "jumpsuit_vault_13_armored", "count": 1 },
         { "u_buy_item": "colt6250mag", "count": 2 },
-        { "u_buy_item": "40sw", "count": 40 }
+        { "u_buy_item": "10mm_fmj", "count": 40 }
 
       ]
     }
@@ -231,7 +231,7 @@
     "end": {
     "effect": [
         { "u_buy_item": "fo_ppk12gausspistol", "count": 1 },
-        { "u_buy_item": "fo_2mmec_round", "count": 50 } ]
+        { "u_buy_item": "12mm_makeshift", "count": 50 } ]
     },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {

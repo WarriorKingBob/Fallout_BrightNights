@@ -375,8 +375,8 @@
     },
     "end": {
       "effect": [
-        { "u_buy_item": "rf2076", "count": 1 },
-        { "u_buy_item": "rf2076mag", "count": 2 },
+        { "u_buy_item": "m199", "count": 1 },
+        { "u_buy_item": "m199mag", "count": 2 },
         { "u_buy_item": "556", "count": 100 },
         { "u_buy_item": "223", "count": 25 },
         { "u_buy_item": "556_incendiary", "count": 30 }

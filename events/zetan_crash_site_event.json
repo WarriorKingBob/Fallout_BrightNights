@@ -43,7 +43,7 @@
       "terrain": { "A": [ "t_dirt" ], ",": [ "t_region_groundcover" ] },
       "furniture": { "F": [ "f_rubble_rock" ] },
       "place_monster": [ { "monster": "mon_zeta_alien", "x": 16, "y": 16 } ],
-      "place_vehicles": [ { "vehicle": "ufo_zetan", "x": 15, "y": 4, "fuel": 80, "status": 1, "rotation": 90, "chance": 100 } ]
+      "place_vehicles": [ { "vehicle": "crashed_ufos", "x": 15, "y": 4, "fuel": 80, "status": 1, "rotation": 90, "chance": 100 } ]
     }
   }
 ]

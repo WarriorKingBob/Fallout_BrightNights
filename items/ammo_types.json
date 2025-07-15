@@ -6,15 +6,9 @@
     "type": "ammunition_type"
   },
   {
-    "id": "14mm",
-    "name": "14mm Sig Sauer",
-    "default": "14mm",
-    "type": "ammunition_type"
-  },
-  {
-    "id": "47mm",
-    "name": "4.7mm Caseless",
-    "default": "47mm_caseless",
+    "id": "127mm",
+    "name": "12.7mm",
+    "default": "127mm",
     "type": "ammunition_type"
   },
   {
@@ -30,12 +24,6 @@
     "type": "ammunition_type"
   },
   {
-    "id": "4570",
-    "name": ".45-70",
-    "default": "4570",
-    "type": "ammunition_type"
-  },
-  {
     "type": "ammunition_type",
     "id": "bbrocket",
     "name": "Rockwell Bigbazooka Rocket",
@@ -43,20 +31,8 @@
   },
   {
     "type": "ammunition_type",
-    "id": "fo_sentryrocket",
-    "name": "sentry rocket",
-    "default": "fo_sentry_bbrocket"
-  },
-  {
-    "type": "ammunition_type",
     "id": "fo_rockitscrap",
     "name": "rock-it launcher scrap",
     "default": "rockitscrap_metal"
-  },
-  {
-    "type": "ammunition_type",
-    "id": "fo_2mmec",
-    "name": "2mm EC",
-    "default": "fo_2mmec_round"
   }
 ]

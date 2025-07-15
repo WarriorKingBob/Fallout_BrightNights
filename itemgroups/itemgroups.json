@@ -316,7 +316,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "10mm_fmj", "prob": 80 },
-      { "item": "10mm_incendiary", "prob": 15 },
+      { "item": "10mm_inc", "prob": 15 },
       { "item": "10mmap", "prob": 20 },
       { "item": "10mmjhp", "prob": 25 }
     ]
@@ -324,11 +324,11 @@
   {
     "type": "item_group",
     "id": "fallout_10mm_maggroup",
-	"//": "P90 doesn't really belong here but it was for Fallout P90.",
+    "//": "P90 doesn't really belong here but it was for Fallout P90.",
     "subtype": "distribution",
     "entries": [
-      { "item": "colt6250mag", "charges": 12, "prob": 70, "ammo-item": "40sw" },
-      { "item": "10mmsmgmag", "charges": 30, "prob": 20, "ammo-item": "40sw" },
+      { "item": "colt6250mag", "charges": 12, "prob": 70, "ammo-item": "10mm_fmj" },
+      { "item": "10mmsmgmag", "charges": 30, "prob": 20, "ammo-item": "10mm_fmj" },
       { "item": "10mmgatlingmag", "charges": 60, "prob": 15 },
       { "item": "10mmgatlingmagxl", "charges": 75, "prob": 5 },
       { "item": "fnp90mag", "charges": 24, "prob": 15 }
@@ -372,9 +372,9 @@
     "id": "fallout_10mm_gungroups",
     "subtype": "distribution",
     "entries": [
-      { "item": "colt6250", "ammo-item": "40sw", "charges": 12, "prob": 70 },
-      { "item": "colt6250_weathered", "ammo-item": "40sw", "charges": 12, "prob": 10 },
-      { "item": "10mmsmg", "ammo-item": "40sw", "charges": 30, "prob": 15 },
+      { "item": "colt6250", "ammo-item": "10mm_fmj", "charges": 12, "prob": 70 },
+      { "item": "colt6250_weathered", "ammo-item": "10mm_fmj", "charges": 12, "prob": 10 },
+      { "item": "10mmsmg", "ammo-item": "10mm_fmj", "charges": 30, "prob": 15 },
       { "item": "fn_p90", "ammo-item": "57mm", "charges": 24, "prob": 5 }
     ]
   },
@@ -384,14 +384,13 @@
     "subtype": "distribution",
     "entries": [
       { "item": "colt_rangemaster", "ammo-item": "223", "charges": 10, "prob": 40 },
-      { "item": "varmint_rifle", "ammo-item": "223", "charges": 10, "prob": 40 },
       { "item": "varmint_rifle_ratslayer", "ammo-item": "223", "charges": 10, "prob": 3 },
       { "item": "dks501", "ammo-item": "308", "charges": 5, "prob": 3 },
       { "item": "thatgun", "ammo-item": "223", "charges": 5, "prob": 3 },
       { "item": "bozar", "ammo-item": "223", "charges": 50, "prob": 2 },
-      { "item": "rf2076", "ammo-item": "223", "charges": 10, "prob": 15 },
-      { "item": "r91", "ammo-item": "223", "charges": 10, "prob": 15 },
-      { "item": "carbine_marksman", "ammo-item": "223", "charges": 10, "prob": 5 },
+      { "item": "m199", "ammo-item": "50bmg", "charges": 10, "prob": 15 },
+      { "item": "m4a1", "ammo-item": "223", "charges": 10, "prob": 15 },
+      { "item": "m4a1", "contents-item": [ "acog_scope" ], "ammo-item": "223", "charges": 10, "prob": 5 },
       { "item": "type93", "ammo-item": "223", "charges": 10, "prob": 5 }
     ]
   },
@@ -426,14 +425,14 @@
     "id": "fallout_raider_pistoldrops",
     "subtype": "distribution",
     "entries": [
-      { "item": "colt6250", "charges": 12, "prob": 30, "ammo-item": "40sw" },
-      { "item": "colt6250_weathered", "charges": 12, "prob": 5, "ammo-item": "40sw" },
-      { "item": "10mmsmg", "charges": 30, "prob": 10, "ammo-item": "40sw" },
+      { "item": "colt6250", "charges": 12, "prob": 30, "ammo-item": "10mm_fmj" },
+      { "item": "colt6250_weathered", "charges": 12, "prob": 5, "ammo-item": "10mm_fmj" },
+      { "item": "10mmsmg", "charges": 30, "prob": 10, "ammo-item": "10mm_fmj" },
       { "item": "thatgun", "charges": 5, "prob": 3 },
-      { "item": "22_pistol", "charges": 10, "prob": 3 },
+      { "item": "sw_22", "contents-item": [ "suppressor_compact" ], "charges": 10, "prob": 3 },
       { "item": "mauser_9mm", "charges": 7, "prob": 3 },
       { "item": "357_magnum_revolver", "charges": 10, "prob": 3 },
-      { "item": "14mmpistol", "charges": 7, "prob": 3 }
+      { "item": "127mmpistol", "charges": 7, "prob": 3 }
     ]
   },
   {
@@ -448,14 +447,13 @@
     "subtype": "distribution",
     "entries": [
       { "item": "colt_rangemaster", "ammo-item": "223", "charges": 10, "prob": 40 },
-      { "item": "varmint_rifle", "ammo-item": "223", "charges": 10, "prob": 40 },
       { "item": "varmint_rifle_ratslayer", "ammo-item": "223", "charges": 10, "prob": 3 },
       { "item": "bozar", "ammo-item": "223", "charges": 10, "prob": 3 },
-      { "item": "rf2076", "ammo-item": "223", "charges": 10, "prob": 15 },
-      { "item": "r91", "ammo-item": "223", "charges": 10, "prob": 15 },
-      { "item": "carbine_marksman", "ammo-item": "223", "charges": 10, "prob": 5 },
+      { "item": "m199", "ammo-item": "50bmg", "charges": 10, "prob": 15 },
+      { "item": "m4a1", "ammo-item": "223", "charges": 10, "prob": 15 },
+      { "item": "m4a1", "contents-item": [ "acog_scope" ], "ammo-item": "223", "charges": 10, "prob": 5 },
       { "item": "type93", "ammo-item": "223", "charges": 10, "prob": 5 },
-      { "item": "14mmpistol", "charges": 7, "prob": 3 },
+      { "item": "127mmpistol", "charges": 7, "prob": 3 },
       { "item": "ak112", "prob": 20, "charges": 25 }
     ]
   },
@@ -841,16 +839,16 @@
       {
         "collection": [
           { "item": "fo_m72gaussrifle" },
-          { "item": "fo_2mmec_round", "charges": [ 26, 58 ] },
-          { "item": "fo_2mmec_round_makeshift", "charges": [ 3, 25 ], "prob": 50 }
+          { "item": "12mm", "charges": [ 5, 10 ] },
+          { "item": "12mm_makeshift", "charges": [ 15, 20 ], "prob": 50 }
         ],
         "prob": 100
       },
       {
         "collection": [
           { "item": "fo_ppk12gausspistol" },
-          { "item": "fo_2mmec_round", "charges": [ 26, 58 ] },
-          { "item": "fo_2mmec_round_makeshift", "charges": [ 3, 25 ], "prob": 50 }
+          { "item": "12mm", "charges": [ 5, 10 ] },
+          { "item": "12mm_makeshift", "charges": [ 15, 20 ], "prob": 50 }
         ],
         "prob": 100
       },
@@ -859,8 +857,8 @@
       {
         "collection": [
           { "item": "vindicator" },
-          { "item": "47mmminigunmag", "charges": [ 300, 500 ], "count": [ 1, 2 ] },
-          { "item": "47mm_caseless", "charges": [ 150, 300 ] }
+          { "item": "8x40_500_mag", "charges": [ 300, 500 ], "count": [ 1, 2 ] },
+          { "item": "8mm_hvp", "charges": [ 150, 300 ] }
         ],
         "prob": 100
       },
@@ -985,7 +983,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "vault_knife", "prob": 30 },
-	  { "item": "spear_steel", "prob": 30 },
+      { "item": "spear_steel", "prob": 30 },
       { "item": "gloves_boxing_plated", "prob": 20 },
       { "item": "machete_gladius", "prob": 30 },
       { "item": "flagstaff", "prob": 15 },

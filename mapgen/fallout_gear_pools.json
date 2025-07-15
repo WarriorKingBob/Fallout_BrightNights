@@ -4,7 +4,7 @@
     "id": "ammo_pistol_fallout_common",
     "//": "Pistol ammo commonly owned by citizens and found in many locations.",
     "items": [
-      [ "10mm_incendiary", 100 ],
+      [ "10mm_inc", 100 ],
       [ "10mmap", 100 ],
       [ "10mmjhp", 100 ],
       [ "38_special", 100 ],
@@ -14,11 +14,11 @@
       [ "44magnum", 35 ],
       [ "9mmP", 30 ],
       [ "9mmP2", 20 ],
-      [ "14mm", 20 ],
-      [ "357_magnum", 20 ],
-      [ "357_magnum_hp", 10 ],
-      [ "357_magnum_ap", 10 ],
-      [ "4570", 5 ]
+      [ "127mm", 20 ],
+      [ "357mag_fmj", 20 ],
+      [ "357mag_jhp", 10 ],
+      [ "fo_357mag_ap", 10 ],
+      [ "4570_sp", 5 ]
     ]
   },
   {
@@ -26,18 +26,15 @@
     "id": "ammo_heavy_fallout",
     "//": "expensive ammo commonly used in big guns.",
     "items": [
-      [ "47mm_caseless", 100 ],
+      [ "8mm_hvp", 100 ],
       [ "bbrocket", 100 ],
-      [ "25mm_frag", 50 ],
-      [ "25mm_beanbag", 100 ],
+      [ "25mm_grenade_he", 50 ],
       [ "25mm_concussive", 100 ],
-      [ "25mm_flare", 10 ],
-      [ "25mm_flashbang", 10 ],
+      [ "25mm_beanbag", 100 ],
       [ "25mm_flechette", 10 ],
       [ "25mm_incendiary", 15 ],
       [ "bbrocketap", 50 ],
       [ "25mm_shot", 35 ],
-      [ "25mm_smoke", 30 ],
       [ "25mm_teargas", 20 ],
       [ "cannonball_4lb", 100 ],
       [ "cannon_round_ball", 100 ],
@@ -80,7 +77,7 @@
       [ "5mmjhp", 25 ],
       [ "5mmap", 25 ],
       [ "5mmincendiary", 5 ],
-      [ "4570", 50 ]
+      [ "4570_sp", 50 ]
     ]
   },
   {
@@ -89,9 +86,8 @@
     "//": "rifles common to civilian use.",
     "items": [
       [ "redryder", 100 ],
-      [ "varmint_rifle", 100 ],
       [ "colt_rangemaster", 100 ],
-      [ "r91", 100 ],
+      [ "m4a1", 100 ],
       [ "cowboy_repeater", 100 ],
       [ "dks501", 50 ],
       [ "brush_gun", 50 ]
@@ -107,11 +103,11 @@
       [ "brush_gun", 75 ],
       [ "ak112", 50 ],
       [ "bozar", 50 ],
-      [ "rf2076", 50 ],
+      [ "m199", 50 ],
       [ "wattz_2000", 50 ],
       [ "amr50", 25 ],
       [ "carbine_assault", 25 ],
-      [ "carbine_marksman", 25 ],
+      { "item": "m4a1", "contents-item": [ "acog_scope" ], "prob": 25 },
       [ "type93", 5 ],
       [ "cowboy_repeater_longue", 1 ],
       [ "varmint_rifle_ratslayer", 1 ],
@@ -124,12 +120,12 @@
     "//": "Pistols commonly owned by citizens and found in many locations.",
     "items": [
       [ "colt6250", 100 ],
-      [ "22_pistol", 100 ],
+      { "item": "sw_22", "contents-item": [ "suppressor_compact" ], "prob": 100 },
       [ "mauser_9mm", 75 ],
       [ "357_magnum_revolver", 75 ],
       [ "deagle_44", 50 ],
       [ "thatgun", 25 ],
-      [ "14mmpistol", 1 ]
+      [ "127mmpistol", 1 ]
     ]
   },
   {
@@ -139,7 +135,7 @@
     "items": [
       [ "deagle_44", 100 ],
       [ "thatgun", 75 ],
-      [ "14mmpistol", 50 ],
+      [ "127mmpistol", 50 ],
       [ "revolver_ranger", 50 ],
       [ "357_magnum_revolver_lucky", 1 ],
       [ "colt6250_weathered", 1 ]
@@ -150,7 +146,7 @@
     "id": "guns_shotgun_fallout_common",
     "//": "Shotguns commonly owned by citizens and found in many locations.",
     "items": [
-      [ "widowmaker", 75 ],
+      [ "shotgun_d", 75 ],
       [ "20ga_singleshot", 100 ],
       [ "caravan_shotgun", 75 ],
       [ "caravan_shotgun_sturdy", 50 ],
@@ -203,7 +199,12 @@
     "type": "item_group",
     "id": "guns_smg_fallout_common",
     "//": "Lower caliber SMGs.",
-    "items": [ [ "10mmsmg", 100 ], [ "greasegun", 100 ], [ "tommygun", 50 ], [ "22_smg", 50 ] ]
+    "items": [
+      [ "10mmsmg", 100 ],
+      [ "greasegun", 100 ],
+      [ "tommygun", 50 ],
+      { "item": "american_180", "contents-item": [ "suppressor_compact" ], "prob": 50 }
+    ]
   },
   {
     "type": "item_group",
@@ -211,9 +212,8 @@
     "//": "Higher caliber SMGs.",
     "items": [
       [ "tommygun", 100 ],
-      [ "14mmsmg", 50 ],
-      [ "22_smg", 100 ],
-      [ "fn_p90", 50 ],
+      [ "127mmsmg", 50 ],
+      { "item": "american_180", "contents-item": [ "suppressor_compact" ], "prob": 100 },
       [ "laser_rcw", 50 ],
       [ "tommygun_silver", 5 ]
     ]
@@ -222,12 +222,7 @@
     "type": "item_group",
     "id": "melee_fallout_common",
     "//": "melee weapons commonly owned by citizens and found in many locations.",
-    "items": [
-      [ "spear_knife", 50 ],
-      [ "vault_knife", 100 ],
-      [ "spear_knife_superior", 50 ],
-      [ "gloves_boxing_plated", 30 ]
-    ]
+    "items": [ [ "spear_knife", 50 ], [ "vault_knife", 100 ], [ "spear_knife_superior", 50 ], [ "gloves_boxing_plated", 30 ] ]
   },
   {
     "type": "item_group",
@@ -315,7 +310,7 @@
     "type": "item_group",
     "id": "mags_pistol_fallout_common",
     "//": "Common pistol mags.",
-    "items": [ [ "colt6250mag", 100 ], [ "deaglemag", 50 ], [ "14mmpistolmag", 10 ] ]
+    "items": [ [ "colt6250mag", 100 ], [ "deaglemag", 50 ], [ "127mmpistolmag", 10 ] ]
   },
   {
     "type": "item_group",
@@ -323,7 +318,7 @@
     "//": "Big gun mags.",
     "items": [
       [ "5mmminigunmag", 100 ],
-      [ "47mmminigunmag", 50 ],
+      [ "8x40_500_mag", 50 ],
       [ "25mmdrummag", 25 ],
       [ "10mmgatlingmag", 25 ],
       [ "10mmgatlingmagxl", 25 ],
@@ -334,13 +329,13 @@
     "type": "item_group",
     "id": "mags_pistol_fallout_rare",
     "//": "Rare and exotic pistol mags.",
-    "items": [ [ "deaglemag", 100 ], [ "14mmpistolmag", 50 ] ]
+    "items": [ [ "deaglemag", 100 ], [ "127mmpistolmag", 50 ] ]
   },
   {
     "type": "item_group",
     "id": "mags_smg_fallout_common",
     "//": "Common smg mags.",
-    "items": [ [ "10mmsmgmag", 100 ], [ "thompson_bigmag", 50 ], [ "fnp90mag", 50 ], [ "14mmsmgmag", 50 ], [ "thompson_drum", 25 ] ]
+    "items": [ [ "10mmsmgmag", 100 ], [ "thompson_bigmag", 50 ], [ "fnp90mag", 50 ], [ "127mmsmgmag", 50 ], [ "thompson_drum", 25 ] ]
   },
   {
     "type": "item_group",

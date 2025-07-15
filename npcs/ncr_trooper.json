@@ -66,7 +66,7 @@
     "id": "NC_NCRTROOP_weapon",
     "subtype": "distribution",
     "entries": [
-      { "item": "fo_ncr_service_rifle", "charges": 30, "prob": 80 },
+      { "item": "m16a4", "charges": 30, "prob": 80 },
       { "item": "carbine_assault", "charges": 30, "prob": 10 },
       { "item": "colt6250", "charges": 30, "prob": 10 },
       { "item": "10mmsmg", "charges": 30, "prob": 10 },

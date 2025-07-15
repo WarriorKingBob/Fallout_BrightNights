@@ -34,22 +34,6 @@
     "flags": [ "MAG_BULKY" ]
   },
   {
-    "id": "47mmminigunmag",
-    "type": "MAGAZINE",
-    "name": { "str": "500 round 4.7mm box" },
-    "description": "A 500 round 4.7mm box. For when you really, REALLY don't want to stop shooting. Load today and shoot 'til sunday!",
-    "weight": "2360 g",
-    "volume": "2 L",
-    "price": "80 USD",
-    "material": [ "steel" ],
-    "symbol": "#",
-    "color": "light_gray",
-    "ammo_type": [ "47mm" ],
-    "capacity": 500,
-    "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
-  },
-  {
     "id": "amr50mag",
     "type": "MAGAZINE",
     "name": { "str": "AMR-50 magazine" },
@@ -65,6 +49,22 @@
     "capacity": 8,
     "reliability": 9,
     "reload_time": 130,
+    "flags": [ "MAG_BULKY" ]
+  },
+  {
+    "id": "m199mag",
+    "type": "MAGAZINE",
+    "name": { "str": "M199 magazine" },
+    "description": "A large 15-round magazine for the M199.",
+    "weight": "400 g",
+    "volume": "700 ml",
+    "price": "50 USD",
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "50" ],
+    "capacity": 15,
+    "reliability": 9,
     "flags": [ "MAG_BULKY" ]
   }
 ]

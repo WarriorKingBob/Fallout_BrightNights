@@ -199,7 +199,7 @@
     },
     "end": {
       "effect": [
-        { "u_buy_item": "varmint_rifle", "count": 1 },
+        { "u_buy_item": "colt_rangemaster", "count": 1 },
         { "u_buy_item": "survivor223mag", "count": 2 },
         { "u_buy_item": "223", "count": 30 } ],
       "update_mapgen": [

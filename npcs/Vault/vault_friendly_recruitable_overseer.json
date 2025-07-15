@@ -124,7 +124,7 @@
         { "u_buy_item": "colt6250mag", "count": 2 },
         { "u_buy_item": "5mm", "count": 250 },
         { "u_buy_item": "10mmap", "count": 20 },
-        { "u_buy_item": "10mm_incendiary", "count": 20 },
+        { "u_buy_item": "10mm_inc", "count": 20 },
         { "u_buy_item": "10mm_fmj", "count": 135 } ]
     },
     "origins": [ "ORIGIN_SECONDARY" ],

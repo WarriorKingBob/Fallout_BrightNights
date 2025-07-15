@@ -1,26 +1,5 @@
 [
   {
-    "id": "47mm_caseless",
-    "type": "AMMO",
-    "name": { "str": "4.7mm caseless" },
-    "//": "Cased ammo tends to be roughly $1/shot, more or less.  Rivtech ammo, being New and Proprietary and Expensive, $2-2.50 or so.",
-    "description": "4.7mm Caseless rounds. High-end ammunition, popular in heavier guns.",
-    "weight": "12 g",
-    "volume": "250 ml",
-    "price": "125 USD",
-    "material": [ "plastic", "powder" ],
-    "symbol": "=",
-    "color": "pink",
-    "count": 40,
-    "stack_size": 40,
-    "ammo_type": "47mm",
-    "range": 42,
-    "damage": { "damage_type": "bullet", "amount": 84, "armor_penetration": 18 },
-    "dispersion": 75,
-    "recoil": 2200,
-    "effects": [ "NEVER_MISFIRES" ]
-  },
-  {
     "abstract": "25mm_grenade",
     "type": "AMMO",
     "name": { "str": "25mm grenade" },
@@ -41,90 +20,67 @@
     "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
   },
   {
-    "id": "25mm_beanbag",
+    "id": "25mm_grenade_he",
     "copy-from": "25mm_grenade",
     "type": "AMMO",
-    "name": { "str": "25mm beanbag" },
-    "description": "A 25mm beanbag that deals massive, but less-lethal, force.",
-    "extend": { "effects": [ "LARGE_BEANBAG" ] }
-  },
-  {
-    "id": "25mm_concussive",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm concussive" },
-    "description": "A 25mm grenade with a concussive explosion load.",
-    "extend": { "effects": [ "EXPLOSIVE" ] }
-  },
-  {
-    "id": "25mm_flare",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm flare" },
-    "description": "A 25mm signal flare.  It will burn brightly for up to a minute, and will also leave a streak of smoke cover in its wake.",
-    "drop": "handflare_lit",
-    "extend": { "effects": [ "TRAIL", "NO_EMBED" ] }
-  },
-  {
-    "id": "25mm_flashbang",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm flashbang" },
-    "description": "A 25mm grenade with a flashbang load.  It will detonate with a blast of light and sound, designed to blind, deafen, and disorient anyone nearby.",
-    "extend": { "effects": [ "FLASHBANG" ] }
-  },
-  {
-    "id": "25mm_flechette",
-    "copy-from": "25mm_shot",
-    "type": "AMMO",
-    "name": { "str": "25mm flechette" },
-    "description": "A 25mm grenade with an armor-piercing flechette load.",
-    "relative": { "damage": { "damage_type": "bullet", "amount": -10, "armor_penetration": 30 } }
-  },
-  {
-    "id": "25mm_frag",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm frag" },
-    "description": "A 25mm grenade with a small explosive load and a high number of damaging fragments.",
-    "extend": { "effects": [ "FRAG" ] }
-  },
-  {
-    "id": "25mm_incendiary",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm incendiary", "str_pl": "25mm incendiaries" },
-    "description": "A 25mm grenade with a small napalm load, designed to create a burst of flame.",
-    "extend": { "effects": [ "NAPALM" ] }
+    "name": { "str": "25x59mm HE" },
+    "description": "A high velocity 25x59mm HE grenade.  Designed for the Mark 25 Automatic Grenade Launcher and saw heavy use in the later parts of the Sino-American war from Anchorage to the Gobi Desert.",
+    "weight": "160 g",
+    "volume": "160 ml",
+    "explosion": { "fragment": { "impact": { "damage_type": "bullet", "amount": 40, "armor_multiplier": 2 }, "range": 3 } },
+    "effects": [ "COOKOFF", "NEVER_MISFIRES", "CUSTOM_EXPLOSION" ]
   },
   {
     "id": "25mm_shot",
     "copy-from": "25mm_grenade",
     "type": "AMMO",
-    "name": { "str": "25mm buckshot" },
-    "description": "A 25mm grenade with a buckshot load.",
+    "name": { "str": "25x59mm buckshot" },
+    "description": "A high velocity 25x59mm grenade with a buckshot load.",
     "range": 12,
-    "damage": { "damage_type": "bullet", "amount": 70 },
+    "damage": { "damage_type": "bullet", "amount": 70, "armor_multiplier": 2 },
     "recoil": 525,
     "extend": { "effects": [ "SHOT" ] }
   },
   {
-    "id": "25mm_smoke",
+    "id": "25mm_flechette",
+    "copy-from": "25mm_shot",
+    "type": "AMMO",
+    "name": { "str": "25x59mm flechette" },
+    "description": "A high velocity 25x59mm grenade with an armor-piercing flechette load.",
+    "relative": { "damage": { "damage_type": "bullet", "amount": -10, "armor_penetration": 50 } }
+  },
+  {
+    "id": "25mm_concussive",
     "copy-from": "25mm_grenade",
     "type": "AMMO",
-    "name": { "str": "25mm smoke cover" },
-    "description": "A 25mm grenade designed to provide smoke cover.",
-    "drop": "smokebomb_act",
-    "extend": { "effects": [ "TRAIL", "NO_EMBED" ] }
+    "name": { "str": "25x59mm concussive" },
+    "description": "A high velocity 25x59mm grenade with a concussive explosion load.",
+    "extend": { "effects": [ "EXPLOSIVE" ] }
+  },
+  {
+    "id": "25mm_incendiary",
+    "copy-from": "25mm_grenade",
+    "type": "AMMO",
+    "name": { "str": "25x59mm incendiary", "str_pl": "25mm incendiaries" },
+    "description": "A high velocity 25x59mm grenade with a small napalm load, designed to create a burst of flame.",
+    "extend": { "effects": [ "NAPALM" ] }
   },
   {
     "id": "25mm_teargas",
     "copy-from": "25mm_grenade",
     "type": "AMMO",
-    "name": { "str": "25mm teargas", "str_pl": "25mm teargas grenades" },
-    "description": "A 25mm grenade with a teargas load.  It will burst in a cloud of highly incapacitating gas.",
+    "name": { "str": "25x59mm teargas", "str_pl": "25mm teargas grenades" },
+    "description": "A high velocity 25x59mm grenade with a teargas load.  It will burst in a cloud of highly incapacitating gas.",
     "drop": "gasbomb_act",
     "extend": { "effects": [ "NO_EMBED" ] }
+  },
+  {
+    "id": "25mm_beanbag",
+    "copy-from": "25mm_grenade",
+    "type": "AMMO",
+    "name": { "str": "25x59mm stun" },
+    "description": "A high velocity less-lethal 25x59mm stun grenade with a foam and plastic projectile intended to cause pain and disorientation to the target.  May still injure or kill.",
+    "extend": { "effects": [ "LARGE_BEANBAG" ] }
   },
   {
     "type": "AMMO",
@@ -173,175 +129,6 @@
       "fragment": { "impact": { "damage_type": "bullet", "amount": 16000, "armor_multiplier": 3 }, "range": 15 }
     },
     "effects": [ "COOKOFF", "CUSTOM_EXPLOSION", "EXPLOSIVE", "TRAIL" ]
-  },
-  {
-    "id": "fo_2mmec_round",
-    "type": "AMMO",
-    "name": { "str": "2mm Electromagnetic Cartridge" },
-    "description": "An advanced ferromagnetic sabot used in a series of electrmagnetic small arms on the eve of the cataclysm. These cartridges saw relatively limited production before the alien invasion, and thus are rare and valued commodities.",
-    "weight": "10 g",
-    "volume": "25 ml",
-    "price": "15 USD",
-    "price_postapoc": "4 USD",
-    "material": [ "steel" ],
-    "symbol": "=",
-    "color": "dark_gray",
-    "count": 10,
-    "ammo_type": "fo_2mmec",
-    "range": 40,
-    "damage": { "damage_type": "bullet", "amount": 55, "armor_penetration": 35 },
-    "dispersion": 30,
-    "stack_size": 20,
-    "effects": [ "NON_FOULING" ]
-  },
-  {
-    "id": "fo_2mmec_round_makeshift",
-    "copy-from": "fo_2mmec_round",
-    "type": "AMMO",
-    "name": { "str": "Makeshift 2mm Electromagnetic Cartridge" },
-    "description": "Homemade makeshift version of the 2mm Electromagnetic Cartridge, resuling in lower armor penetration and higher dispersion.",
-    "weight": "12 g",
-    "volume": "25 ml",
-    "price": "15 USD",
-    "price_postapoc": "3 USD",
-    "material": [ "steel" ],
-    "color": "light_gray",
-    "range": 30,
-    "dispersion": 250,
-    "stack_size": 25,
-    "damage": { "damage_type": "bullet", "amount": 35, "armor_penetration": 20 }
-  },
-  {
-    "id": "25mm_grenade_he",
-    "type": "AMMO",
-    "name": { "str": "25mm HE grenade" },
-    "description": "A low velocity 25x59mm HE grenade.  Designed for use with rapid fire squad-level grenade launchers and saw heavy use in the later parts of the Sino-American war from Anchorage to the Gobi Desert.",
-    "weight": "160 g",
-    "volume": "160 ml",
-    "price": "400 USD",
-    "material": [ "steel", "powder" ],
-    "symbol": "=",
-    "color": "yellow",
-    "count": 40,
-    "stack_size": 10,
-    "ammo_type": "fo_25mm",
-    "casing": "25mm_casing",
-    "range": 25,
-    "damage": { "damage_type": "bullet", "amount": 5 },
-    "dispersion": 30,
-    "recoil": 225,
-    "explosion": {
-      "damage": 70,
-      "radius": 1,
-      "fragment": { "impact": { "damage_type": "bullet", "amount": 40, "armor_multiplier": 3 }, "range": 3 }
-    },
-    "effects": [ "COOKOFF", "NEVER_MISFIRES", "CUSTOM_EXPLOSION" ]
-  },
-  {
-    "abstract": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm grenade" },
-    "weight": "230 g",
-    "volume": "250 ml",
-    "price": "400 USD",
-    "material": [ "steel", "powder" ],
-    "symbol": "=",
-    "color": "yellow",
-    "count": 40,
-    "stack_size": 10,
-    "ammo_type": "fo_25mm",
-    "casing": "25mm_casing",
-    "range": 40,
-    "damage": { "damage_type": "bullet", "amount": 5 },
-    "dispersion": 30,
-    "recoil": 225,
-    "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
-  },
-  {
-    "id": "25mm_beanbag",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm beanbag" },
-    "description": "A 25mm beanbag that deals massive, but less-lethal, force.",
-    "extend": { "effects": [ "LARGE_BEANBAG" ] }
-  },
-  {
-    "id": "25mm_concussive",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm concussive" },
-    "description": "A 25mm grenade with a concussive explosion load.",
-    "extend": { "effects": [ "EXPLOSIVE" ] }
-  },
-  {
-    "id": "25mm_flare",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm flare" },
-    "description": "A 25mm signal flare.  It will burn brightly for up to a minute, and will also leave a streak of smoke cover in its wake.",
-    "drop": "handflare_lit",
-    "extend": { "effects": [ "TRAIL", "NO_EMBED" ] }
-  },
-  {
-    "id": "25mm_flashbang",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm flashbang" },
-    "description": "A 25mm grenade with a flashbang load.  It will detonate with a blast of light and sound, designed to blind, deafen, and disorient anyone nearby.",
-    "extend": { "effects": [ "FLASHBANG" ] }
-  },
-  {
-    "id": "25mm_flechette",
-    "copy-from": "25mm_shot",
-    "type": "AMMO",
-    "name": { "str": "25mm flechette" },
-    "description": "A 25mm grenade with an armor-piercing flechette load.",
-    "relative": { "damage": { "damage_type": "bullet", "amount": -10, "armor_penetration": 30 } }
-  },
-  {
-    "id": "25mm_frag",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm frag" },
-    "description": "A 25mm grenade with a small explosive load and a high number of damaging fragments.",
-    "extend": { "effects": [ "FRAG" ] }
-  },
-  {
-    "id": "25mm_incendiary",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm incendiary", "str_pl": "25mm incendiaries" },
-    "description": "A 25mm grenade with a small napalm load, designed to create a burst of flame.",
-    "extend": { "effects": [ "NAPALM" ] }
-  },
-  {
-    "id": "25mm_shot",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm buckshot" },
-    "description": "A 25mm grenade with a buckshot load.",
-    "range": 12,
-    "damage": { "damage_type": "bullet", "amount": 70 },
-    "recoil": 525,
-    "extend": { "effects": [ "SHOT" ] }
-  },
-  {
-    "id": "25mm_smoke",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm smoke cover" },
-    "description": "A 25mm grenade designed to provide smoke cover.",
-    "drop": "smokebomb_act",
-    "extend": { "effects": [ "TRAIL", "NO_EMBED" ] }
-  },
-  {
-    "id": "25mm_teargas",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25mm teargas", "str_pl": "25mm teargas grenades" },
-    "description": "A 25mm grenade with a teargas load.  It will burst in a cloud of highly incapacitating gas.",
-    "drop": "gasbomb_act",
-    "extend": { "effects": [ "NO_EMBED" ] }
   },
   {
     "type": "AMMO",

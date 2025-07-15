@@ -69,7 +69,6 @@
     "entries": [
       { "item": "colt_rangemaster", "charges": 15 },
       { "item": "colt6250", "charges": 12 },
-      { "item": "varmint_rifle", "charges": 10 },
       { "item": "ak112", "charges": 30 }
     ]
   },

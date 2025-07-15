@@ -266,10 +266,10 @@
     "subtype": "distribution",
     "entries": [
       { "item": "colt_rangemaster", "ammo-item": "223", "charges": 15, "prob": 15 },
-      { "item": "r91", "ammo-item": "223", "charges": 10, "prob": 15 },
-      { "item": "carbine_marksman", "ammo-item": "223", "charges": 10, "prob": 10 },
+      { "item": "m4a1", "ammo-item": "223", "charges": 10, "prob": 15 },
+      { "item": "m4a1", "contents-item": [ "acog_scope" ], "ammo-item": "223", "charges": 10, "prob": 10 },
       { "item": "type93", "ammo-item": "223", "charges": 10, "prob": 5 },
-      { "item": "dks501", "ammo-item": "223", "charges": 10, "prob": 15 },
+      { "item": "dks501", "ammo-item": "308", "charges": 10, "prob": 15 },
       { "item": "grenademg", "charges": 30, "prob": 5 },
       { "item": "thatgun", "ammo-item": "223", "charges": 5, "prob": 15 },
       { "item": "colt6250", "charges": 12, "prob": 30 },
