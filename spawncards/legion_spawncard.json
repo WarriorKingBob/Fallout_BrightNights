@@ -56,8 +56,9 @@
     "use_action": {
       "type": "place_npc",
       "npc_class_id": "fo_legionary_spawn",
-      "summon_msg": "A soldier of Caesar's Legion appears, as if from nowhere. He is eager to serve!",
+      "summon_msg": "A legionary of Caesar's Legion appears, as if from nowhere. He is eager to serve!",
       "place_randomly": false
-    }
+    },
+    "flags": [ "DESTROY_ON_DECHARGE" ]
   }
 ]

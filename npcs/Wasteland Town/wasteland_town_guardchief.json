@@ -285,9 +285,7 @@
       "effect": [
         { "u_buy_item": "ak112", "count": 1 },
         { "u_buy_item": "5mmmag", "count": 3 },
-        { "u_buy_item": "5mm", "count": 100 },
-        { "u_buy_item": "5mm_bulk", "count": 200 }
-
+        { "u_buy_item": "5mm", "count": 200 }
       ]
     }
   },

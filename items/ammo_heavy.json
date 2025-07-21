@@ -28,7 +28,7 @@
     "weight": "160 g",
     "volume": "160 ml",
     "explosion": { "fragment": { "impact": { "damage_type": "bullet", "amount": 40, "armor_multiplier": 2 }, "range": 3 } },
-    "effects": [ "COOKOFF", "NEVER_MISFIRES", "CUSTOM_EXPLOSION" ]
+    "extend": { "effects": [ "CUSTOM_EXPLOSION" ] }
   },
   {
     "id": "25mm_shot",
@@ -47,29 +47,22 @@
     "type": "AMMO",
     "name": { "str": "25x59mm flechette" },
     "description": "A high velocity 25x59mm grenade with an armor-piercing flechette load.",
+    "range": 20,
     "relative": { "damage": { "damage_type": "bullet", "amount": -10, "armor_penetration": 50 } }
-  },
-  {
-    "id": "25mm_concussive",
-    "copy-from": "25mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "25x59mm concussive" },
-    "description": "A high velocity 25x59mm grenade with a concussive explosion load.",
-    "extend": { "effects": [ "EXPLOSIVE" ] }
   },
   {
     "id": "25mm_incendiary",
     "copy-from": "25mm_grenade",
     "type": "AMMO",
-    "name": { "str": "25x59mm incendiary", "str_pl": "25mm incendiaries" },
-    "description": "A high velocity 25x59mm grenade with a small napalm load, designed to create a burst of flame.",
+    "name": { "str": "25x59mm incendiary", "str_pl": "25x59mm incendiaries" },
+    "description": "A high velocity 25x59mm grenade with a napalm load, designed to create an area of fire on impact.",
     "extend": { "effects": [ "NAPALM" ] }
   },
   {
     "id": "25mm_teargas",
     "copy-from": "25mm_grenade",
     "type": "AMMO",
-    "name": { "str": "25x59mm teargas", "str_pl": "25mm teargas grenades" },
+    "name": { "str": "25x59mm teargas", "str_pl": "25x59mm teargas grenades" },
     "description": "A high velocity 25x59mm grenade with a teargas load.  It will burst in a cloud of highly incapacitating gas.",
     "drop": "gasbomb_act",
     "extend": { "effects": [ "NO_EMBED" ] }
@@ -217,27 +210,6 @@
     "count": 1,
     "effects": [ "NEVER_MISFIRES", "NON_FOULING", "SHOT" ],
     "dont_recover_one_in": 2
-  },
-  {
-    "type": "AMMO",
-    "id": "rockitscrap_molotov",
-    "price": "1 USD",
-    "price_postapoc": "1 USD",
-    "name": { "str": "rock-it molotov ammo" },
-    "looks_like": "molotov",
-    "symbol": "=",
-    "color": "light_gray",
-    "description": "A handful of glass shards shaped for use in the rock-it launcher.",
-    "material": [ "glass" ],
-    "volume": "960 ml",
-    "weight": "1000 g",
-    "ammo_type": "fo_rockitscrap",
-    "damage": { "damage_type": "stab", "amount": 3 },
-    "range": 10,
-    "dispersion": 65,
-    "loudness": 1,
-    "count": 1,
-    "effects": [ "NEVER_MISFIRES", "NON_FOULING", "FLAME" ]
   },
   {
     "type": "AMMO",

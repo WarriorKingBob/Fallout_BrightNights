@@ -4,8 +4,8 @@
     "id": "ammo_pistol_fallout_common",
     "//": "Pistol ammo commonly owned by citizens and found in many locations.",
     "items": [
-      [ "10mm_inc", 100 ],
-      [ "10mmap", 100 ],
+      [ "10mm_fmj", 100 ],
+      [ "10mmP", 100 ],
       [ "10mmjhp", 100 ],
       [ "38_special", 100 ],
       [ "9mm", 100 ],
@@ -17,7 +17,6 @@
       [ "127mm", 20 ],
       [ "357mag_fmj", 20 ],
       [ "357mag_jhp", 10 ],
-      [ "fo_357mag_ap", 10 ],
       [ "4570_sp", 5 ]
     ]
   },
@@ -28,8 +27,7 @@
     "items": [
       [ "8mm_hvp", 100 ],
       [ "bbrocket", 100 ],
-      [ "25mm_grenade_he", 50 ],
-      [ "25mm_concussive", 100 ],
+      [ "25mm_grenade_he", 75 ],
       [ "25mm_beanbag", 100 ],
       [ "25mm_flechette", 10 ],
       [ "25mm_incendiary", 15 ],
@@ -58,9 +56,6 @@
       [ "shot_bird", 75 ],
       [ "shot_flechette", 10 ],
       [ "20ga_shot", 75 ],
-      [ "20ga_flechette", 25 ],
-      [ "20ga_slug", 50 ],
-      [ "20ga_bird", 100 ],
       [ "shot_he", 10 ]
     ]
   },
@@ -72,9 +67,7 @@
       [ "bb", 100 ],
       [ "223", 100 ],
       [ "556", 75 ],
-      [ "5mm_bulk", 75 ],
-      [ "5mm", 50 ],
-      [ "5mmjhp", 25 ],
+      [ "5mm", 75 ],
       [ "5mmap", 25 ],
       [ "5mmincendiary", 5 ],
       [ "4570_sp", 50 ]

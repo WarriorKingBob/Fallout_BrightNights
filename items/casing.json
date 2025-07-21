@@ -21,7 +21,7 @@
     "id": "127mm_casing",
     "copy-from": "casing",
     "type": "GENERIC",
-    "name": { "str": "127mm casing" },
+    "name": { "str": "12.7mm casing" },
     "description": "An empty casing from a 12.7mm round.",
     "weight": "4 g",
     "volume": "6 ml"

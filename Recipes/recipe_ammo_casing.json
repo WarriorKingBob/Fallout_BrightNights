@@ -1,0 +1,54 @@
+[
+  {
+    "result": "127mm_casing",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_COMPONENTS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "5 m",
+    "book_learn": [ [ "gunrunnerbook", 3 ] ],
+    "tools": [
+      [ [ "hydraulic_press", 10 ] ],
+      [ [ "forging_standard", 1, "LIST" ] ],
+      [ [ "swage", -1 ], [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ]
+    ],
+    "charges": 1,
+    "components": [ [ [ "cartridgebrass", 7 ] ] ]
+  },
+  {
+    "result": "5mm_casing",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_COMPONENTS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "5 m",
+    "book_learn": [ [ "gunrunnerbook", 4 ] ],
+    "tools": [
+      [ [ "hydraulic_press", 10 ] ],
+      [ [ "forging_standard", 1, "LIST" ] ],
+      [ [ "swage", -1 ], [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ]
+    ],
+    "charges": 1,
+    "components": [ [ [ "cartridgebrass", 5 ] ] ]
+  },
+  {
+    "result": "20ga_hull",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_COMPONENTS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "5 m",
+    "book_learn": [ [ "gunrunnerbook", 2 ] ],
+    "tools": [
+      [ [ "hydraulic_press", 10 ] ],
+      [ [ "forging_standard", 1, "LIST" ] ],
+      [ [ "swage", -1 ], [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
+      [ [ "mold_plastic", -1 ] ]
+    ],
+    "charges": 1,
+    "components": [ [ [ "cartridgebrass", 2 ] ], [ [ "plastic_scrap", 2 ] ] ]
+  }
+]

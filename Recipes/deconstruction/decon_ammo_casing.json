@@ -1,0 +1,29 @@
+[
+  {
+    "result": "127mm_casing",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "time": "10 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "cartridgebrass", 7 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "10mm_casing",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "time": "10 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "cartridgebrass", 5 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "20ga_hull",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "time": "10 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "cartridgebrass", 2 ] ], [ [ "plastic_scrap", 2 ] ] ],
+    "charges": 1
+  }
+]

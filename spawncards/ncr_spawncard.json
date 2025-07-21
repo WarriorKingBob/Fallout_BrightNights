@@ -55,8 +55,9 @@
     "use_action": {
       "type": "place_npc",
       "npc_class_id": "fo_ncr_trooper_spawn",
-      "summon_msg": "A soldier of the New California Repulbic appears, as if from nowhere. They are curious about your orders!",
+      "summon_msg": "A soldier of the New California Republic appears, as if from nowhere. They are curious about your orders!",
       "place_randomly": false
-    }
+    },
+    "flags": [ "DESTROY_ON_DECHARGE" ]
   }
 ]

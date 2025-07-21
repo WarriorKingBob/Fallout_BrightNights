@@ -316,8 +316,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "10mm_fmj", "prob": 80 },
-      { "item": "10mm_inc", "prob": 15 },
-      { "item": "10mmap", "prob": 20 },
+      { "item": "10mmP", "prob": 20 },
       { "item": "10mmjhp", "prob": 25 }
     ]
   },
@@ -339,10 +338,8 @@
     "id": "fallout_5mm_ammogroup",
     "subtype": "distribution",
     "entries": [
-      { "item": "5mm", "prob": 80 },
-      { "item": "5mm_bulk", "prob": 15 },
-      { "item": "5mmjhp", "prob": 25 },
-      { "item": "5mmap", "prob": 20 },
+      { "item": "5mm", "prob": 90 },
+      { "item": "5mmap", "prob": 25 },
       { "item": "5mmincendiary", "prob": 15 }
     ]
   },
@@ -865,16 +862,16 @@
       {
         "collection": [
           { "item": "cz53minigun" },
-          { "item": "5mmminigunmag", "charges": [ 300, 500 ], "count": [ 1, 2 ], "ammo-item": "5mm_bulk" },
-          { "item": "5mm_bulk", "charges": [ 300, 450 ] }
+          { "item": "5mmminigunmag", "charges": [ 300, 500 ], "count": [ 1, 2 ], "ammo-item": "5mm" },
+          { "item": "5mm", "charges": [ 300, 450 ] }
         ],
         "prob": 100
       },
       {
         "collection": [
           { "item": "avenger" },
-          { "item": "5mmminigunmag", "charges": [ 300, 500 ], "count": [ 1, 2 ], "ammo-item": "5mm_bulk" },
-          { "item": "5mm_bulk", "charges": [ 300, 450 ] }
+          { "item": "5mmminigunmag", "charges": [ 300, 500 ], "count": [ 1, 2 ], "ammo-item": "5mm" },
+          { "item": "5mm", "charges": [ 300, 450 ] }
         ],
         "prob": 100
       },

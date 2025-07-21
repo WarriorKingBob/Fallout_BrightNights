@@ -1,0 +1,136 @@
+[
+  {
+    "result": "25mm_grenade_he",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "launcher", 2 ],
+    "time": "5 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "PULL", "level": 1 } ],
+    "tools": [ [ [ "swage", -1 ] ] ],
+    "components": [
+      [ [ "impact_fuze", 1 ] ],
+      [ [ "smpistol_primer", 1 ] ],
+      [ [ "25mm_casing", 1 ] ],
+      [ [ "gunpowder", 20 ] ],
+      [ [ "chem_compositionb", 20 ] ]
+    ],
+    "charges": 1
+  },
+  {
+    "result": "25mm_shot",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "launcher", 2 ],
+    "time": "5 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "PULL", "level": 1 } ],
+    "tools": [ [ [ "swage", -1 ] ] ],
+    "components": [
+      [ [ "lead", 8 ] ],
+      [ [ "sheet_metal_small", 1 ] ],
+      [ [ "paper", 1 ] ],
+      [ [ "smpistol_primer", 1 ] ],
+      [ [ "25mm_casing", 1 ] ],
+      [ [ "gunpowder", 20 ] ]
+    ],
+    "charges": 1
+  },
+  {
+    "result": "25mm_flechette",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "launcher", 2 ],
+    "time": "5 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "PULL", "level": 1 } ],
+    "tools": [ [ [ "swage", -1 ] ] ],
+    "components": [
+      [ [ "combatnail", 60 ] ],
+      [ [ "sheet_metal_small", 1 ] ],
+      [ [ "paper", 1 ] ],
+      [ [ "smpistol_primer", 1 ] ],
+      [ [ "25mm_casing", 1 ] ],
+      [ [ "gunpowder", 20 ] ]
+    ],
+    "charges": 1
+  },
+  {
+    "result": "25mm_beanbag",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "launcher", 2 ],
+    "time": "5 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "PULL", "level": 1 } ],
+    "tools": [ [ [ "swage", -1 ] ] ],
+    "components": [ [ [ "smpistol_primer", 1 ] ], [ [ "gunpowder", 20 ] ], [ [ "25mm_casing", 1 ] ], [ [ "rubber_slug", 1 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "25mm_teargas",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "launcher", 2 ],
+    "time": "5 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "PULL", "level": 1 } ],
+    "tools": [ [ [ "swage", -1 ] ] ],
+    "components": [ [ [ "smpistol_primer", 1 ] ], [ [ "gunpowder", 20 ] ], [ [ "25mm_casing", 1 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "25mm_incendiary",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "launcher", 2 ],
+    "time": "5 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "PULL", "level": 1 } ],
+    "tools": [ [ [ "swage", -1 ] ] ],
+    "components": [
+      [ [ "smpistol_primer", 1 ] ],
+      [ [ "gunpowder", 20 ] ],
+      [ [ "25mm_casing", 1 ] ],
+      [ [ "impact_fuze", 1 ] ],
+      [ [ "incendiary", 150 ] ]
+    ],
+    "charges": 1
+  },
+  {
+    "result": "rockitscrap_metal",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "10 s",
+    "components": [ [ [ "scrap", 1 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rockitscrap_wood",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "10 s",
+    "components": [ [ [ "splinter", 1 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rockitscrap_plastic",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "10 s",
+    "components": [ [ [ "plastic_chunk", 1 ] ] ],
+    "charges": 1
+  },
+  {
+    "result": "rockitscrap_glass",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "10 s",
+    "components": [ [ [ "glass_shard", 1 ] ] ],
+    "charges": 1
+  }
+]

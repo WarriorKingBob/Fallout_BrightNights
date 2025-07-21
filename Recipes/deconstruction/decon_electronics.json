@@ -1,0 +1,35 @@
+[
+  {
+    "result": "television_radiation_king",
+    "type": "uncraft",
+    "skill_used": "electronics",
+    "time": "1 h",
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "glass_shard", 10 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 2 ] ],
+      [ [ "cable", 8 ] ],
+      [ [ "amplifier", 4 ] ],
+      [ [ "scrap", 5 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "splinter", 8 ] ]
+    ]
+  },
+  {
+    "result": "radiation_king_atomic",
+    "type": "uncraft",
+    "skill_used": "electronics",
+    "time": "45 m",
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "processor", 1 ] ],
+      [ [ "e_scrap", 5 ] ],
+      [ [ "cable", 8 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "scrap", 3 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "splinter", 4 ] ]
+    ]
+  }
+]
