@@ -23,7 +23,7 @@
       "moves": 0
     },
     "color": "blue",
-    "flags": [ "NPC_SAFE", "INEDIBLE" ]
+    "flags": [ "NPC_SAFE", "INEDIBLE", "DESTROY_ON_DECHARGE" ]
   },
   {
     "id": "Fallout_Expansion_irradiated_vault_mission_hologram",
@@ -49,7 +49,7 @@
       "moves": 0
     },
     "color": "blue",
-    "flags": [ "NPC_SAFE", "INEDIBLE" ]
+    "flags": [ "NPC_SAFE", "INEDIBLE", "DESTROY_ON_DECHARGE" ]
   },
   {
     "id": "Fallout_Expansion_nuka_plant_mission_hologram",
@@ -75,7 +75,7 @@
       "moves": 0
     },
     "color": "blue",
-    "flags": [ "NPC_SAFE", "INEDIBLE" ]
+    "flags": [ "NPC_SAFE", "INEDIBLE", "DESTROY_ON_DECHARGE" ]
   },
   {
     "id": "Fallout_Expansion_research_facility_mission_hologram",
@@ -101,6 +101,6 @@
       "moves": 0
     },
     "color": "blue",
-    "flags": [ "NPC_SAFE", "INEDIBLE" ]
+    "flags": [ "NPC_SAFE", "INEDIBLE", "DESTROY_ON_DECHARGE" ]
   }
 ]
