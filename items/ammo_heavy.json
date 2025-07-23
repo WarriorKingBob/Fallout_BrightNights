@@ -210,29 +210,5 @@
     "count": 1,
     "effects": [ "NEVER_MISFIRES", "NON_FOULING", "SHOT" ],
     "dont_recover_one_in": 2
-  },
-  {
-    "type": "AMMO",
-    "id": "fo_sentry_bbrocket",
-    "price": "0 cent",
-    "name": { "str": "Explosive Rocket" },
-    "symbol": "=",
-    "color": "dark_gray",
-    "description": "A rocket with a large explosive warhead",
-    "material": [ "steel", "powder" ],
-    "volume": "250 ml",
-    "weight": "1803 g",
-    "ammo_type": "fo_sentryrocket",
-    "damage": { "damage_type": "bullet", "amount": 1 },
-    "range": 20,
-    "count": 1,
-    "dispersion": 30,
-    "recoil": 225,
-    "explosion": {
-      "damage": 85,
-      "radius": 2,
-      "fragment": { "impact": { "damage_type": "bullet", "amount": 55, "armor_multiplier": 3 }, "range": 4 }
-    },
-    "effects": [ "COOKOFF", "CUSTOM_EXPLOSION", "TRAIL" ]
   }
 ]
