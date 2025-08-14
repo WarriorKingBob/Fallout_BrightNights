@@ -51,13 +51,7 @@
     "type": "item_group",
     "id": "ammo_shotgun_fallout",
     "//": "Shotgun ammo.",
-    "items": [
-      [ "shot_00", 50 ],
-      [ "shot_bird", 75 ],
-      [ "shot_flechette", 10 ],
-      [ "20ga_shot", 75 ],
-      [ "shot_he", 10 ]
-    ]
+    "items": [ [ "shot_00", 50 ], [ "shot_bird", 75 ], [ "shot_flechette", 10 ], [ "20ga_shot", 75 ], [ "shot_he", 10 ] ]
   },
   {
     "type": "item_group",
@@ -282,8 +276,8 @@
       [ "dress_shirt_NCR", 50 ],
       [ "jeans_ncr", 50 ],
       [ "ncr_armor", 25 ],
-      [ "armor_legate", 1 ],
-      [ "helmet_legate", 1 ],
+      [ "armor_legion_centurion", 1 ],
+      [ "helmet_legion_centurion", 1 ],
       [ "armor_legion_recruit", 50 ],
       [ "helmet_legion_recruit", 50 ],
       [ "armor_legion_prime", 25 ],

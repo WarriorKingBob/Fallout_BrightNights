@@ -7,7 +7,7 @@
       { "item": "armor_legion_recruit", "prob": 45 },
       { "item": "armor_legion_prime", "prob": 55 },
       { "item": "armor_legion_veteran", "prob": 25 },
-      { "item": "armor_legate", "prob": 8 }
+      { "item": "armor_legion_centurion", "prob": 8 }
     ]
   },
   {
@@ -18,7 +18,7 @@
       { "item": "helmet_legion_recruit", "prob": 45 },
       { "item": "helmet_legion_prime", "prob": 55 },
       { "item": "helmet_legion_veteran", "prob": 25 },
-      { "item": "helmet_legate", "prob": 8 }
+      { "item": "helmet_legion_centurion", "prob": 8 }
     ]
   },
   {
