@@ -242,7 +242,8 @@
     "items": {
       "both": {
         "items": [
-          "ncr_armor",
+          "ncr_armor_trooper",
+          "gloves_leather",
           "socks",
           "boots",
           "water_clean",
@@ -260,7 +261,7 @@
         ],
         "entries": [
           { "item": "556", "charges": 20 },
-          { "item": "m16a4", "ammo-item": "223", "charges": 30, "contents-item": "shoulder_strap" },
+          { "item": "ar15", "ammo-item": "223", "charges": 30, "contents-item": "shoulder_strap" },
           { "item": "stanag30", "charges": 30 },
           { "item": "stanag30", "charges": 30 }
         ]
@@ -287,11 +288,13 @@
     "items": {
       "both": {
         "items": [
+          "ncr_armor_ranger",
           "jeans",
           "dress_shirt",
           "duster",
+          "gloves_tactical",
           "socks",
-          "boots",
+          "boots_combat",
           "water_clean",
           "canteen",
           "matches",
@@ -333,7 +336,7 @@
     "items": {
       "both": {
         "items": [
-          "ncr_armor",
+          "ncr_armor_trooper",
           "socks",
           "boots",
           "water_clean",
@@ -353,7 +356,7 @@
         ],
         "entries": [
           { "item": "556", "charges": 20 },
-          { "item": "m16a4", "ammo-item": "223", "charges": 30, "contents-item": "shoulder_strap" },
+          { "item": "ar15", "ammo-item": "223", "charges": 30, "contents-item": "shoulder_strap" },
           { "item": "stanag30", "charges": 30 },
           { "item": "stanag30", "charges": 30 }
         ]

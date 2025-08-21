@@ -1,0 +1,371 @@
+[
+  {
+    "type": "npc",
+    "id": "fo_ncr_trooper",
+    "name_suffix": "NCR Trooper",
+    "class": "fo_ncr_trooper_npc",
+    "attitude": 0,
+    "mission": 8,
+    "chat": "TALK_fo_ncr_trooper_start",
+    "faction": "fac__fo_NCR"
+  },
+  {
+    "type": "npc_class",
+    "id": "fo_ncr_trooper_npc",
+    "name": { "str": "NCR Trooper" },
+    "job_description": "Is a soldier of the New California Republic.",
+    "traits": [ { "group": "NPC_starting_traits" }, { "group": "Hair_Any" } ],
+    "common": false,
+    "bonus_str": { "rng": [ -3, 3 ] },
+    "bonus_dex": { "rng": [ -3, 3 ] },
+    "bonus_int": { "rng": [ -3, 3 ] },
+    "bonus_per": { "rng": [ -3, 3 ] },
+    "worn_override": "NC_NCRTROOP_worn",
+    "carry_override": "NC_NCRTROOP_carry",
+    "weapon_override": "NC_NCRTROOP_weapon",
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "survival", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 2, 3 ] } }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_NCRTROOP_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "ncr_armor_trooper" },
+      { "item": "pants_army" },
+      { "item": "gloves_leather" },
+      { "item": "socks" },
+      { "item": "boots" },
+      { "item": "backpack_leather", "prob": 35 },
+      { "item": "bandolier_rifle", "prob": 35 },
+      { "item": "fo_ncr_trooper_helmet" },
+      { "item": "sheath", "contents-item": "knife_combat" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_NCRTROOP_carry",
+    "subtype": "collection",
+    "entries": [
+      { "group": "drugs_heal_simple", "count": [ 1, 2 ], "prob": 50 },
+      { "group": "fallout_misc_itemgroup_food", "count": [ 1, 2 ], "prob": 40 },
+      { "item": "stanag20", "charges": 10, "count": [ 3, 5 ] },
+      { "item": "stanag30", "charges": 30, "prob": 20 },
+      { "item": "grenade", "prob": 15 },
+      { "item": "223", "prob": 85, "charges": [ 15, 25 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_NCRTROOP_weapon",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "ar15", "charges": 30, "prob": 80 },
+      { "item": "colt_rangemaster", "charges": 20, "prob": 10 },
+      { "item": "10mmsmg", "charges": 30, "prob": 10 },
+      { "item": "shotgun_d", "charges": 20, "prob": 10 },
+      { "item": "caravan_shotgun", "charges": 20, "prob": 10 },
+      { "item": "citykiller", "charges": 20, "prob": 5 },
+      { "item": "colt6250", "charges": 30, "prob": 10 },
+      { "item": "thatgun", "charges": 30, "prob": 10 }
+    ]
+  },
+  {
+    "id": "TALK_fo_ncr_trooper_start",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_female": true,
+      "yes": [
+        "We won't go quietly. The Legion can count on that.",
+        "I just lost a month's worth of caps.",
+        "It's been a long tour, all I can think about now is going home.",
+        "When I got this assignment I was hoping there would be more gambling.",
+        "Patrolling the Mojave almost makes you wish for a nuclear winter."
+      ],
+      "no": [
+        "We won't go quietly. The Legion can count on that.",
+        "I just lost a month's worth of caps.",
+        "It's been a long tour, all I can think about now is going home.",
+        "When I got this assignment I was hoping there would be more gambling.",
+        "Patrolling the Mojave almost makes you wish for a nuclear winter."
+      ]
+    },
+    "responses": [
+      { "text": "So you're a soldier for the NCR, what's that like?", "topic": "TALK_fo_ncr_trooper_go" },
+      { "text": "Goodbye.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_fo_ncr_trooper_go",
+    "type": "talk_topic",
+    "dynamic_line": "Pretty rough, all things considered, especially now that the war with the Legion is heating up. Supply lines are spread thin with seemingly endless committments in different hotspots, so adequate support is spotty at best. Casualties trickle in seemingly endlessly, and with no end to the war in sight.",
+    "responses": [ { "text": "Thanks for the info.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "type": "npc",
+    "id": "fo_ncr_ranger",
+    "name_suffix": "NCR Ranger",
+    "class": "fo_ncr_ranger_npc",
+    "attitude": 0,
+    "mission": 8,
+    "chat": "TALK_fo_ncr_ranger_start",
+    "faction": "fac__fo_NCR"
+  },
+  {
+    "type": "npc_class",
+    "id": "fo_ncr_ranger_npc",
+    "name": { "str": "NCR Ranger" },
+    "job_description": "Is a elite soldier of the New California Republic.",
+    "traits": [ { "group": "NPC_starting_traits" }, { "group": "Hair_Any" } ],
+    "common": false,
+    "bonus_str": { "rng": [ -2, 3 ] },
+    "bonus_dex": { "rng": [ -2, 3 ] },
+    "bonus_int": { "rng": [ -2, 3 ] },
+    "bonus_per": { "rng": [ -2, 3 ] },
+    "worn_override": "NC_NCRRANGER_worn",
+    "carry_override": "NC_NCRRANGER_carry",
+    "weapon_override": "NC_NCRRANGER_weapon",
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 3, 4 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 4, 5 ] } },
+      { "skill": "survival", "bonus": { "rng": [ 1, 4 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 5, 6 ] } }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_NCRRANGER_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "socks" },
+      { "item": "boots_combat" },
+      { "item": "ncr_armor_ranger" },
+      { "item": "gloves_tactical" },
+      { "item": "backpack_leather", "prob": 35 },
+      { "item": "bandolier_rifle", "prob": 35 },
+      { "item": "bandolier_pistol", "prob": 35 },
+      { "group": "drops_ncr_ranger_hat", "prob": 75 },
+      { "item": "sheath", "contents-item": "knife_combat" },
+      { "item": "holster", "contents-group": "NC_NCRRANGER_secondary", "prob": 50 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_NCRRANGER_carry",
+    "subtype": "collection",
+    "entries": [
+      { "group": "drugs_heal_simple", "count": [ 1, 2 ], "prob": 50 },
+      { "group": "fallout_misc_itemgroup_food", "count": [ 1, 2 ], "prob": 40 },
+      { "item": "grenade", "prob": 5 },
+      { "item": "223", "prob": 85, "charges": [ 15, 25 ] },
+      { "group": "drops_ncr_ranger_ammo", "prob": 65, "charges": [ 15, 35 ] },
+      { "group": "drops_ncr_ranger_ammo", "prob": 35, "charges": [ 10, 40 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "drops_ncr_ranger_ammo",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "38_super", "prob": 20 },
+      { "item": "38super_fmj", "prob": 20 },
+      { "item": "44fmj", "prob": 15 },
+      { "item": "44magnum", "prob": 35 },
+      { "item": "38_fmj", "prob": 25 },
+      { "item": "38_special", "prob": 25 },
+      { "item": "357mag_fmj", "prob": 15 },
+      { "item": "357mag_jhp", "prob": 15 },
+      { "item": "357sig_jhp", "prob": 25 },
+      { "item": "357sig_fmj", "prob": 25 },
+      { "item": "4570_sp", "prob": 20 },
+      { "item": "4570_pen", "prob": 20 },
+      { "item": "4570_low", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_NCRRANGER_weapon",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "cowboy_repeater", "prob": 80, "charges": 7 },
+      { "item": "cowboy_repeater_longue", "prob": 5, "charges": 7 },
+      { "item": "win70", "prob": 10, "charges": 6 },
+      { "item": "dks501", "prob": 10, "charges": 6 },
+      { "item": "brush_gun_medicine", "prob": 5, "charges": 6 },
+      { "item": "brush_gun", "prob": 10, "charges": 6 },
+      { "item": "carbine_assault", "prob": 10, "charges": 30 },
+      { "item": "m4a1", "contents-item": [ "acog_scope" ], "prob": 10, "charges": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_NCRRANGER_secondary",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "357_magnum_revolver", "prob": 80, "charges": 7 },
+      { "item": "sw629", "prob": 10, "charges": 6 },
+      { "item": "thatgun", "prob": 10, "charges": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "drops_ncr_ranger_hat",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "10gal_hat", "prob": 10 },
+      { "item": "beret", "prob": 5 },
+      { "item": "fo_ncr_trooper_helmet", "prob": 10 },
+      { "item": "cowboy_hat", "prob": 10 },
+      { "item": "hat_sombrero", "prob": 3 }
+    ]
+  },
+  {
+    "id": "TALK_fo_ncr_ranger_start",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_female": true,
+      "yes": [
+        "You ever think about being a Ranger?",
+        "We got ourselves a little Ranger family reunion now. Time's right for a feud.",
+        "From here on out, we fight for Chief Hanlon.",
+        "When I got this assignment I was hoping there would be more gambling.",
+        "Patrolling the Mojave almost makes you wish for a nuclear winter."
+      ],
+      "no": [
+        "You ever think about being a Ranger?",
+        "We got ourselves a little Ranger family reunion now. Time's right for a feud.",
+        "From here on out, we fight for Chief Hanlon.",
+        "When I got this assignment I was hoping there would be more gambling.",
+        "Patrolling the Mojave almost makes you wish for a nuclear winter."
+      ]
+    },
+    "responses": [
+      { "text": "So you're a ranger for the NCR, what's that like?", "topic": "TALK_fo_ncr_ranger_go" },
+      { "text": "Goodbye.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_fo_ncr_ranger_go",
+    "type": "talk_topic",
+    "dynamic_line": "Either extremely boring, or extremely intense. You would think our jobs involve cavorting across the wasteland, getting into new scraps everyday in service of the republic, but no! Most of the time is just spent at these ranger stations, collating various radio tracks and intel to send back to Shady Sands or major military bases for analysis. It's quite a boring job really.",
+    "responses": [ { "text": "Thanks for the info.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "type": "npc",
+    "id": "fo_ncr_ranger_veteran",
+    "name_suffix": "NCR Ranger",
+    "class": "fo_ncr_ranger_veteran_npc",
+    "attitude": 0,
+    "mission": 8,
+    "chat": "TALK_fo_ncr_ranger_start",
+    "faction": "fac__fo_NCR"
+  },
+  {
+    "type": "npc_class",
+    "id": "fo_ncr_ranger_veteran_npc",
+    "name": { "str": "NCR Veteran Ranger" },
+    "job_description": "An elite among the elite soldiers of the New California Republic.",
+    "traits": [ { "group": "NPC_starting_traits" }, { "group": "Hair_Any" } ],
+    "common": false,
+    "bonus_str": { "rng": [ -2, 3 ] },
+    "bonus_dex": { "rng": [ -2, 3 ] },
+    "bonus_int": { "rng": [ -2, 3 ] },
+    "bonus_per": { "rng": [ -2, 3 ] },
+    "worn_override": "NC_NCRRANGER_VET_worn",
+    "carry_override": "NC_NCRRANGER_VET_carry",
+    "weapon_override": "NC_NCRRANGER_VET_weapon",
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 3, 4 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 5, 6 ] } },
+      { "skill": "survival", "bonus": { "rng": [ 1, 4 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 6, 7 ] } }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_NCRRANGER_VET_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "socks" },
+      { "item": "boots_combat" },
+      { "item": "ncr_armor_veteran" },
+      { "item": "gloves_tactical" },
+      { "item": "backpack_leather", "prob": 35 },
+      { "item": "bandolier_rifle", "prob": 35 },
+      { "item": "bandolier_pistol", "prob": 35 },
+      { "item": "ncr_helmet_veteran" },
+      { "item": "sheath", "contents-item": "knife_combat" },
+      { "item": "holster", "contents-group": "NC_NCRRANGER_VET_secondary" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_NCRRANGER_VET_carry",
+    "subtype": "collection",
+    "entries": [
+      { "group": "drugs_heal_simple", "count": [ 1, 2 ], "prob": 50 },
+      { "group": "fallout_misc_itemgroup_food", "count": [ 1, 2 ], "prob": 40 },
+      { "item": "grenade", "prob": 5 },
+      { "item": "223", "prob": 85, "charges": [ 15, 25 ] },
+      { "group": "drops_ncr_ranger_vet_ammo", "prob": 65, "charges": [ 15, 35 ] },
+      { "group": "drops_ncr_ranger_vet_ammo", "prob": 35, "charges": [ 10, 40 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "drops_ncr_ranger_vet_ammo",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "38_super", "prob": 20 },
+      { "item": "38super_fmj", "prob": 20 },
+      { "item": "44fmj", "prob": 15 },
+      { "item": "44magnum", "prob": 35 },
+      { "item": "38_fmj", "prob": 25 },
+      { "item": "38_special", "prob": 25 },
+      { "item": "357mag_fmj", "prob": 15 },
+      { "item": "357mag_jhp", "prob": 15 },
+      { "item": "357sig_jhp", "prob": 25 },
+      { "item": "357sig_fmj", "prob": 25 },
+      { "item": "4570_sp", "prob": 20 },
+      { "item": "4570_pen", "prob": 20 },
+      { "item": "4570_low", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_NCRRANGER_VET_weapon",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "amr50", "prob": 80, "charges": 20 },
+      { "item": "win70", "prob": 10, "charges": 6 },
+      { "item": "dks501", "prob": 10, "charges": 6 },
+      { "item": "brush_gun_medicine", "prob": 5, "charges": 6 },
+      { "item": "brush_gun", "prob": 10, "charges": 6 },
+      { "item": "carbine_assault", "prob": 10, "charges": 30 },
+      { "item": "m4a1", "contents-item": [ "acog_scope" ], "prob": 10, "charges": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_NCRRANGER_VET_secondary",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "revolver_ranger", "prob": 80, "charges": 6 },
+      { "item": "bfr", "prob": 10, "charges": 6 },
+      { "item": "sw629", "prob": 10, "charges": 7 }
+    ]
+  }
+]

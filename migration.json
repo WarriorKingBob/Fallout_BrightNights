@@ -13,5 +13,15 @@
     "id": "helmet_legate",
     "type": "MIGRATION",
     "replace": "helmet_legion_centurion"
+  },
+  {
+    "id": "ncr_armor",
+    "type": "MIGRATION",
+    "replace": "ncr_armor_ranger"
+  },
+  {
+    "id": "jeans_ncr",
+    "type": "MIGRATION",
+    "replace": "pants_army"
   }
 ]

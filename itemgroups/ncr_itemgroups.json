@@ -3,7 +3,7 @@
     "type": "item_group",
     "id": "drop_ncr_armor",
     "subtype": "collection",
-    "entries": [ { "item": "ncr_armor", "prob": 95 }, { "item": "armor_combat_light", "prob": 10 } ]
+    "entries": [ { "item": "ncr_armor_trooper", "prob": 95 }, { "item": "armor_combat_light", "prob": 10 } ]
   },
   {
     "type": "item_group",
@@ -100,7 +100,7 @@
     "id": "drops_ncr_gun_storage",
     "subtype": "distribution",
     "entries": [
-      { "item": "m16a4", "prob": 130, "charges": 30 },
+      { "item": "ar15", "prob": 130, "charges": 30 },
       { "item": "cowboy_repeater", "prob": 3, "charges": 7 },
       { "item": "cowboy_repeater_longue", "prob": 5, "charges": 7 },
       { "item": "brush_gun_medicine", "prob": 2, "charges": 8 },
@@ -181,12 +181,6 @@
     "type": "item_group",
     "id": "drops_ncr_melee_storage",
     "subtype": "distribution",
-    "entries": [
-      { "item": "knife_combat", "prob": 10 },
-      { "item": "knife_folding", "prob": 5 },
-      { "item": "knife_rambo", "prob": 10 },
-      { "item": "knife_trench", "prob": 10 },
-      { "item": "knife_steak", "prob": 3 }
-    ]
+    "entries": [ { "item": "knife_combat", "prob": 50 }, { "item": "knife_trench", "prob": 50 } ]
   }
 ]

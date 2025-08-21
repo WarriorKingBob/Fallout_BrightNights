@@ -161,7 +161,7 @@
     "ups_charges": 30,
     "ammo": [ "12mm" ],
     "weight": "4535 g",
-    "volume": "3550 ml",
+    "volume": "3 L",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": 0, "armor_penetration": 0 },
@@ -171,7 +171,8 @@
     "durability": 7,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
     "reload": 560,
-    "flags": [  ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "magazines": [ [ "12mm", [ "hk_g80mag" ] ] ],
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "sling", 1 ], [ "stock", 1 ] ]
   },
   {
