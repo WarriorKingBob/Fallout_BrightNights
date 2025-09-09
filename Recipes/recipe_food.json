@@ -1,0 +1,234 @@
+[
+  {
+    "result": "macaroni_blamco",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "time": "1 m 40 s",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 4, "LIST" ] ] ],
+    "components": [ [ [ "macaroni_blamco_raw", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
+  },
+  {
+    "result": "instamash_cooked",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "time": "1 m 40 s",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 4, "LIST" ] ] ],
+    "components": [ [ [ "instamash_raw", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "cooked_salisbury_steak_fallout",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_MEAT",
+    "skill_used": "cooking",
+    "time": "2 m 30 s",
+    "autolearn": true,
+    "batch_time_factors": [ 67, 5 ],
+    "qualities": [ { "id": "COOK", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 7, "LIST" ] ] ],
+    "components": [ [ [ "salisbury_steak_fallout", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "wastelander_fruit_salad",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "4 m 40 s",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
+    "components": [
+      [
+        [ "mutfruit", 2 ],
+        [ "banana", 2 ],
+        [ "irradiated_banana", 2 ],
+        [ "blackberries", 2 ],
+        [ "irradiated_blackberries", 2 ],
+        [ "cranberries", 2 ],
+        [ "irradiated_cranberries", 2 ],
+        [ "blueberries", 2 ],
+        [ "irradiated_blueberries", 2 ],
+        [ "grapes", 2 ],
+        [ "irradiated_grapes", 2 ],
+        [ "strawberries", 2 ],
+        [ "irradiated_strawberries", 2 ]
+      ],
+      [
+        [ "mutfruit_crunchy", 1 ],
+        [ "apple", 1 ],
+        [ "irradiated_apple", 1 ],
+        [ "pear", 1 ],
+        [ "irradiated_pear", 1 ],
+        [ "cherries", 1 ],
+        [ "irradiated_cherries", 1 ],
+        [ "plums", 1 ],
+        [ "irradiated_plums", 1 ]
+      ],
+      [
+        [ "fruit_punga", 1 ],
+        [ "orange", 1 ],
+        [ "irradiated_orange", 1 ],
+        [ "lemon", 1 ],
+        [ "irradiated_lemon", 1 ],
+        [ "grapefruit", 1 ],
+        [ "irradiated_grapefruit", 1 ],
+        [ "pineapple", 1 ],
+        [ "irradiated_pineapple", 1 ]
+      ]
+    ]
+  },
+  {
+    "result": "macaroni_blamco_cram",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "time": "1 m 40 s",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 4, "LIST" ] ] ],
+    "components": [ [ [ "macaroni_blamco_raw", 1 ] ], [ [ "can_spam", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
+  },
+  {
+    "result": "macaroni_blamco_deluxe",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "time": "1 m 40 s",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 4, "LIST" ] ] ],
+    "components": [
+      [ [ "macaroni_blamco_raw", 1 ] ],
+      [ [ "can_spam", 1 ] ],
+      [ [ "cave_fungus", 1 ], [ "mushroom", 1 ], [ "mushroom_morel", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ]
+    ]
+  },
+  {
+    "result": "instamash_cooked_cram",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "time": "1 m 40 s",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 4, "LIST" ] ] ],
+    "components": [ [ [ "instamash_raw", 1 ] ], [ [ "can_spam", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
+  },
+  {
+    "result": "instamash_cooked_deluxe",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_PASTA",
+    "skill_used": "cooking",
+    "time": "1 m 40 s",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 4, "LIST" ] ] ],
+    "components": [
+      [ [ "instamash_raw", 1 ] ],
+      [ [ "can_spam", 1 ] ],
+      [ [ "cheese", 1 ], [ "cheese_hard", 1 ], [ "can_cheese", 1 ] ],
+      [ [ "cave_fungus", 1 ], [ "mushroom", 1 ], [ "mushroom_morel", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "powder_eggs",
+    "//": "Modify vanilla recipe for dehydrating large eggs",
+    "id_suffix": "ant",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRY",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "charges": 12,
+    "time": "40 m",
+    "autolearn": true,
+    "batch_time_factors": [ 80, 1 ],
+    "tools": [ [ [ "dehydrator", 25 ], [ "char_smoker", 25 ] ] ],
+    "components": [ [ [ "ant_egg", 1 ], [ "fo_eggs", 1, "LIST" ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "powder_eggs",
+    "//": "New alternate vanilla recipe for dehydrating the massive deathclaw egg",
+    "id_suffix": "deathclaw",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRY",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "charges": 24,
+    "time": "40 m",
+    "autolearn": true,
+    "batch_time_factors": [ 80, 1 ],
+    "tools": [ [ [ "dehydrator", 25 ], [ "char_smoker", 25 ] ] ],
+    "components": [ [ [ "egg_deathclaw", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "omelette_survival",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": "50 s",
+    "book_learn": [ [ "scout_guide", 3 ] ],
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 2, "LIST" ] ] ],
+    "charges": 2,
+    "components": [
+      [ [ "eggs_small", 4, "LIST" ] ],
+      [
+        [ "meat_sausage_cooked", 1, "LIST" ],
+        [ "meat_sausage_raw", 1, "LIST" ],
+        [ "fish", 1 ],
+        [ "fishs_cooked", 1, "LIST" ],
+        [ "bacon", 2 ],
+        [ "cracklins", 2 ]
+      ],
+      [ [ "sweet_fruit", 1, "LIST" ], [ "mutfruit", 1 ], [ "mutfruit_crunchy", 1 ] ],
+      [ [ "macaroni_blamco_raw", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "omelette_survival",
+    "id_suffix": "from_powder",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": "50 s",
+    "book_learn": [ [ "scout_guide", 3 ] ],
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 2, "LIST" ] ] ],
+    "charges": 2,
+    "components": [
+      [ [ "eggs_small_dry", 4, "LIST" ] ],
+      [ [ "water", 3 ], [ "water_clean", 3 ] ],
+      [
+        [ "meat_sausage_cooked", 1, "LIST" ],
+        [ "meat_sausage_raw", 1, "LIST" ],
+        [ "fish", 1 ],
+        [ "fishs_cooked", 1, "LIST" ],
+        [ "bacon", 2 ],
+        [ "cracklins", 2 ]
+      ],
+      [ [ "sweet_fruit", 1, "LIST" ], [ "mutfruit", 1 ], [ "mutfruit_crunchy", 1 ] ],
+      [ [ "macaroni_blamco_raw", 1 ] ]
+    ]
+  }
+]

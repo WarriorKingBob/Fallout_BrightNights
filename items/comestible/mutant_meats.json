@@ -9,7 +9,6 @@
     "volume": "250 ml",
     "price": "5 USD",
     "spoils_in": "6 days",
-    "healthy": 5,
     "fun": 8,
     "vitamins": [ [ "vitB", 9 ] ],
     "calories": 121
@@ -22,7 +21,6 @@
     "description": "Freshly cooked mirelurk meat. It wont last as long though",
     "proportional": { "price": 1.5 },
     "spoils_in": "3 days",
-    "healthy": 5,
     "fun": 16,
     "parasites": 0,
     "flags": [ "EATEN_HOT" ]
@@ -38,7 +36,6 @@
     "stack_size": 4,
     "parasites": 0,
     "quench": -5,
-    "healthy": 3,
     "fun": 16,
     "vitamins": [ [ "vitA", 0 ], [ "vitC", 0 ], [ "calcium", 2 ], [ "iron", 1 ], [ "vitB", 42 ] ],
     "proportional": { "price": 2, "volume": 0.28, "weight": 0.28 }
@@ -70,7 +67,6 @@
     "volume": "250 ml",
     "price": "5 USD",
     "spoils_in": "6 days",
-    "healthy": 5,
     "fun": 8,
     "parasites": 0,
     "vitamins": [ [ "vitB", 9 ] ],
@@ -87,7 +83,6 @@
     "comestible_type": "DRINK",
     "symbol": "~",
     "quench": 8,
-    "healthy": 5,
     "calories": 111,
     "description": "A nutritious and delicious hearty Mirelurk soup.",
     "price": "4 USD",
@@ -108,7 +103,6 @@
     "comestible_type": "DRINK",
     "symbol": "~",
     "quench": 8,
-    "healthy": 1,
     "calories": 493,
     "description": "A rich and tasty Mirelurk chowder, made with potatoes, veggies, and mushrooms. It tastes of hope.",
     "price": "5 USD",
@@ -130,7 +124,6 @@
     "volume": "250 ml",
     "price": "5 USD",
     "spoils_in": "6 days",
-    "healthy": 5,
     "fun": 8,
     "vitamins": [ [ "vitB", 9 ] ]
   },
@@ -143,7 +136,6 @@
     "description": "a freshly cooked mirelurk claw.  Very nutritious. It wont last as long though",
     "proportional": { "price": 1.5 },
     "spoils_in": "3 days",
-    "healthy": 5,
     "fun": 16,
     "parasites": 0,
     "flags": [ "EATEN_HOT" ]
@@ -157,7 +149,6 @@
     "description": "a freshly cooked mirelurk claw.  Very nutritious. It lasts a decent amount of time too.",
     "proportional": { "price": 1.5 },
     "spoils_in": "8 days",
-    "healthy": 5,
     "fun": 32,
     "parasites": 0,
     "vitamins": [ [ "vitC", 18 ] ],

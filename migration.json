@@ -23,5 +23,95 @@
     "id": "jeans_ncr",
     "type": "MIGRATION",
     "replace": "pants_army"
+  },
+  {
+    "id": "rad_x",
+    "type": "MIGRATION",
+    "replace": "iodine"
+  },
+  {
+    "id": "med_x",
+    "type": "MIGRATION",
+    "replace": "morphine"
+  },
+  {
+    "id": "fo_mob_ultrajetdrug",
+    "type": "MIGRATION",
+    "replace": "fo_jet_kit"
+  },
+  {
+    "id": "can_cram",
+    "type": "MIGRATION",
+    "replace": "can_spam"
+  },
+  {
+    "id": "kebab_gecko",
+    "type": "MIGRATION",
+    "replace": "kebab"
+  },
+  {
+    "id": "stick_iguana",
+    "type": "MIGRATION",
+    "replace": "kebab"
+  },
+  {
+    "id": "stick_iguana_premium",
+    "type": "MIGRATION",
+    "replace": "kebab"
+  },
+  {
+    "id": "jerky_gecko",
+    "type": "MIGRATION",
+    "replace": "jerky"
+  },
+  {
+    "id": "stick_iguana_premiumh",
+    "type": "MIGRATION",
+    "replace": "stick_iguana_h"
+  },
+  {
+    "id": "omelette_survival_cheese",
+    "type": "MIGRATION",
+    "replace": "omelette_survival"
+  },
+  {
+    "id": "omelette_survival_spicy",
+    "type": "MIGRATION",
+    "replace": "omelette_survival"
+  },
+  {
+    "id": "omelette_survival_deluxe",
+    "type": "MIGRATION",
+    "replace": "omelette_survival"
+  },
+  {
+    "id": "omelette_survival_milkless",
+    "type": "MIGRATION",
+    "replace": "omelette_survival"
+  },
+  {
+    "id": "omelette_survival_meatless",
+    "type": "MIGRATION",
+    "replace": "omelette_survival"
+  },
+  {
+    "id": "omelette_survival_fruitless",
+    "type": "MIGRATION",
+    "replace": "omelette_survival"
+  },
+  {
+    "id": "omelette_survival_vegan",
+    "type": "MIGRATION",
+    "replace": "omelette_survival"
+  },
+  {
+    "id": "omelette_survival_vegan_nofruit",
+    "type": "MIGRATION",
+    "replace": "omelette_survival"
+  },
+  {
+    "id": "cola_nuka_piss",
+    "type": "MIGRATION",
+    "replace": "cola_nuka"
   }
 ]

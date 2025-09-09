@@ -314,11 +314,7 @@
     "type": "item_group",
     "id": "fallout_10mm_ammogroup",
     "subtype": "distribution",
-    "entries": [
-      { "item": "10mm_fmj", "prob": 80 },
-      { "item": "10mmP", "prob": 20 },
-      { "item": "10mmjhp", "prob": 25 }
-    ]
+    "entries": [ { "item": "10mm_fmj", "prob": 80 }, { "item": "10mmP", "prob": 20 }, { "item": "10mmjhp", "prob": 25 } ]
   },
   {
     "type": "item_group",
@@ -337,11 +333,7 @@
     "type": "item_group",
     "id": "fallout_5mm_ammogroup",
     "subtype": "distribution",
-    "entries": [
-      { "item": "5mm", "prob": 90 },
-      { "item": "5mmap", "prob": 25 },
-      { "item": "5mmincendiary", "prob": 15 }
-    ]
+    "entries": [ { "item": "5mm", "prob": 90 }, { "item": "5mmap", "prob": 25 }, { "item": "5mmincendiary", "prob": 15 } ]
   },
   {
     "type": "item_group",
@@ -473,7 +465,7 @@
       { "item": "macaroni_blamco_raw", "prob": 40 },
       { "item": "macaroni_blamco", "prob": 15 },
       { "item": "cave_fungus", "prob": 25 },
-      { "item": "can_cram", "prob": 65 },
+      { "item": "can_spam", "prob": 65 },
       { "item": "mutfruit", "prob": 45 },
       { "item": "mutfruit_crunchy", "prob": 15 },
       { "item": "instamash_raw", "prob": 45 },
@@ -482,19 +474,18 @@
       { "item": "sugarbombs", "prob": 25 },
       { "item": "eggs_devilled_fallout", "prob": 35 },
       { "item": "fruit_punga", "prob": 25 },
-      { "item": "jerky_gecko", "prob": 25 },
-      { "item": "stick_iguana", "prob": 25 },
+      { "item": "jerky", "prob": 25 },
       { "item": "omelette_survival", "prob": 25 },
       { "item": "pie_happy", "prob": 25 },
-      { "item": "kebab_gecko", "prob": 25 },
-      { "item": "healing_powder", "prob": 25 }
+      { "item": "kebab", "prob": 25 },
+      { "item": "healing_powder_drink", "prob": 25 }
     ]
   },
   {
     "type": "item_group",
     "id": "fallout_misc_itemgroup_med",
     "subtype": "distribution",
-    "entries": [ { "item": "rad_x", "prob": 85 }, { "item": "med_x", "prob": 10 } ]
+    "entries": [ { "item": "iodine", "prob": 85 }, { "item": "morphine", "prob": 10 } ]
   },
   {
     "type": "item_group",
@@ -780,7 +771,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "macaroni_blamco_raw", "prob": 75 },
-      { "item": "can_cram", "prob": 75 },
+      { "item": "can_spam", "prob": 75 },
       { "item": "instamash_raw", "prob": 75 },
       { "item": "fancylad", "prob": 75 },
       { "item": "salisbury_steak_fallout", "prob": 75 },

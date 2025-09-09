@@ -1,0 +1,308 @@
+[
+  {
+    "id": "fo_stimpak_kit",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "Stimpak" },
+    "//": "Heals 50 hp in 5 minutes for each body part.",
+    "description": "Stimpak, short for stimulation delivery package, is a newly developed injectable medication that significantly boosts the body's own regenerative properties, allowing wounds to heal rapidly within minutes. The body burns a lot of energy during the process, so the user will feel hungry and thirsty afterwards. These were intended for mass production shortly before the cataclysm, so unfortunately there aren't many to be found. ",
+    "weight": "10 g",
+    "volume": "10 ml",
+    "price": "4 USD",
+    "price_postapoc": "10 USD",
+    "stack_size": 1,
+    "symbol": "!",
+    "color": "yellow",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You inject yourself with the stimpak.",
+      "effects": [
+        { "id": "fo_stimpak_heal", "duration": "150 s", "bp": "torso" },
+        { "id": "fo_stimpak_heal", "duration": "150 s", "bp": "head" },
+        { "id": "fo_stimpak_heal", "duration": "150 s", "bp": "arm_l" },
+        { "id": "fo_stimpak_heal", "duration": "150 s", "bp": "arm_r" },
+        { "id": "fo_stimpak_heal", "duration": "150 s", "bp": "leg_l" },
+        { "id": "fo_stimpak_heal", "duration": "150 s", "bp": "leg_r" },
+        { "id": "fo_stimpak_effects", "duration": "150 s" }
+      ],
+      "tools_needed": { "syringe": 1 },
+      "moves": 100
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "fo_stimpak_heal",
+    "name": [ "Stimpak Healing" ],
+    "desc": [ "The stimpak is causing your body to rapidly healing itself. " ],
+    "max_duration": "24 h",
+    "rating": "good",
+    "base_mods": { "hurt_min": [ -10 ], "hurt_tick": [ 60 ], "pain_min": [ -2 ], "pain_tick": [ 30 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "fo_stimpak_effects",
+    "name": [ "Stimpak Healing" ],
+    "desc": [ "The stimpak is causing you to be thirst and hungry. " ],
+    "max_duration": "24 h",
+    "rating": "good",
+    "base_mods": { "hunger_min": [ 40 ], "hunger_tick": [ 60 ], "thirst_min": [ 40 ], "thirst_tick": [ 60 ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "healing_powder",
+    "name": { "str": "Healing Drink" },
+    "weight": "263 g",
+    "color": "yellow",
+    "container": "bottle_plastic_small",
+    "charges": 4,
+    "stack_size": 40,
+    "material": "powder",
+    "symbol": "~",
+    "quench": 20,
+    "calories": 100,
+    "//": "Heals 10 hp in 10 minutes for each body part.",
+    "description": "A herbal medicine made of powdered Broc flower and Xander root. It uses same ingredients as stimpack, but is easier to make, and significantly less effective. It tastes awful and doesn't go down easily. Dulls your senses.",
+    "price": "1 USD",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You drink some Healing Drink.",
+      "effects": [
+        { "id": "healing_powder", "duration": "300 s", "bp": "torso" },
+        { "id": "healing_powder", "duration": "300 s", "bp": "head" },
+        { "id": "healing_powder", "duration": "300 s", "bp": "arm_l" },
+        { "id": "healing_powder", "duration": "300 s", "bp": "arm_r" },
+        { "id": "healing_powder", "duration": "300 s", "bp": "leg_l" },
+        { "id": "healing_powder", "duration": "300 s", "bp": "leg_r" },
+        { "id": "healing_powder_effect", "duration": "300 s" }
+      ],
+      "moves": 100
+    },
+    "volume": "250 ml",
+    "fun": -15
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "healing_powder_drink",
+    "name": { "str": "Healing Drink" },
+    "weight": "263 g",
+    "color": "yellow",
+    "container": "bottle_glass",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 20,
+    "calories": 100,
+    "//": "Heals 10 hp in 10 minutes for each body part.",
+    "description": "A herbal medicine made of powdered Broc flower and Xander root, mixed with a sweet carbonated drink to mask the bitter taste and make it easier to consume. It uses same ingredients as stimpack, but is easier to make, and significantly less effective. Dulls your senses.",
+    "price": "1 USD",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You drink some Healing Drink.",
+      "effects": [
+        { "id": "healing_powder", "duration": "300 s", "bp": "torso" },
+        { "id": "healing_powder", "duration": "300 s", "bp": "head" },
+        { "id": "healing_powder", "duration": "300 s", "bp": "arm_l" },
+        { "id": "healing_powder", "duration": "300 s", "bp": "arm_r" },
+        { "id": "healing_powder", "duration": "300 s", "bp": "leg_l" },
+        { "id": "healing_powder", "duration": "300 s", "bp": "leg_r" },
+        { "id": "healing_powder_effect", "duration": "300 s" }
+      ],
+      "moves": 100
+    },
+    "volume": "250 ml",
+    "phase": "liquid"
+  },
+  {
+    "type": "effect_type",
+    "id": "healing_powder",
+    "name": [ "Healing Drink effects" ],
+    "desc": [ "The healing drink is slowing healing your body." ],
+    "max_duration": "24 h",
+    "rating": "good",
+    "base_mods": { "hurt_min": [ -1 ], "hurt_tick": [ 60 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "healing_powder_effect",
+    "name": [ "Healing Drink side effects" ],
+    "desc": [ "The healing drink is dulling your senses." ],
+    "max_duration": "24 h",
+    "rating": "good",
+    "base_mods": { "per_mod": [ -1 ] }
+  },
+  {
+    "id": "fo_radaway",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "radaway" },
+    "//": "Removes same amount of rads as Prussian blue but in half the time.",
+    "description": "An IV bag with the word \"Radaway\" taped over. It is filled with chemicals designed to remove the radiation from one's body faster than Prussian blue. A syringe is needed for intravenous injections. ",
+    "weight": "20 g",
+    "volume": "100 ml",
+    "price": "4 USD",
+    "price_postapoc": "10 USD",
+    "stack_size": 1,
+    "symbol": "R",
+    "color": "yellow",
+    "tool": "syringe",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You activate the radaway.",
+      "effects": [ { "id": "fo_mob_radaway", "duration": 1800 } ],
+      "used_up_item": "bag_iv",
+      "tools_needed": { "syringe": 1 },
+      "moves": 100
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "fo_mob_radaway",
+    "name": [ "Radaway" ],
+    "desc": [ "Radiation is being siphoned out of your body." ],
+    "apply_message": "You attach the IV bag to the syringe and inject it into your body.",
+    "remove_message": "The radaway's effect wears off.",
+    "rating": "good",
+    "base_mods": { "rad_chance": [ 100 ], "rad_min": [ -2 ] }
+  },
+  {
+    "id": "fo_jet_kit",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "Jet" },
+    "description": "Developed by Myron in New Reno, jet is an amphetamine made by concentrating fumes from cow excrement into an inhaler. It lasts longer than meth and doesn't need smoking.",
+    "weight": "85 g",
+    "volume": "250 ml",
+    "price": "10 USD",
+    "price_postapoc": "80 USD",
+    "stack_size": 1,
+    "material": "plastic",
+    "symbol": "J",
+    "color": "red",
+    "addiction_potential": 50,
+    "addiction_type": "amphetamine",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You activate the jet inhaler and feel a rush of energy!",
+      "effects": [ { "id": "meth", "duration": "18 h" } ],
+      "moves": 100
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "fo_mob_psychodrug",
+    "name": [ "High on Psycho" ],
+    "desc": [ "Your speed, perception, strength, pain resistance and reaction time have been boosted by psycho." ],
+    "apply_message": "You inject yourself with psycho and quickly feel a surge of aggression with endurance of a trained soldier.",
+    "remove_message": "The psycho's effect wears off.",
+    "rating": "good",
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "int_decay_tick": 400,
+    "base_mods": {
+      "speed_mod": [ 15 ],
+      "str_mod": [ 2 ],
+      "per_mod": [ 2 ],
+      "stamina_min": [ 65 ],
+      "pkill_tick": [ 51 ],
+      "pkill_min": [ 3 ],
+      "pkill_max": [ 5 ]
+    },
+    "scaling_mods": { "speed_mod": [ 2 ], "int_mod": [ -0.8 ], "stamina_amount": [ 4 ] }
+  },
+  {
+    "id": "fo_psycho_kit",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "Psycho" },
+    "description": "Developed before the Cataclysm as a combat drug for use among frontline soldiers, psycho has been no stranger to the conflicts that have since plagued the post-cataclysm wasteland. Contained within the syringe kit is a potent cocktail of drugs that increase the user's speed, aggression, and ability to endure massive amounts of damage for brief periods of time. Not as habit forming as jet, but psycho addicts are generally regarded as more dangerous due to the violent proclivites enduced by the drug.",
+    "weight": "15 g",
+    "volume": "20 ml",
+    "price": "4 USD",
+    "price_postapoc": "10 USD",
+    "stack_size": 1,
+    "symbol": "J",
+    "color": "red",
+    "addiction_potential": 25,
+    "addiction_type": "amphetamine",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You inject yourself with psycho and quickly feel a surge of aggression with endurance of a trained soldier!",
+      "effects": [ { "id": "fo_mob_psychodrug", "duration": "8 minutes" } ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "fo_mob_mentatdrug",
+    "name": [ "High on Mentats" ],
+    "desc": [ "Your intelligence and Perceptiveness has increased." ],
+    "apply_message": "You take a mentat pill and feel your mind expand within an instant.",
+    "remove_message": "The mentat's effect wears off.",
+    "rating": "good",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "int_decay_tick": 400,
+    "base_mods": { "int_mod": [ 2 ], "per_mod": [ 1 ] },
+    "scaling_mods": { "int_mod": [ 1 ], "per_mod": [ 0.5 ] }
+  },
+  {
+    "id": "fo_mentat_kit",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "Mentat" },
+    "description": "A mind-altering chem that temporarily sharpens focus, improves memory retention, and speeds other mental processes. Can get addictive if abused.",
+    "weight": "1 g",
+    "volume": "250 ml",
+    "price": "4 USD",
+    "price_postapoc": "10 USD",
+    "stack_size": 200,
+    "container": "box_small",
+    "symbol": "M",
+    "color": "pink",
+    "addiction_potential": 10,
+    "addiction_type": "amphetamine",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You consume a mentat and feel your synapses start to flood your mind with new information!",
+      "effects": [ { "id": "fo_mob_mentatdrug", "duration": "30 minutes" } ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "fo_mob_buffoutdrug",
+    "name": [ "High on Buffout" ],
+    "desc": [ "Your strength, agility and pain resistance have increased." ],
+    "apply_message": "You take a buffout pill and instantly feel your strength, reflexes with endurance greatly increased.",
+    "remove_message": "The buffout's effect wears off.",
+    "rating": "good",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "int_decay_tick": 400,
+    "base_mods": {
+      "str_mod": [ 3 ],
+      "dex_mod": [ 1 ],
+      "pkill_tick": [ 51 ],
+      "pkill_min": [ 3 ],
+      "pkill_max": [ 5 ],
+      "stamina_min": [ 35 ]
+    },
+    "scaling_mods": { "str_mod": [ 1 ], "dex_mod": [ 0.5 ], "pkill_tick": [ 51 ], "pkill_min": [ 3 ], "pkill_max": [ 3 ] }
+  },
+  {
+    "id": "fo_buffout_kit",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "buffout" },
+    "description": "Highly advanced steroids. While in effect, they give a boost to the user's strength and agility, and is a strong painkiller. Not chemically addictive but prone to abuse. Banned for use in sports.",
+    "weight": "1 g",
+    "volume": "250 ml",
+    "price": "4 USD",
+    "price_postapoc": "10 USD",
+    "stack_size": 200,
+    "symbol": "M",
+    "color": "pink",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You take a buffout pill and instantly feel your strength, reflexes with endurance greatly increased!",
+      "effects": [ { "id": "fo_mob_buffoutdrug", "duration": "15 minutes" } ]
+    }
+  }
+]

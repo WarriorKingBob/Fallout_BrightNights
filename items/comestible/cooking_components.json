@@ -1,0 +1,7 @@
+[
+  {
+    "id": "fo_eggs",
+    "type": "requirement",
+    "components": [ [ [ "egg_radscorpion", 1 ], [ "egg_gecko", 1 ], [ "mirelurk_egg", 1 ] ] ]
+  }
+]

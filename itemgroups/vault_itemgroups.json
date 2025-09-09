@@ -39,7 +39,7 @@
       { "item": "macaroni_blamco_raw", "prob": 40 },
       { "item": "macaroni_blamco", "prob": 15 },
       { "item": "cave_fungus", "prob": 25 },
-      { "item": "can_cram", "prob": 65 },
+      { "item": "can_spam", "prob": 65 },
       { "item": "mutfruit", "prob": 45 },
       { "item": "mutfruit_crunchy", "prob": 15 },
       { "item": "instamash_raw", "prob": 45 },
@@ -48,11 +48,10 @@
       { "item": "sugarbombs", "prob": 25 },
       { "item": "eggs_devilled_fallout", "prob": 35 },
       { "item": "fruit_punga", "prob": 25 },
-      { "item": "jerky_gecko", "prob": 25 },
-      { "item": "stick_iguana", "prob": 25 },
+      { "item": "jerky", "prob": 25 },
       { "item": "omelette_survival", "prob": 25 },
       { "item": "pie_happy", "prob": 25 },
-      { "item": "kebab_gecko", "prob": 25 }
+      { "item": "kebab", "prob": 25 }
     ]
   },
   {
@@ -62,7 +61,7 @@
     "entries": [
       { "item": "rotgut", "prob": 10 },
       { "item": "rum_roentgen", "prob": 15 },
-      { "item": "healing_powder_drink", "prob": 15 },
+      { "item": "healing_powder", "prob": 15 },
       { "item": "cola_nuka", "prob": 150 },
       { "item": "cola_newka", "prob": 15 },
       { "item": "cola_nuka_quantum", "prob": 15 },
@@ -216,8 +215,8 @@
       { "item": "fo_misc_pipboy", "prob": 10 },
       { "item": "sheath", "container-item": "vault_knife", "prob": 10 },
       { "item": "toolbox", "prob": 5 },
-      { "item": "rad_x", "prob": 5 },
-      { "item": "med_x", "prob": 5 },
+      { "item": "iodine", "prob": 5 },
+      { "item": "morphine", "prob": 5 },
       { "group": "hospital_medical_items", "prob": 15 },
       { "group": "gear_medical", "prob": 10 },
       { "group": "rad_gear", "prob": 10 },

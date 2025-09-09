@@ -275,7 +275,7 @@
       [ "scrubs_bigmt", 5 ],
       [ "dress_shirt_NCR", 50 ],
       [ "jeans_ncr", 50 ],
-      [ "ncr_armor", 25 ],
+      [ "ncr_armor_trooper", 25 ],
       [ "armor_legion_centurion", 1 ],
       [ "helmet_legion_centurion", 1 ],
       [ "armor_legion_recruit", 50 ],
@@ -411,7 +411,6 @@
     "items": [
       [ "cola_nuka", 100 ],
       [ "cola_nuka_quantum", 20 ],
-      [ "cola_nuka_piss", 1 ],
       [ "cola_nuka_orange", 30 ],
       [ "cola_nuka_cherry", 21 ],
       [ "cola_nuka_grape", 15 ],
@@ -439,15 +438,8 @@
   {
     "id": "food_iguana",
     "type": "item_group",
-    "//": "Bob's Iguana Bits! Also, Gecko Jerky and kebabs.",
-    "items": [
-      [ "stick_iguana", 100 ],
-      [ "stick_iguana_premium", 45 ],
-      [ "jerky_gecko", 100 ],
-      [ "kebab_gecko", 45 ],
-      [ "meat_wonder", 100 ],
-      [ "stick_iguana_premiumh", 5 ]
-    ]
+    "//": "Bob's Iguana Bits! Also, jerky and kebabs.",
+    "items": [ [ "jerky", 100 ], [ "kebab", 45 ], [ "stick_iguana_h", 5 ] ]
   },
   {
     "id": "food_produce_fallout",
@@ -484,7 +476,7 @@
     "items": [
       [ "pie_happy", 100 ],
       [ "macaroni_blamco_raw", 100 ],
-      [ "can_cram", 100 ],
+      [ "can_spam", 100 ],
       [ "instamash_raw", 100 ],
       [ "fancylad", 100 ],
       [ "salisbury_steak_fallout", 100 ],

@@ -1,0 +1,89 @@
+[
+  {
+    "type": "recipe",
+    "result": "fo_stimpak_kit",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_DRUGS",
+    "skill_used": "cooking",
+    "skills_required": [ "firstaid", 2 ],
+    "difficulty": 8,
+    "time": "70 m",
+    "batch_time_factors": [ 80, 5 ],
+    "using": [ [ "mutagen_production_standard", 20 ] ],
+    "book_learn": [ [ "textbook_chemistry", 8 ], [ "adv_chemistry", 8 ], [ "reference_firstaid1", 8 ], [ "recipe_labchem", 8 ] ],
+    "components": [
+      [ [ "broc_flower", 1 ] ],
+      [ [ "xander_root", 1 ] ],
+      [ [ "water_clean", 1 ] ],
+      [ [ "chem_ethanol", 250 ], [ "denat_alcohol", 250 ], [ "disinfectant_makeshift", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "healing_powder",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_DRUGS",
+    "skill_used": "cooking",
+    "skills_required": [ "firstaid", 2 ],
+    "difficulty": 0,
+    "time": "45 m",
+    "book_learn": [ [ "scout_guide", 1 ] ],
+    "batch_time_factors": [ 67, 5 ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ] ] ],
+    "components": [ [ [ "broc_flower", 1 ] ], [ [ "xander_root", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "healing_powder",
+    "id_suffix": "with_from_food_processor",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_DRUGS",
+    "skill_used": "cooking",
+    "skills_required": [ "firstaid", 2 ],
+    "difficulty": 0,
+    "time": "11 m 15 s",
+    "book_learn": [ [ "scout_guide", 1 ] ],
+    "batch_time_factors": [ 67, 5 ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [ [ [ "broc_flower", 1 ] ], [ [ "xander_root", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "healing_powder",
+    "id_suffix": "mortar",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_DRUGS",
+    "skill_used": "cooking",
+    "skills_required": [ "firstaid", 2 ],
+    "difficulty": 0,
+    "time": "1 h 7 m 30 s",
+    "book_learn": [ [ "scout_guide", 1 ] ],
+    "batch_time_factors": [ 67, 5 ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "mortar_pestle", -1 ] ] ],
+    "components": [ [ [ "broc_flower", 1 ] ], [ [ "xander_root", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "healing_powder_drink",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_DRUGS",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": "5 m",
+    "batch_time_factors": [ 67, 5 ],
+    "components": [
+      [ [ "healing_powder", 1 ] ],
+      [
+        [ "cola_nuka", 1 ],
+        [ "creamsoda", 1 ],
+        [ "orangesoda", 1 ],
+        [ "purple_drink", 1 ],
+        [ "lemonlime", 1 ],
+        [ "rootbeer", 1 ]
+      ]
+    ]
+  }
+]
