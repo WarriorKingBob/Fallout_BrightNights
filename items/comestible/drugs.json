@@ -50,7 +50,7 @@
   {
     "type": "COMESTIBLE",
     "id": "healing_powder",
-    "name": { "str": "Healing Drink" },
+    "name": { "str": "Healing Powder" },
     "weight": "263 g",
     "color": "yellow",
     "container": "bottle_plastic_small",
@@ -65,7 +65,7 @@
     "price": "1 USD",
     "use_action": {
       "type": "consume_drug",
-      "activation_message": "You drink some Healing Drink.",
+      "activation_message": "You eat the healing powder. It tastes awful!",
       "effects": [
         { "id": "healing_powder", "duration": "300 s", "bp": "torso" },
         { "id": "healing_powder", "duration": "300 s", "bp": "head" },
@@ -96,7 +96,7 @@
     "price": "1 USD",
     "use_action": {
       "type": "consume_drug",
-      "activation_message": "You drink some Healing Drink.",
+      "activation_message": "You drink some Healing Drink. It's slightly bitter.",
       "effects": [
         { "id": "healing_powder", "duration": "300 s", "bp": "torso" },
         { "id": "healing_powder", "duration": "300 s", "bp": "head" },
