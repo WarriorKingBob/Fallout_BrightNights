@@ -4,6 +4,6 @@
     "id": "FO_GHOUL",
     "name": { "str": "ghoul" },
     "description": "a ghoul",
-    "footsteps": "shuffling."
+    "footsteps": [ "shuffling" ]
   }
 ]
