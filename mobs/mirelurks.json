@@ -30,7 +30,7 @@
   {
     "id": "mon_mirelurk_baby",
     "type": "MONSTER",
-    "name": { "str": "baby mirelurk" },
+    "name": { "str": "Baby Mirelurk" },
     "description": "This horseshoe crab is heavily mutated. Its a bit larger than normal.",
     "default_faction": "razorclaw",
     "categories": [ "MUTANT" ],
@@ -57,7 +57,7 @@
   {
     "id": "mon_mirelurk_softshell",
     "type": "MONSTER",
-    "name": { "str": "softshell mirelurk" },
+    "name": { "str": "Softshell Mirelurk" },
     "description": "A man-sized crustacean clad in soft, underdeveloped chitin.  Often spotted in the water, of course.",
     "default_faction": "razorclaw",
     "species": [ "MUTANT" ],
@@ -91,7 +91,7 @@
   {
     "id": "mon_mirelurk",
     "type": "MONSTER",
-    "name": { "str": "mutant_shellfish" },
+    "name": { "str": "Mirelurk" },
     "description": "A man-sized crustacean clad in an iron-like chitin, found within swamps and rivers. Their meat is popular with the fishers of the endtimes. Rumor has it some survivors have even tried to set up farms for them.",
     "default_faction": "razorclaw",
     "species": [ "MUTANT" ],
@@ -161,7 +161,7 @@
   {
     "id": "mon_nukalurk",
     "type": "MONSTER",
-    "name": { "str": "nukalurk" },
+    "name": { "str": "Nukalurk" },
     "description": "A man-sized crustacean clad in an iron-like chitin, found within swamps and rivers. Their meat is popular with the fishers of the endtimes. Rumor has it some survivors have even tried to set up farms for them. This variant has a peculiar blue hue to it, similar to the faint glow found eminating from Nuka Cola quantum bottles. It seems more aggressive than normal, as if its on a chemical high.",
     "default_faction": "razorclaw",
     "species": [ "MUTANT" ],
