@@ -1,0 +1,93 @@
+[
+  {
+    "id": "sewing_kit",
+    "name": "sewing kit",
+    "copy-from": "sewing_kit",
+    "type": "TOOL",
+    "use_action": {
+      "type": "repair_item",
+      "item_action_type": "repair_fabric",
+      "materials": [
+        "cotton",
+        "leather",
+        "nylon",
+        "wool",
+        "fur",
+        "faux_fur",
+        "nomex",
+        "kevlar",
+        "gutskin",
+        "scute",
+        "leather_gecko",
+        "leather_gecko_gold"
+      ],
+      "skill": "tailor",
+      "tool_quality": 0,
+      "cost_scaling": 0.1,
+      "move_cost": 1000
+    }
+  },
+  {
+    "id": "tailors_kit",
+    "name": "tailor's kit",
+    "copy-from": "tailors_kit",
+    "type": "TOOL",
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_fabric",
+        "materials": [
+          "cotton",
+          "leather",
+          "nylon",
+          "wool",
+          "fur",
+          "faux_fur",
+          "nomex",
+          "kevlar",
+          "neoprene",
+          "gutskin",
+          "scute",
+          "leather_gecko",
+          "leather_gecko_gold"
+        ],
+        "skill": "tailor",
+        "tool_quality": 1,
+        "cost_scaling": 0.1,
+        "move_cost": 800
+      },
+      {
+        "type": "sew_advanced",
+        "materials": [
+          "cotton",
+          "leather",
+          "nylon",
+          "wool",
+          "fur",
+          "faux_fur",
+          "nomex",
+          "kevlar",
+          "neoprene",
+          "scute",
+          "gutskin",
+          "plastic",
+          "kevlar_rigid",
+          "leather_gecko",
+          "leather_gecko_gold"
+        ],
+        "skill": "tailor",
+        "clothing_mods": [
+          "leather_padded",
+          "steel_padded",
+          "alloy_padded",
+          "kevlar_padded",
+          "nomex_padded",
+          "furred",
+          "wooled",
+          "resized_large",
+          "pocketed"
+        ]
+      }
+    ]
+  }
+]

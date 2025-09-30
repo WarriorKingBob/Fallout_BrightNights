@@ -26,7 +26,6 @@
     "id": "drops_legionfood",
     "subtype": "distribution",
     "entries": [
-      { "item": "mirelurk_jerky", "prob": 75 },
       { "item": "meat_smoked", "prob": 75 },
       { "item": "dry_meat", "prob": 75 },
       { "item": "jerky", "prob": 75 },

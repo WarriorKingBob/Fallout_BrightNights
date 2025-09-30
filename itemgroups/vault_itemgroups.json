@@ -213,7 +213,6 @@
       { "item": "holster", "prob": 15 },
       { "item": "shoulder_strap", "prob": 10 },
       { "item": "fo_misc_pipboy", "prob": 10 },
-      { "item": "sheath", "container-item": "vault_knife", "prob": 10 },
       { "item": "toolbox", "prob": 5 },
       { "item": "iodine", "prob": 5 },
       { "item": "morphine", "prob": 5 },
