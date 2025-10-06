@@ -6,7 +6,7 @@
     "reload_noise_volume": 10,
     "name": { "str": "Colt 6250" },
     "description": "A Colt 6520 10mm autoloading pistol. Each pull of the trigger will automatically load a round into the chamber until the magazine is empty. Semi-auto only.",
-    "weight": "1800 g",
+    "weight": "800 g",
     "volume": "750 ml",
     "price": "875 USD",
     "to_hit": 0,

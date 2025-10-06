@@ -45,61 +45,6 @@
     "color": "light_gray"
   },
   {
-    "id": "coin_NCR",
-    "type": "GENERIC",
-    "category": "other",
-    "name": { "str": "NCR Dollar", "str_pl": "NCR Dollars" },
-    "description": "1$ NCR. Legal tender for the world of the wastes. Or. It would be, if you were in California, Nevada, Arizona, or Oregon, instead of the eternal plane of New England.",
-    "weight": "6 g",
-    "volume": "0 ml",
-    "price": "1 USD",
-    "material": [ "gold" ],
-    "symbol": "o",
-    "color": "yellow",
-    "use_action": "COIN_FLIP"
-  },
-  {
-    "id": "coin_legion_small",
-    "type": "GENERIC",
-    "category": "other",
-    "name": { "str": "Legion Denarius", "str_pl": "Legion Denarius" },
-    "description": "A silver coin from a post-cataclysm civilization out west. How it got here, you don't know.",
-    "weight": "6 g",
-    "volume": "0 ml",
-    "price": "4 USD",
-    "material": [ "silver" ],
-    "symbol": "o",
-    "color": "light_gray",
-    "use_action": "COIN_FLIP"
-  },
-  {
-    "id": "coin_legion_large",
-    "type": "GENERIC",
-    "category": "other",
-    "name": { "str": "Legion Aureus", "str_pl": "Legion Aureus" },
-    "description": "A golden coin from a post-cataclysm civilization out west. How it got here, you don't know.",
-    "weight": "6 g",
-    "volume": "0 ml",
-    "price": "40 USD",
-    "material": [ "gold" ],
-    "symbol": "o",
-    "color": "yellow",
-    "use_action": "COIN_FLIP"
-  },
-  {
-    "id": "cap_bottle",
-    "type": "GENERIC",
-    "category": "other",
-    "name": { "str": "bottlecap", "str_pl": "bottlecaps" },
-    "description": "A worthless Nuka-Cola bottlecap. You've heard that in some places they are used as money, though you suspect its only a story.",
-    "weight": "6 g",
-    "volume": "0 ml",
-    "price": "1 USD",
-    "material": [ "steel" ],
-    "symbol": "o",
-    "color": "red"
-  },
-  {
     "id": "pipboy_2000",
     "type": "TOOL",
     "name": { "str": "Pip-Boy 2000" },
@@ -110,7 +55,7 @@
     "material": [ "plastic" ],
     "symbol": ";",
     "ammo": [ "battery" ],
-	"magazines": [
+    "magazines": [
       [
         "battery",
         [
@@ -146,7 +91,7 @@
     "coverage": 15,
     "symbol": "[",
     "ammo": [ "battery" ],
-	"magazines": [
+    "magazines": [
       [
         "battery",
         [
@@ -247,7 +192,7 @@
     "material": [ "iron" ],
     "symbol": ")",
     "color": "blue",
-	"contains": "250 ml",
+    "contains": "250 ml",
     "seals": true,
     "watertight": true,
     "armor_data": { "covers": [ "leg_either" ], "coverage": 2, "material_thickness": 1 },

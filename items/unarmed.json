@@ -1,22 +1,101 @@
 [
   {
     "type": "GENERIC",
+    "looks_like": "grip_hook",
     "id": "meat_hook_claws",
-    "weapon_category": [ "1H_HOOKED" ],
-    "name": { "str": "meathook gauntlets", "str_pl": "pairs of meathook gauntlets" },
-    "description": "A custom pair of gauntlets made using old meathooks to make a brutal, yet effective weapon. You could possibly use the curves of the hooks to parry attacks.",
-    "weight": "600 g",
-    "volume": "375 ml",
-    "to_hit": 3,
+    "weapon_category": [ "FIST_WEAPONS" ],
+    "name": { "str": "Meat Hook" },
+    "description": "A grip hook with wrapped handle for better grip and two additional hooks welded on to make it into a better makeshift weapon. ",
+    "weight": "1000 g",
+    "volume": "750 ml",
+    "to_hit": -1,
     "color": "dark_gray",
     "symbol": "{",
     "material": [ "steel" ],
-    "bashing": 1,
+    "bashing": 4,
     "cutting": 16,
-    "techniques": [ "BRUTAL", "WBLOCK_2" ],
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE" ],
+    "techniques": [ "DEF_DISARM", "SWEEP" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "BELT_CLIP", "STAB" ],
     "price": "200 USD",
-    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 14 ] ]
+    "qualities": [ [ "HAMMER", 1 ], [ "BUTCHER", -10 ] ]
+  },
+  {
+    "type": "GENERIC",
+    "looks_like": "bio_claws_weapon",
+    "category": "weapons",
+    "id": "fo_gauntlet_deathclaw",
+    "weapon_category": [ "FIST_WEAPONS" ],
+    "name": { "str": "Deathclaw Gauntlet" },
+    "//": "The claws cannot penetrate harder armor without the mass of a deathclaw behind it.",
+    "description": "A deadly weapon made with a severed deathclaw hand. The claws can easily tear through lightly armored opponents. The hand is deskinned and all joints are kept straight with metal plates and screws. Straps and a handle are added to secure the weapon on the hand. It's as much of a trophy as it is a weapon.",
+    "weight": "1000 g",
+    "volume": "800 ml",
+    "color": "dark_gray",
+    "symbol": "{",
+    "material": [ "bone_heavy" ],
+    "techniques": [ "WBLOCK_2", "DEF_DISARM", "SWEEP" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE" ],
+    "attacks": [
+      {
+        "id": "CUT",
+        "to_hit": 2,
+        "damage": { "values": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "cut", "amount": 25 } ] }
+      }
+    ],
+    "price": "200 USD",
+    "qualities": [ [ "BUTCHER", -10 ] ]
+  },
+  {
+    "type": "GENERIC",
+    "looks_like": "punch_dagger",
+    "category": "weapons",
+    "id": "fo_gauntlet_mantis",
+    "weapon_category": [ "FIST_WEAPONS" ],
+    "name": { "str": "Mantis Gauntlet" },
+    "description": "A deadly weapon made with a severed mantis foreleg. The durable chitinous point can easily pierce through lightly armored opponents. All joints are kept straight with metal plates and screws. The femur is hollowed out to allow an arm to fit through, and a handle is added to secure the weapon on the hand.",
+    "weight": "1000 g",
+    "volume": "800 ml",
+    "color": "dark_gray",
+    "symbol": "{",
+    "material": [ "chitin" ],
+    "techniques": [ "WBLOCK_2" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "STAB" ],
+    "attacks": [
+      {
+        "id": "STAB",
+        "to_hit": 2,
+        "damage": {
+          "values": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 20, "armor_multiplier": 0.9 } ]
+        }
+      }
+    ],
+    "price": "200 USD"
+  },
+  {
+    "type": "GENERIC",
+    "looks_like": "bio_claws_weapon",
+    "category": "weapons",
+    "id": "fo_gauntlet_yaoguai",
+    "weapon_category": [ "FIST_WEAPONS" ],
+    "name": { "str": "Yao Guai Gauntlet" },
+    "//": "Lower damage than deathclaw gauntlet.",
+    "description": "A deadly weapon made with a severed Yao Guai hand. The claws can easily tear through lightly armored opponents. The hand is deskinned and all joints are kept straight with metal plates and screws. Straps and a handle are added to secure the weapon on the hand.",
+    "weight": "1000 g",
+    "volume": "800 ml",
+    "color": "dark_gray",
+    "symbol": "{",
+    "material": [ "bone_heavy" ],
+    "techniques": [ "WBLOCK_2", "DEF_DISARM", "SWEEP" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE" ],
+    "attacks": [
+      {
+        "id": "CUT",
+        "to_hit": 2,
+        "damage": { "values": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "cut", "amount": 20 } ] }
+      }
+    ],
+    "price": "200 USD",
+    "qualities": [ [ "BUTCHER", -10 ] ]
   },
   {
     "type": "GENERIC",

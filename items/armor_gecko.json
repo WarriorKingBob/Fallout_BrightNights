@@ -1,8 +1,7 @@
 [
   {
     "id": "boots_gecko",
-    "looks_like": "dress_shoes",
-    "repairs_like": "boots_larmor",
+    "looks_like": "boots",
     "type": "ARMOR",
     "name": { "str": "pair of gecko-skin boots", "str_pl": "pairs of gecko-skin boots" },
     "description": "Tough gecko-skin boots.  Very durable.",
@@ -25,8 +24,7 @@
   },
   {
     "id": "boots_gecko_gold",
-    "looks_like": "dress_shoes",
-    "repairs_like": "boots_larmor",
+    "looks_like": "boots",
     "type": "ARMOR",
     "name": { "str": "pair of golden gecko-skin boots", "str_pl": "pairs of golden gecko-skin boots" },
     "description": "Tough, golden gecko-skin boots.  Very durable, and immune to acid in entirety, you can wade through anything in these.",
@@ -50,7 +48,6 @@
   {
     "id": "gloves_leather_gecko",
     "looks_like": "gloves_light",
-    "repairs_like": "gloves_leather",
     "type": "ARMOR",
     "name": { "str": "pair of gecko-skin gloves", "str_pl": "pairs of gecko-skin gloves" },
     "description": "A thin pair of silver gecko-skin gloves.",
@@ -72,7 +69,6 @@
   {
     "id": "gloves_leather_gecko_gold",
     "looks_like": "gloves_light",
-    "repairs_like": "gloves_leather",
     "type": "ARMOR",
     "name": { "str": "pair of golden gecko-skin gloves", "str_pl": "pairs of golden gecko-skin gloves" },
     "description": "A thin pair of golden gecko-skin gloves. Ever wanted to choke out a spitter? With these babies, you can.",
@@ -94,8 +90,7 @@
   },
   {
     "id": "backpack_leather_gecko",
-    "looks_like": "backpack",
-    "repairs_like": "backpack_leather",
+    "looks_like": "backpack_leather",
     "type": "ARMOR",
     "name": { "str": "gecko-skin backpack" },
     "description": "A small gecko-skin backpack.  Good storage for a little encumbrance.",
@@ -119,7 +114,6 @@
   {
     "id": "backpack_leather_gecko_gold",
     "looks_like": "backpack",
-    "repairs_like": "backpack_leather",
     "type": "ARMOR",
     "name": { "str": "golden gecko-skin backpack" },
     "description": "A small golden gecko-skin backpack.  Good storage for a little encumbrance. Perfect for carrying stuff a golden gecko might be interested in, or just carrying vials of acid that youre worried about breaking.",
@@ -143,8 +137,7 @@
   },
   {
     "id": "armguard_leather_gecko",
-    "looks_like": "arm_warmers",
-    "repairs_like": "armguard_larmor",
+    "looks_like": "armguard_larmor",
     "type": "ARMOR",
     "name": { "str": "pair of gecko-skin arm guards", "str_pl": "pairs of gecko-skin arm guards" },
     "description": "A pair of tough gecko-skin arm guards.  Light and comfortable.",
@@ -165,8 +158,7 @@
   },
   {
     "id": "armguard_leather_gecko_gold",
-    "looks_like": "arm_warmers",
-    "repairs_like": "armguard_larmor",
+    "looks_like": "armguard_larmor",
     "type": "ARMOR",
     "name": { "str": "pair of golden gecko-skin arm guards", "str_pl": "pairs of golden gecko-skin arm guards" },
     "description": "A pair of tough golden gecko-skin arm guards.  Light and comfortable. Perfect for plunging your arm into an acid anthill.",
@@ -213,7 +205,6 @@
   {
     "id": "armor_leather_gecko_gold",
     "looks_like": "armor_larmor",
-    "repairs_like": "armor_larmor",
     "type": "ARMOR",
     "name": { "str": "golden gecko-skin body armor" },
     "description": "Thick gecko-skin body armor. Light and durable, with many pockets for storage. You could swim in acid in this, if you only had facial protection.",
@@ -234,10 +225,9 @@
     "environmental_protection": 3,
     "valid_mods": [ "steel_padded" ],
     "flags": [ "VARSIZE", "POCKETS", "STURDY", "FANCY" ]
-  },	
+  },
   {
     "id": "mask_gecko",
-    "repairs_like": "mask_gas",
     "type": "TOOL_ARMOR",
     "name": { "str": "gecko-skin mask" },
     "category": "clothing",
@@ -265,7 +255,6 @@
   },
   {
     "id": "mask_gecko_gold",
-    "repairs_like": "mask_gas",
     "type": "TOOL_ARMOR",
     "name": { "str": "golden gecko-skin mask" },
     "category": "clothing",
@@ -274,7 +263,7 @@
     "volume": "1 L",
     "price": "51 USD",
     "to_hit": -3,
-    "material": [ "leather_gecko" ],
+    "material": [ "leather_gecko_gold" ],
     "symbol": "[",
     "color": "yellow",
     "covers": [ "mouth", "eyes", "head" ],
@@ -293,8 +282,7 @@
   },
   {
     "id": "duster_leather_gecko",
-    "looks_like": "duster",
-    "repairs_like": "duster_leather",
+    "looks_like": "duster_leather",
     "type": "ARMOR",
     "name": { "str": "gecko-skin duster" },
     "description": "A thick gecko-skin full-length duster.  Has many pockets for storage.",
@@ -317,8 +305,7 @@
   },
   {
     "id": "duster_leather_gecko_gold",
-    "looks_like": "duster",
-    "repairs_like": "duster_leather",
+    "looks_like": "duster_leather",
     "type": "ARMOR",
     "name": { "str": "golden gecko-skin duster" },
     "description": "A thick golden gecko-skin full-length duster.  Has many pockets for storage. It also doubles as a raincoat!",

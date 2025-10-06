@@ -10,18 +10,17 @@
         "items": [
           "jumpsuit_vault_13",
           "socks",
-          "boots_rubber",
+          "boots",
           "water_clean",
           "matches",
-          "redryderle",
           "bb",
           "bat",
           "cola_nuka",
           "cola_nuka_quantum",
           "backpack",
-          "shoulder_strap",
           "fo_misc_pipboy"
-        ]
+        ],
+        "entries": [ { "item": "redryderle", "contents-item": "shoulder_strap" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
@@ -38,19 +37,17 @@
         "items": [
           "jumpsuit_vault_13",
           "socks",
-          "boots_rubber",
+          "boots",
           "water_clean",
           "matches",
-          "colt6250",
           "colt6250mag",
           "10mmjhp",
           "cola_nuka",
           "cola_nuka_quantum",
           "backpack",
-          "holster",
           "fo_misc_pipboy"
         ],
-        "entries": [ { "item": "sheath", "container-item": "vault_knife" } ]
+        "entries": [ { "item": "vault_knife", "container-item": "sheath" }, { "item": "colt6250", "container-item": "holster" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
@@ -68,23 +65,20 @@
         "items": [
           "jumpsuit_vault_13",
           "socks",
-          "boots_rubber",
-          "vault_knife",
+          "boots",
           "water_clean",
           "matches",
-          "colt6250",
           "colt6250mag",
           "10mmjhp",
           "bat",
           "cola_nuka",
           "cola_nuka_quantum",
           "backpack",
-          "holster",
           "bandana",
           "jacket_leather_tunnel",
           "fo_misc_pipboy"
         ],
-        "entries": [ { "item": "sheath", "container-item": "vault_knife" } ]
+        "entries": [ { "item": "vault_knife", "container-item": "sheath" }, { "item": "colt6250", "container-item": "holster" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
@@ -105,19 +99,16 @@
           "socks",
           "scalpel",
           "boots_rubber",
-          "vault_knife",
           "water_clean",
           "matches",
-          "colt6250",
           "colt6250mag",
           "10mmjhp",
           "cola_nuka",
           "cola_nuka_quantum",
           "backpack",
-          "holster",
           "fo_misc_pipboy"
         ],
-        "entries": [ { "item": "sheath", "container-item": "vault_knife" } ]
+        "entries": [ { "item": "vault_knife", "container-item": "sheath" }, { "item": "colt6250", "container-item": "holster" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
@@ -135,20 +126,18 @@
         "items": [
           "jumpsuit_vault_13_utility",
           "socks",
-          "boots_rubber",
+          "boots",
           "vault_knife",
           "water_clean",
           "toolbox",
-          "colt6250",
           "colt6250mag",
           "10mmjhp",
           "cola_nuka",
           "cola_nuka_quantum",
           "backpack",
-          "holster",
           "fo_misc_pipboy"
         ],
-        "entries": [ { "item": "sheath", "container-item": "vault_knife" } ]
+        "entries": [ { "item": "vault_knife", "container-item": "sheath" }, { "item": "colt6250", "container-item": "holster" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
@@ -166,22 +155,22 @@
         "items": [
           "jumpsuit_vault_13_utility",
           "socks",
-          "boots_rubber",
+          "boots",
           "vault_knife",
           "water_clean",
-          "shotgun_d",
           "shot_beanbag",
-          "colt6250",
           "colt6250mag",
           "10mmjhp",
           "cola_nuka",
           "cola_nuka_quantum",
           "backpack",
-          "holster",
-          "shoulder_strap",
           "fo_misc_pipboy"
         ],
-        "entries": [ { "item": "sheath", "container-item": "vault_knife" } ]
+        "entries": [
+          { "item": "vault_knife", "container-item": "sheath" },
+          { "item": "colt6250", "container-item": "holster" },
+          { "item": "shotgun_d", "container-item": "shoulder_strap" }
+        ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
@@ -211,20 +200,18 @@
         "items": [
           "jumpsuit_vault_13_utility",
           "socks",
-          "boots_rubber",
+          "boots",
           "vault_knife",
           "water_clean",
           "toolbox",
-          "colt6250",
           "colt6250mag",
           "10mmjhp",
           "cola_nuka",
           "cola_nuka_quantum",
           "backpack",
-          "holster",
           "fo_misc_pipboy"
         ],
-        "entries": [ { "item": "sheath", "container-item": "vault_knife" } ]
+        "entries": [ { "item": "vault_knife", "container-item": "sheath" }, { "item": "colt6250", "container-item": "holster" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
@@ -253,22 +240,21 @@
         "items": [
           "jumpsuit_vault_13_utility",
           "socks",
-          "boots_rubber",
-          "vault_knife",
+          "boots",
           "water_clean",
-          "shotgun_d",
           "shot_00",
-          "colt6250",
           "colt6250mag",
           "10mmjhp",
           "cola_nuka",
           "cola_nuka_quantum",
           "backpack",
-          "holster",
-          "shoulder_strap",
           "fo_misc_pipboy"
         ],
-        "entries": [ { "item": "sheath", "container-item": "vault_knife" } ]
+        "entries": [
+          { "item": "vault_knife", "container-item": "sheath" },
+          { "item": "colt6250", "container-item": "holster" },
+          { "item": "shotgun_d", "contents-item": "shoulder_strap" }
+        ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
