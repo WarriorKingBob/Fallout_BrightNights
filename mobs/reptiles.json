@@ -27,7 +27,7 @@
     "armor_bullet": 2,
     "vision_day": 3,
     "vision_night": 35,
-    "harvest": "mutant_mammal_leather",
+    "harvest": "mutant_animal_toothy_scute",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -77,7 +77,7 @@
     "armor_bullet": 3,
     "vision_day": 35,
     "vision_night": 35,
-    "harvest": "mutant_mammal_leather",
+    "harvest": "mutant_animal_toothy_scute",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
