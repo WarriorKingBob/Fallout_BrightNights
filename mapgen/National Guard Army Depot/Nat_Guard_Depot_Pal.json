@@ -201,7 +201,7 @@
       ],
       "6": [
         { "item": "ar15", "chance": 10, "repeat": [ 1, 2 ] },
-        { "item": "m4a1", "contents-item": [ "acog_scope" ], "chance": 10 },
+        { "item": "m16a4", "contents-item": [ "acog_scope", "adjustable_stock" ], "chance": 10 },
         { "item": "m60", "chance": 10 },
         { "item": "carbine_assault", "chance": 10, "repeat": [ 1, 2 ] },
         { "item": "ak112", "chance": 15, "repeat": [ 1, 2 ] },

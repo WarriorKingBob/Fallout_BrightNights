@@ -37,15 +37,96 @@
     "id": "NC_GHOUL_MILITANT_worn",
     "subtype": "collection",
     "entries": [
-      { "distribution": [ { "item": "vest_leather_mod", "prob": 100 }, { "item": "cuirass_scrap", "prob": 100 }, { "item": "jacket_leather_mod", "prob": 100 }, { "item": "kevlar", "prob": 100 }, { "item": "motorbike_armor", "prob": 100 }, { "item": "vest_leather_mod", "prob": 100 }, { "item": "armor_wasteplate", "prob": 100 } ], "prob": 75 },
-      { "distribution": [ { "item": "jacket_army", "prob": 100 }, { "item": "hoodie", "prob": 100 }, { "item": "winter_jacket_army", "prob": 100 }, { "item": "longshirt", "prob": 100 }, { "item": "polo_shirt", "prob": 100 }, { "item": "sheriffshirt", "prob": 100 }, { "item": "sweater", "prob": 100 }, { "item": "sweatshirt", "prob": 100 } ], "prob": 100 },
-      { "distribution": [ { "item": "pants_army", "prob": 100 }, { "item": "pants_cargo", "prob": 100 }, { "item": "pants_leather", "prob": 100 }, { "item": "winter_pants_army", "prob": 100 }, { "item": "technician_pants_gray", "prob": 100 } ], "prob": 100 },
-      { "distribution": [ { "item": "2byshin_guard", "prob": 100 }, { "item": "knee_pads", "prob": 100 }, { "item": "legguard_hard", "prob": 100 }, { "item": "legguard_metal", "prob": 100 }, { "item": "legguard_scrap", "prob": 100 }, { "item": "pants_survivor", "prob": 100 } ], "prob": 65 },
+      {
+        "distribution": [
+          { "item": "vest_leather_mod", "prob": 100 },
+          { "item": "cuirass_scrap", "prob": 100 },
+          { "item": "jacket_leather_mod", "prob": 100 },
+          { "item": "kevlar", "prob": 100 },
+          { "item": "motorbike_armor", "prob": 100 },
+          { "item": "vest_leather_mod", "prob": 100 },
+          { "item": "armor_wasteplate", "prob": 100 }
+        ],
+        "prob": 75
+      },
+      {
+        "distribution": [
+          { "item": "jacket_army", "prob": 100 },
+          { "item": "hoodie", "prob": 100 },
+          { "item": "winter_jacket_army", "prob": 100 },
+          { "item": "longshirt", "prob": 100 },
+          { "item": "polo_shirt", "prob": 100 },
+          { "item": "sheriffshirt", "prob": 100 },
+          { "item": "sweater", "prob": 100 },
+          { "item": "sweatshirt", "prob": 100 }
+        ],
+        "prob": 100
+      },
+      {
+        "distribution": [
+          { "item": "pants_army", "prob": 100 },
+          { "item": "pants_cargo", "prob": 100 },
+          { "item": "pants_leather", "prob": 100 },
+          { "item": "winter_pants_army", "prob": 100 },
+          { "item": "technician_pants_gray", "prob": 100 }
+        ],
+        "prob": 100
+      },
+      {
+        "distribution": [
+          { "item": "2byshin_guard", "prob": 100 },
+          { "item": "knee_pads", "prob": 100 },
+          { "item": "legguard_hard", "prob": 100 },
+          { "item": "legguard_metal", "prob": 100 },
+          { "item": "legguard_scrap", "prob": 100 },
+          { "item": "pants_survivor", "prob": 100 }
+        ],
+        "prob": 65
+      },
       { "item": "socks" },
-      { "distribution": [ { "item": "boots", "prob": 100 }, { "item": "boots_combat", "prob": 100 }, { "item": "boots_fur", "prob": 100 }, { "item": "boots_hiking", "prob": 100 }, { "item": "boots_western", "prob": 100 } ], "prob": 100 },
-      { "distribution": [ { "item": "backpack", "prob": 100 }, { "item": "backpack_leather", "prob": 100 }, { "item": "boxpack", "prob": 100 }, { "item": "daypack", "prob": 100 }, { "item": "fanny", "prob": 100 }, { "item": "slingpack", "prob": 100 } ], "prob": 75 },
-      { "distribution": [ { "item": "bandolier_rifle", "prob": 100 }, { "item": "ammo_pouch", "prob": 100 }, { "item": "chestrig", "prob": 100 }, { "item": "modularvest", "prob": 50 }, { "item": "modularvestceramic", "prob": 50 }, { "item": "modularveststeel", "prob": 50 }, { "item": "tacvest", "prob": 100 } ], "prob": 75 },
-      { "distribution": [ { "item": "tac_fullhelmet", "prob": 50 }, { "item": "helmet_survivor", "prob": 100 }, { "item": "helmet_army", "prob": 100 }, { "item": "tac_helmet", "prob": 100 }, { "item": "helmet_biker_retro", "prob": 100 } ], "prob": 75 }
+      {
+        "distribution": [
+          { "item": "boots", "prob": 100 },
+          { "item": "boots_combat", "prob": 100 },
+          { "item": "boots_fur", "prob": 100 },
+          { "item": "boots_hiking", "prob": 100 },
+          { "item": "boots_western", "prob": 100 }
+        ],
+        "prob": 100
+      },
+      {
+        "distribution": [
+          { "item": "backpack", "prob": 100 },
+          { "item": "backpack_leather", "prob": 100 },
+          { "item": "boxpack", "prob": 100 },
+          { "item": "daypack", "prob": 100 },
+          { "item": "fanny", "prob": 100 },
+          { "item": "slingpack", "prob": 100 }
+        ],
+        "prob": 75
+      },
+      {
+        "distribution": [
+          { "item": "bandolier_rifle", "prob": 100 },
+          { "item": "ammo_pouch", "prob": 100 },
+          { "item": "chestrig", "prob": 100 },
+          { "item": "modularvest", "prob": 50 },
+          { "item": "modularvestceramic", "prob": 50 },
+          { "item": "modularveststeel", "prob": 50 },
+          { "item": "tacvest", "prob": 100 }
+        ],
+        "prob": 75
+      },
+      {
+        "distribution": [
+          { "item": "tac_fullhelmet", "prob": 50 },
+          { "item": "helmet_survivor", "prob": 100 },
+          { "item": "helmet_army", "prob": 100 },
+          { "item": "tac_helmet", "prob": 100 },
+          { "item": "helmet_biker_retro", "prob": 100 }
+        ],
+        "prob": 75
+      }
     ]
   },
   {
@@ -55,17 +136,13 @@
     "entries": [
       { "group": "drugs_heal_simple", "count": [ 1, 2 ], "prob": 50 },
       { "group": "fallout_misc_itemgroup_food", "count": [ 1, 2 ], "prob": 40 }
-      ]
+    ]
   },
   {
     "type": "item_group",
     "id": "NC_GHOUL_MILITANT_weapon",
     "subtype": "distribution",
-    "entries": [
-      { "group": "drops_ghoul_ranged_weapon_group", "prob": 70 },
-      { "group": "drops_fo_melee_weapons", "prob": 30 }
-
-    ]
+    "entries": [ { "group": "drops_ghoul_ranged_weapon_group", "prob": 70 }, { "group": "drops_fo_melee_weapons", "prob": 30 } ]
   },
   {
     "type": "item_group",
@@ -81,7 +158,7 @@
       { "item": "thatgun", "prob": 75 },
       { "item": "m199", "prob": 75 },
       { "item": "m4a1", "prob": 75 },
-      { "item": "m4a1", "contents-item": [ "acog_scope" ], "prob": 75 },
+      { "item": "m16a4", "contents-item": [ "acog_scope", "adjustable_stock" ], "prob": 75 },
       { "item": "type93", "prob": 75 },
       { "item": "mauser_9mm", "prob": 75 },
       { "item": "127mmpistol", "prob": 75 },
@@ -106,7 +183,6 @@
       { "item": "saiga_12", "prob": 75 },
       { "item": "streetsweeper", "prob": 75 },
       { "item": "SPAS_12", "prob": 75 }
-
     ]
   },
   {
@@ -116,12 +192,7 @@
       "u_female": true,
       "yes": [ "What do you want, why are you talking to me!" ],
       "no": [ "What do you want, why are you talking to me!" ]
-        },
-    "responses": [
-      {
-        "text": "Goodbye.",
-        "topic": "TALK_DONE"
-      }
-    ]
+    },
+    "responses": [ { "text": "Goodbye.", "topic": "TALK_DONE" } ]
   }
 ]

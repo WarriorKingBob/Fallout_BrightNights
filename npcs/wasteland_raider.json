@@ -288,7 +288,7 @@
       },
       {
         "collection": [
-          { "item": "m4a1", "contents-item": [ "acog_scope" ], "dirt": [ 0, 4000 ], "charges": 30 },
+          { "item": "m16a4", "contents-item": [ "acog_scope", "adjustable_stock" ], "dirt": [ 0, 4000 ], "charges": 30 },
           { "item": "stanag30", "charges": 30, "count": [ 1, 2 ], "prob": 100 },
           { "item": "223", "charges": [ 10, 35 ], "prob": 100 }
         ],

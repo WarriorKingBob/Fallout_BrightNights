@@ -152,21 +152,20 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "5mm", [ "5mmmag", "5mmlargemag", "5mmdrummag" ] ] ],
-    "flags": [ "NEVER_JAMS" ]
+    "magazines": [ [ "5mm", [ "5mmmag", "5mmlargemag", "5mmdrummag" ] ] ]
   },
   {
     "id": "carbine_assault",
     "type": "GUN",
     "copy-from": "rifle_auto",
     "reload_noise_volume": 10,
-    "name": { "str": "Colt 735" },
-    "description": "The Colt 735 is a carbine made for use by paratroopers. It is chambered in 5mm and has a folding stock.",
+    "name": { "str": "M4 Paratrooper Carbine" },
+    "description": "A uncommon carbine based on the M4 made for paratroopers. It's chambered in 5mm to reduce overall weight for the paratroopers during rapid insertion operations.",
     "weight": "2710 g",
     "volume": "1750 ml",
     "price": "2900 USD",
     "looks_like": "ar15",
-    "material": [ "steel", "wood" ],
+    "material": [ "steel" ],
     "color": "brown",
     "ammo": [ "5mm" ],
     "dispersion": 180,
@@ -186,9 +185,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "default_mods": [ "folding_stock" ],
-    "magazines": [ [ "5mm", [ "5mmmag" ] ], [ "5mm", [ "5mmlargemag" ] ], [ "5mm", [ "5mmdrummag" ] ], [ "5mm", [ "5mmminigunmag" ] ] ],
-    "flags": [ "NEVER_JAMS" ]
+    "magazines": [ [ "5mm", [ "5mmmag", "5mmlargemag", "5mmdrummag" ] ] ]
   },
   {
     "id": "type93",
@@ -202,7 +199,7 @@
     "price": "2400 USD",
     "to_hit": -1,
     "bashing": 12,
-    "material": [ "steel", "plastic" ],
+    "material": [ "steel", "wood" ],
     "symbol": "(",
     "color": "dark_gray",
     "ammo": [ "223" ],
@@ -284,7 +281,7 @@
     "copy-from": "rifle_manual",
     "type": "GUN",
     "name": { "str": "Winchester 1892" },
-    "description": "This fine lever action rifle is chambered in the powerful .357 magnum cartridge and features a sleek barrel with a tube fed magazine. Popular among wild west re-enactors.",
+    "description": "This fine lever action rifle is chambered in the powerful .357 magnum cartridge and features a sleek barrel with a tube fed magazine. Popular among NCR Rangers.",
     "weight": "3937 g",
     "volume": "3 L",
     "price": "899 USD",

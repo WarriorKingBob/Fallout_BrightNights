@@ -94,7 +94,7 @@
       [ "wattz_2000", 50 ],
       [ "amr50", 25 ],
       [ "carbine_assault", 25 ],
-      { "item": "m4a1", "contents-item": [ "acog_scope" ], "prob": 25 },
+      { "item": "m16a4", "contents-item": [ "acog_scope", "adjustable_stock" ], "prob": 25 },
       [ "type93", 5 ],
       [ "cowboy_repeater_longue", 1 ],
       [ "varmint_rifle_ratslayer", 1 ],

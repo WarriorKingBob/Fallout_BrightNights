@@ -3,7 +3,7 @@
     "id": "5mmmag",
     "type": "MAGAZINE",
     "name": { "str": "5mm magazine" },
-    "description": "A 30-round magazine, calibered in 5mm.",
+    "description": "A 30-round 5mm magazine.",
     "weight": "100 g",
     "volume": "250 ml",
     "price": "50 USD",
@@ -29,7 +29,7 @@
     "ammo_type": [ "5mm" ],
     "capacity": 60,
     "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_BULKY" ]
   },
   {
     "id": "5mmdrummag",
@@ -45,7 +45,7 @@
     "ammo_type": [ "5mm" ],
     "capacity": 100,
     "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_BULKY" ]
   },
   {
     "id": "5mmminigunmag",
@@ -61,6 +61,6 @@
     "ammo_type": [ "5mm" ],
     "capacity": 500,
     "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_BULKY" ]
   }
 ]

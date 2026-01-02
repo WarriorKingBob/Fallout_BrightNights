@@ -152,5 +152,18 @@
       [ [ "funnel", 1 ], [ "metal_funnel", 1 ], [ "makeshift_funnel", 1 ] ],
       [ [ "sheet_metal_small", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "broadsider",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "3 h",
+    "autolearn": true,
+    "using": [ [ "blacksmithing_intermediate", 300 ], [ "steel_standard", 100 ], [ "soldering_standard", 5 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "DRILL", "level": 1 } ],
+    "components": [ [ [ "cable", 3 ] ], [ [ "plastic_chunk", 1 ] ], [ [ "e_scrap", 1 ] ] ]
   }
 ]

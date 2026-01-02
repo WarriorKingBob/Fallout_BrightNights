@@ -70,7 +70,7 @@
     "id": "fo_yao_guai_hand",
     "symbol": ",",
     "color": "yellow",
-    "name": { "str": "Deathclaw hand" },
+    "name": { "str": "Yao Guai hand" },
     "description": "A large severed hand of a Yao Guai. The claws are still quite sharp.",
     "price": "20 USD",
     "material": [ "bone_heavy" ],

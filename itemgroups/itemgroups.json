@@ -379,7 +379,13 @@
       { "item": "bozar", "ammo-item": "223", "charges": 50, "prob": 2 },
       { "item": "m199", "ammo-item": "50bmg", "charges": 10, "prob": 15 },
       { "item": "m4a1", "ammo-item": "223", "charges": 10, "prob": 15 },
-      { "item": "m4a1", "contents-item": [ "acog_scope" ], "ammo-item": "223", "charges": 10, "prob": 5 },
+      {
+        "item": "m16a4",
+        "contents-item": [ "acog_scope", "adjustable_stock" ],
+        "ammo-item": "223",
+        "charges": 10,
+        "prob": 5
+      },
       { "item": "type93", "ammo-item": "223", "charges": 10, "prob": 5 }
     ]
   },
@@ -440,7 +446,13 @@
       { "item": "bozar", "ammo-item": "223", "charges": 10, "prob": 3 },
       { "item": "m199", "ammo-item": "50bmg", "charges": 10, "prob": 15 },
       { "item": "m4a1", "ammo-item": "223", "charges": 10, "prob": 15 },
-      { "item": "m4a1", "contents-item": [ "acog_scope" ], "ammo-item": "223", "charges": 10, "prob": 5 },
+      {
+        "item": "m16a4",
+        "contents-item": [ "acog_scope", "adjustable_stock" ],
+        "ammo-item": "223",
+        "charges": 10,
+        "prob": 5
+      },
       { "item": "type93", "ammo-item": "223", "charges": 10, "prob": 5 },
       { "item": "127mmpistol", "charges": 7, "prob": 3 },
       { "item": "ak112", "prob": 20, "charges": 25 }
