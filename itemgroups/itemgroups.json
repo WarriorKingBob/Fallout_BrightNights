@@ -613,7 +613,7 @@
     "type": "item_group",
     "id": "fallout_chinese_swords",
     "subtype": "distribution",
-    "entries": [ { "item": "sword_chinese", "prob": 50 }, { "item": "sword_chinese_shock", "prob": 50 } ]
+    "entries": [ { "item": "jian", "prob": 50 }, { "item": "sword_chinese_shock", "prob": 50 } ]
   },
   {
     "type": "item_group",
@@ -988,7 +988,7 @@
       { "item": "machete_gladius", "prob": 30 },
       { "item": "flagstaff", "prob": 15 },
       { "item": "sword_revolutionary", "prob": 30 },
-      { "item": "sword_chinese", "prob": 15 },
+      { "item": "jian", "prob": 15 },
       { "item": "sword_chinese_shock", "prob": 5 },
       { "item": "meat_hook_claws", "prob": 15 },
       { "item": "gloves_boxing_doubleplated", "prob": 5 },

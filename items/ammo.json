@@ -132,7 +132,7 @@
     "range": 20,
     "damage": { "damage_type": "bullet", "amount": 45, "armor_penetration": 14 },
     "dispersion": 30,
-    "recoil": 1570,
+    "recoil": 2300,
     "effects": [ "COOKOFF" ]
   },
   {
@@ -153,7 +153,7 @@
     "range": 20,
     "damage": { "damage_type": "bullet", "amount": 55, "armor_penetration": 0 },
     "dispersion": 30,
-    "recoil": 1570,
+    "recoil": 2300,
     "effects": [ "COOKOFF" ]
   },
   {
@@ -174,7 +174,7 @@
     "range": 30,
     "damage": { "damage_type": "bullet", "amount": 35, "armor_penetration": 35 },
     "dispersion": 30,
-    "recoil": 1500,
+    "recoil": 1400,
     "effects": [ "COOKOFF" ]
   },
   {
@@ -195,7 +195,7 @@
     "range": 30,
     "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 50 },
     "dispersion": 30,
-    "recoil": 1500,
+    "recoil": 1400,
     "effects": [ "COOKOFF" ]
   },
   {
@@ -216,7 +216,7 @@
     "range": 30,
     "damage": { "damage_type": "bullet", "amount": 35, "armor_penetration": 35 },
     "dispersion": 30,
-    "recoil": 1500,
+    "recoil": 1400,
     "effects": [ "COOKOFF", "INCENDIARY" ]
   },
   {
@@ -236,7 +236,7 @@
     "casing": "20ga_hull",
     "range": 12,
     "damage": { "damage_type": "bullet", "amount": 60 },
-    "recoil": 1500,
+    "recoil": 1700,
     "loudness": 160,
     "effects": [ "COOKOFF", "SHOT" ]
   }

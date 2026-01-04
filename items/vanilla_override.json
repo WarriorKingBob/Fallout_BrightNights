@@ -74,5 +74,19 @@
         ]
       }
     ]
+  },
+  {
+    "id": "dias",
+    "type": "GUNMOD",
+    "name": { "str": "drop-in auto sear" },
+    "copy-from": "dias",
+    "mod_targets": [ "ar15", "fo_127mmrifle" ]
+  },
+  {
+    "id": "llink",
+    "type": "GUNMOD",
+    "name": { "str": "lightning link" },
+    "copy-from": "llink",
+    "mod_targets": [ "ar15", "fo_127mmrifle" ]
   }
 ]

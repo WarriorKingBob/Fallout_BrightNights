@@ -414,5 +414,14 @@
       [ "underbarrel", 1 ]
     ],
     "flags": [ "RELOAD_ONE" ]
+  },
+  {
+    "id": "fo_127mmrifle",
+    "type": "GUN",
+    "copy-from": "ar15",
+    "name": { "str": "AR-15 12.7mm" },
+    "description": "A semi-auto rifle based on the AR-15 platform chambered in 12.7mm round. It was originally advertised for soldiers at vehicle checkpoints, but has found popularity in the civilian market for big game hunting, as it combines the accuracy and familiarity of an AR-15 rifle with the stopping power of a high caliber pistol round.",
+    "ammo": [ "127mm" ],
+    "magazines": [ [ "127mm", [ "127mmriflemag" ] ] ]
   }
 ]
