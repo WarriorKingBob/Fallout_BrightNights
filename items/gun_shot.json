@@ -31,12 +31,9 @@
     "id": "caravan_shotgun",
     "copy-from": "shotgun_d",
     "type": "GUN",
-    "name": { "str": "Winchester 101" },
-    "description": "An over-under shotgun, popular among sport shooters, caravan companies, and even hunters. It uses the weaker 20ga shot, allowing the shooter greater control",
-    "durability": 9,
+    "name": { "str": "Winchester 101 20ga" },
+    "description": "An over-under shotgun, popular among sport shooters, caravan companies, and even hunters. This one is chambered in the weaker 20ga shot, allowing the shooter greater control.",
     "ammo": [ "20ga" ],
-    "clip_size": 2,
-    "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ],
     "relative": { "weight": "400 g", "volume": "250 ml", "price": "60 USD" }
   },
   {
@@ -68,7 +65,7 @@
     "dispersion": 345,
     "durability": 9,
     "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 3 ] ],
-    "magazines": [ [ "shot", [ "citykillermag" ] ] ],
+    "magazines": [ [ "shot", [ "citykillermag", "citykillerdrummag" ] ] ],
     "flags": [ "NEVER_JAMS" ]
   }
 ]

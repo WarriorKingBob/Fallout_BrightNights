@@ -72,7 +72,7 @@
     "type": "GUN",
     "copy-from": "smg_base",
     "reload_noise_volume": 10,
-    "name": { "str": "M3A1 'Grease Gun' SMG" },
+    "name": { "str": "M3A1 \"Grease Gun\" 9mm" },
     "description": "This WWII submachine gun belongs in a museum, but due to it being simple and cheap to manufacture post cataclysm, it became a popular smg to use by survivors.",
     "weight": "2945 g",
     "volume": "1750 ml",
@@ -82,13 +82,13 @@
     "symbol": "[",
     "color": "dark_gray",
     "looks_like": "sten",
-    "ammo": [ "45", "9mm" ],
+    "ammo": [ "9mm" ],
     "ranged_damage": { "damage_type": "bullet", "amount": 1 },
     "dispersion": 360,
     "durability": 5,
     "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 10 ] ],
     "valid_mod_locations": [ [ "accessories", 2 ], [ "muzzle", 1 ], [ "stock", 1 ], [ "sling", 1 ], [ "grip", 1 ] ],
-    "magazines": [ [ "45", [ "mac10mag" ] ], [ "9mm", [ "stenmag" ] ], [ "9mm", [ "survivor9mm_mag" ] ] ]
+    "magazines": [ [ "9mm", [ "stenmag" ] ], [ "9mm", [ "survivor9mm_mag" ] ] ]
   },
   {
     "id": "tommygun_silver",

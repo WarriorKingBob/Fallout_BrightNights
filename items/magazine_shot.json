@@ -3,7 +3,7 @@
     "id": "citykillermag",
     "type": "MAGAZINE",
     "name": { "str": "city-killer magazine" },
-    "description": "A compact 12-round magazine for the Winchester City-Killer combat shotgun..",
+    "description": "A compact 12-round magazine for the Winchester City-Killer combat shotgun.",
     "weight": "100 g",
     "volume": "250 ml",
     "price": "50 USD",
@@ -14,5 +14,21 @@
     "capacity": 12,
     "reliability": 9,
     "flags": [ "MAG_COMPACT" ]
+  },
+  {
+    "id": "citykillerdrummag",
+    "type": "MAGAZINE",
+    "name": { "str": "city-killer drum magazine" },
+    "description": "A large 30-round drum magazine for the Winchester City-Killer combat shotgun.",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "price": "50 USD",
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "shot" ],
+    "capacity": 30,
+    "reliability": 9,
+    "flags": [ "MAG_BULKY" ]
   }
 ]

@@ -120,7 +120,7 @@
       { "item": "caravan_shotgun", "prob": 35, "charges": 7 },
       { "item": "citykiller", "prob": 20, "charges": 7 },
       { "item": "ak112", "prob": 20, "charges": 30 },
-      { "item": "mauser_9mm", "prob": 20, "charges": 30 },
+      { "item": "fo_chinese_pistol", "prob": 20, "charges": 30 },
       { "item": "colt6250", "prob": 20, "charges": 30 },
       { "item": "10mmsmg", "prob": 20, "charges": 30 },
       { "item": "fn_p90", "prob": 5, "charges": 30 },

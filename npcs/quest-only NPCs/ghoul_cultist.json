@@ -160,7 +160,7 @@
       { "item": "m4a1", "prob": 75 },
       { "item": "m16a4", "contents-item": [ "acog_scope", "adjustable_stock" ], "prob": 75 },
       { "item": "type93", "prob": 75 },
-      { "item": "mauser_9mm", "prob": 75 },
+      { "item": "fo_chinese_pistol", "prob": 75 },
       { "item": "127mmpistol", "prob": 75 },
       { "item": "127mmsmg", "prob": 75 },
       { "item": "ar15", "prob": 75 },

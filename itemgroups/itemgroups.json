@@ -425,7 +425,7 @@
       { "item": "10mmsmg", "charges": 30, "prob": 10, "ammo-item": "10mm_fmj" },
       { "item": "thatgun", "charges": 5, "prob": 3 },
       { "item": "sw_22", "contents-item": [ "suppressor_compact" ], "charges": 10, "prob": 3 },
-      { "item": "mauser_9mm", "charges": 7, "prob": 3 },
+      { "item": "fo_chinese_pistol", "charges": 7, "prob": 3 },
       { "item": "357_magnum_revolver", "charges": 10, "prob": 3 },
       { "item": "127mmpistol", "charges": 7, "prob": 3 }
     ]

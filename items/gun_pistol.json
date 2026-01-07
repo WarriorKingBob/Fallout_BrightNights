@@ -47,11 +47,11 @@
     "durability": 10
   },
   {
-    "id": "mauser_9mm",
+    "id": "fo_chinese_pistol",
     "copy-from": "pistol_base",
     "type": "GUN",
-    "name": { "str": "Mauser C96 9mm" },
-    "description": "A Mauser C96 in 9x19mm Parabellum. In excellent condition. Extremely accurate, if a relic of the Old World.",
+    "name": { "str": "Type 80 10mm" },
+    "description": "A Chinese pistol based on the Mauser M712 \"Schnellfeuer\", a selective-fire variant of the Mauser C96 \"broomhandle\" pistol. A relic even in the old world, but due to resource shortages China was producing scaled-up variants chambered in 10mm for its soldiers during the Resource Wars.",
     "weight": "595 g",
     "volume": "500 ml",
     "price": "690 USD",
@@ -59,13 +59,13 @@
     "bashing": 8,
     "material": [ "plastic", "steel" ],
     "color": "dark_gray",
-    "ammo": [ "9mm" ],
-    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "ammo": [ "10mm" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
     "dispersion": 240,
     "durability": 8,
-    "clip_size": 7,
-    "magazines": [ [ "9mm", [ "p38mag" ] ], [ "9mm", [ "ppq9mag_10rd" ] ], [ "9mm", [ "ppq9mag_15rd" ] ] ],
-    "flags": [ "NEVER_JAMS" ]
+    "magazines": [ [ "9mm", [ "chinesepistolmag", "chinesepistollargemag" ] ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ]
   },
   {
     "id": "127mmpistol",

@@ -108,7 +108,7 @@
     "items": [
       [ "colt6250", 100 ],
       { "item": "sw_22", "contents-item": [ "suppressor_compact" ], "prob": 100 },
-      [ "mauser_9mm", 75 ],
+      [ "fo_chinese_pistol", 75 ],
       [ "357_magnum_revolver", 75 ],
       [ "deagle_44", 50 ],
       [ "thatgun", 25 ],

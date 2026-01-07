@@ -15,7 +15,7 @@
       "MSXotto+"
     ],
     "tiles-new": [
-		{
+      {
         "file": "Fallout_CDDA_normal.png",
         "tiles": [
           { "id": "bg_shadow_item", "fg": 1, "rotates": false },
@@ -304,8 +304,8 @@
           { "id": "overlay_wielded_bozar", "fg": 191 },
           { "id": "thatgun", "fg": 192, "bg": 1, "rotates": false },
           { "id": "overlay_wielded_thatgun", "fg": 193, "rotates": false },
-          { "id": "mauser_9mm", "fg": 194, "bg": 1, "rotates": false },
-          { "id": "overlay_wielded_mauser_9mm", "fg": 195, "rotates": false },
+          { "id": "fo_chinese_pistol", "fg": 194, "bg": 1, "rotates": false },
+          { "id": "overlay_wielded_fo_chinese_pistol", "fg": 195, "rotates": false },
           { "id": "357_magnum_revolver", "fg": 196, "bg": 1, "rotates": false },
           { "id": "overlay_wielded_357_magnum_revolver", "fg": 197, "rotates": false },
           { "id": "357_magnum_revolver_lucky", "fg": 198, "bg": 1, "rotates": false },
@@ -545,7 +545,7 @@
         "sprite_offset_x": 0,
         "sprite_offset_y": 0
       }
-	]
+    ]
   },
   {
     "type": "mod_tileset",
@@ -584,7 +584,7 @@
         "sprite_offset_x": -16,
         "sprite_offset_y": -48
       }
-	]
+    ]
   },
   {
     "type": "mod_tileset",
@@ -997,7 +997,7 @@
         "sprite_offset_x": 0,
         "sprite_offset_y": 0
       }
-	]
+    ]
   },
   {
     "type": "mod_tileset",
@@ -1058,7 +1058,7 @@
         "sprite_height": 80,
         "sprite_offset_x": -16,
         "sprite_offset_y": -48
-        }
-	]
+      }
+    ]
   }
 ]
