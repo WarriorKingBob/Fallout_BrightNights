@@ -218,14 +218,11 @@
     "items": [
       [ "spear_steel", 100 ],
       [ "machete_gladius", 100 ],
-      [ "flagstaff", 10 ],
       [ "sword_revolutionary", 100 ],
       [ "jian", 100 ],
       [ "sword_chinese_shock", 1 ],
       [ "meat_hook_claws", 100 ],
       [ "gloves_boxing_plated", 100 ],
-      [ "gloves_boxing_goldplated", 10 ],
-      [ "gloves_boxing_doubleplated", 1 ],
       [ "super_sledge", 50 ]
     ]
   },

@@ -35,13 +35,8 @@
     "material": [ "bone_heavy" ],
     "techniques": [ "WBLOCK_2", "DEF_DISARM", "SWEEP" ],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE" ],
-    "attacks": [
-      {
-        "id": "CUT",
-        "to_hit": 2,
-        "damage": { "values": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "cut", "amount": 25 } ] }
-      }
-    ],
+    "bashing": 5,
+    "cutting": 25,
     "price": "200 USD",
     "qualities": [ [ "BUTCHER", -10 ] ]
   },
@@ -60,15 +55,8 @@
     "material": [ "chitin" ],
     "techniques": [ "WBLOCK_2" ],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "STAB" ],
-    "attacks": [
-      {
-        "id": "STAB",
-        "to_hit": 2,
-        "damage": {
-          "values": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 20, "armor_multiplier": 0.9 } ]
-        }
-      }
-    ],
+    "bashing": 5,
+    "cutting": 20,
     "price": "200 USD"
   },
   {
@@ -87,83 +75,42 @@
     "material": [ "bone_heavy" ],
     "techniques": [ "WBLOCK_2", "DEF_DISARM", "SWEEP" ],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE" ],
-    "attacks": [
-      {
-        "id": "CUT",
-        "to_hit": 2,
-        "damage": { "values": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "cut", "amount": 20 } ] }
-      }
-    ],
+    "bashing": 5,
+    "cutting": 23,
     "price": "200 USD",
     "qualities": [ [ "BUTCHER", -10 ] ]
   },
   {
     "type": "GENERIC",
+    "looks_like": "spiked_boxing",
     "id": "gloves_boxing_plated",
     "weapon_category": [ "FIST_WEAPONS" ],
     "symbol": ";",
     "color": "red",
-    "name": { "str": "plated boxing gloves", "str_pl": "pairs of plated boxing gloves" },
-    "description": "A pair of simple boxing gloves, meant to pad attacks so you don't kill people or hurt yourself. Contrary to this original purpose, these ones have steel plates inserted in them, allowing for some rather brutal punches.",
-    "techniques": [ "BRUTAL", "WBLOCK_1" ],
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE" ],
+    "name": { "str": "pair of plated boxing gloves", "str_pl": "pairs of plated boxing gloves" },
+    "description": "A pair of simple boxing gloves, meant to pad attacks so you don't kill people or hurt yourself. Contrary to this original purpose, these ones have metal plates inserted in them, allowing for some brutal punches.",
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "BELT_CLIP", "NONCONDUCTIVE" ],
     "price": "10 USD",
     "price_postapoc": "3 USD",
     "material": [ "cotton", "steel" ],
-    "weight": "2000 g",
-    "volume": "500 ml",
-    "bashing": 20,
-    "to_hit": 1
-  },
-  {
-    "type": "GENERIC",
-    "id": "gloves_boxing_goldplated",
-    "weapon_category": [ "FIST_WEAPONS" ],
-    "symbol": ";",
-    "color": "red",
-    "name": { "str": "gold-plated boxing gloves", "str_pl": "pairs of gold-plated boxing gloves" },
-    "description": "A pair of special boxing gloves plated externally with gold. They were a ceremonial prize, never meant for actual use, but theyre incredibly heavy.",
-    "techniques": [ "BRUTAL", "WBLOCK_1" ],
-    "flags": [ "UNARMED_WEAPON" ],
-    "price": "10 USD",
-    "price_postapoc": "3 USD",
-    "material": [ "cotton", "gold" ],
-    "weight": "4000 g",
-    "volume": "500 ml",
-    "bashing": 30,
-    "to_hit": 1
-  },
-  {
-    "type": "GENERIC",
-    "id": "gloves_boxing_doubleplated",
-    "weapon_category": [ "FIST_WEAPONS" ],
-    "symbol": ";",
-    "color": "red",
-    "name": { "str": "double-plated boxing gloves", "str_pl": "pairs of double-plated boxing gloves" },
-    "description": "A pair of special boxing gloves plated externally with gold. They were a ceremonial prize, never meant for actual use, but theyre incredibly heavy. To top that off, somebody added steel inserts to make them even heavier.",
-    "techniques": [ "BRUTAL", "WBLOCK_1" ],
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE" ],
-    "price": "10 USD",
-    "price_postapoc": "3 USD",
-    "material": [ "cotton", "gold", "steel" ],
-    "weight": "6000 g",
-    "volume": "500 ml",
-    "bashing": 45,
-    "to_hit": 1
+    "weight": "1000 g",
+    "volume": "1 L",
+    "bashing": 10,
+    "to_hit": 0
   },
   {
     "type": "GENERIC",
     "id": "fo_powfist",
     "symbol": "P",
     "color": "light_gray",
-    "name": { "str": "power fist", "str_pl": "power fists" },
+    "name": { "str": "power fist" },
     "weapon_category": [ "FIST_WEAPONS" ],
     "category": "weapons",
-    "description": "An armored pneumatic fist. It appears as an armored gauntlet, like that of a suit of power armor. However, it appears to use a pneumatic ram instead of kinetic energy devices, making it function in a manner closer to that of the impact gloves.",
+    "description": "An armored gauntlet with a pneumatic ram. It was used both in construction as a demolition tool and in police and military for bashing down doors. The pneumatic ram is driven by a piston system powered by plutonium cells.",
     "material": [ "steel" ],
     "volume": "1350 ml",
     "weight": "820 g",
-    "bashing": 23,
+    "bashing": 30,
     "to_hit": 1,
     "price_postapoc": "2 USD",
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE" ]
@@ -172,15 +119,16 @@
     "id": "fo_ballistic_fist",
     "symbol": "P",
     "color": "light_gray",
-    "name": { "str": "ballistic fist", "str_pl": "ballistic fists" },
+    "name": { "str": "ballistic fist" },
     "type": "GUN",
-    "weapon_category": [ "PNEUMATIC", "FIST_WEAPONS" ],
+    "weapon_category": [ "FIST_WEAPONS" ],
     "category": "weapons",
-    "description": "An armored pneumatic fist. It appears as an armored gauntlet, like that of a suit of power armor. However, it appears to use a pneumatic ram instead of kinetic energy devices, making it function in a manner closer to that of the impact gloves.",
+    "description": "A wrist-mounted shotgun with a pressure plate worn over the knuckles. The impact of the plate triggers the firing mechanism when a punch connects with the target. Even with internal recoil dampeners, a strong arm is still needed to be able to withstand the recoil of a 12 gauge shell. The pressure plate is reinforced so that it can be used as an effective punching weapon if ammunition is depleted.",
+    "min_strength": 10,
     "material": [ "steel" ],
     "volume": "1450 ml",
     "weight": "1420 g",
-    "bashing": 26,
+    "bashing": 20,
     "to_hit": 1,
     "price_postapoc": "2 USD",
     "ammo": [ "shot" ],
@@ -201,17 +149,18 @@
     "name": { "str": "industrial hand (off)", "str_pl": "industrial hands (off)" },
     "weapon_category": [ "FIST_WEAPONS" ],
     "category": "weapons",
-    "description": "An armored pneumatic fist. Although intended for use in cutting a variety of metals, plastics and woods, this H and H tools product has seen use in the post-war world as a (suprisingly effective) makeshift hand to hand weapon. It requires batteries to operate the rotating circular saw mounted in its fist housing. It is currently not active.",
+    "description": "A mechanical glove with a circular saw blade mounted on the back. Although intended for use in cutting a variety of materials, this tool has seen use in the post-catalcysm world as a very effective unarmed weapon, especially against most armors. It requires batteries to operate the rotating circular saw.",
     "material": [ "steel" ],
     "volume": "1550 ml",
     "weight": "2900 g",
     "cutting": 4,
-    "bashing": 10,
+    "bashing": 5,
     "to_hit": -1,
     "price_postapoc": "2 USD",
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE" ],
-    "qualities": [ [ "AXE", 3 ], [ "SAW_M", 2 ] ],
+    "qualities": [ [ "SAW_W", 2 ], [ "SAW_M", 2 ], [ "SAW_M_FINE", 1 ] ],
     "ammo": [ "battery" ],
+    "turns_per_charge": 10,
     "use_action": {
       "menu_text": "Activate",
       "type": "transform",
@@ -219,7 +168,7 @@
       "msg": "The industrial hand's saw whirrs to life!",
       "need_charges": 1,
       "transform_charges": 1,
-      "need_charges_msg": "The industrial hand's saw remains inert. It needs more energy to function.",
+      "need_charges_msg": "The industrial hand's saw remains inert. It needs more power to function.",
       "active": true
     },
     "magazines": [
@@ -233,23 +182,30 @@
   {
     "type": "TOOL",
     "id": "fo_industrial_fist_on",
+    "copy-from": "fo_industrial_fist_off",
     "symbol": "P",
     "color": "light_gray",
     "name": { "str": "industrial hand (on)", "str_pl": "industrial hands (on)" },
     "weapon_category": [ "FIST_WEAPONS" ],
     "category": "weapons",
-    "description": "An armored pneumatic fist. Although intended for use in cutting a variety of metals, plastics and woods, this H and H tools product has seen use in the post-war world as a (suprisingly effective) makeshift hand to hand weapon. It requires batteries to operate the rotating circular saw mounted in its fist housing. It is currently not active.",
+    "//": "Half of cutting damage of chainsaw since it's a much smaller blade, but compensates for able to penetrate armor",
+    "description": "A mechanical glove with a circular saw blade mounted on the back. Originally intended for use in cutting a variety of materials, this tool has seen use in the post-war world as a very effective unarmed weapon, especially against most armors. It requires batteries to operate the rotating circular saw. It is currently active.",
     "material": [ "steel" ],
     "volume": "1550 ml",
     "weight": "2900 g",
     "to_hit": 1,
-    "cutting": 25,
-    "bashing": 10,
+    "attacks": [
+      {
+        "id": "SLASH",
+        "to_hit": 2,
+        "damage": {
+          "values": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "cut", "amount": 35, "armor_multiplier": 0.75 } ]
+        }
+      }
+    ],
     "price_postapoc": "2 USD",
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "TRADER_AVOID" ],
     "techniques": [ "SWEEP" ],
-    "qualities": [ [ "AXE", 3 ], [ "SAW_M", 2 ] ],
-    "ammo": [ "battery" ],
     "turns_per_charge": 10,
     "revert_to": "fo_industrial_fist_off",
     "use_action": {
@@ -271,34 +227,53 @@
     "id": "fo_zapfist",
     "symbol": "P",
     "color": "light_gray",
-    "name": { "str": "zap glove", "str_pl": "zap gloves" },
+    "name": { "str": "zap glove (off)", "str_pl": "zap gloves (off)" },
     "weapon_category": [ "FIST_WEAPONS" ],
     "category": "weapons",
-    "description": "A special variant of powerfist that also contains a rubberized non-conductive glove with a contact-based electrode plate placed along the glove's fingers. Essentially a mixture of a power fist and a tazer, allowing one to stun their opponents and then pummel them to a pulp.",
+    "description": "A blue and yellow-colored metal gauntlet consisting of a rubber glove with a contact-based electrode plate placed on the glove's fingers connected to a metal housing for electronics. When active, it can punch and shock opponents at the same time. It requires batteries to generate the shock.",
     "material": [ "steel" ],
     "volume": "1550 ml",
     "weight": "2500 g",
-    "bashing": 26,
+    "bashing": 20,
     "to_hit": 1,
     "price_postapoc": "2 USD",
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE" ],
-    "charges_per_use": 20,
-    "use_action": [ "TAZER" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE" ],
+    "ammo": "battery",
+    "use_action": {
+      "type": "transform",
+      "msg": "You press a button and the zap glove emits a low hum.",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The %s's batteries are dead.",
+      "target": "fo_zapfist_on"
+    },
     "magazines": [
       [
         "battery",
-        [
-          "light_minus_disposable_cell",
-          "light_disposable_cell",
-          "light_minus_battery_cell",
-          "light_battery_cell",
-          "light_plus_battery_cell",
-          "light_atomic_battery_cell",
-          "light_minus_atomic_battery_cell"
-        ]
+        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
       ]
     ],
     "magazine_well": "250 ml"
+  },
+  {
+    "id": "fo_zapfist_on",
+    "type": "TOOL",
+    "copy-from": "fo_zapfist",
+    "name": { "str": "zap glove (on)", "str_pl": "zap gloves (on)" },
+    "description": "A blue and yellow-colored metal gauntlet consisting of a rubber glove with a contact-based electrode plate placed on the glove's fingers connected to a metal housing for electronics. When active, it can punch and shock opponents at the same time. It requires batteries to generate the shock. It is currently active.",
+    "price": "1000 USD",
+    "use_action": { "type": "transform", "msg": "You press a button and the zap glove turns off.", "target": "fo_zapfist" },
+    "revert_to": "fo_zapfist",
+    "revert_msg": "The %s's batteries run dry.",
+    "//": "Roughly +25% electric damage",
+    "attacks": [
+      {
+        "id": "BASH",
+        "to_hit": 2,
+        "damage": { "values": [ { "damage_type": "bash", "amount": 20 }, { "damage_type": "electric", "amount": 5 } ] }
+      }
+    ],
+    "power_draw": 500000
   },
   {
     "type": "GENERIC",
@@ -308,13 +283,13 @@
     "name": { "str": "bladed gauntlet", "str_pl": "bladed guantletss" },
     "weapon_category": [ "FIST_WEAPONS" ],
     "category": "weapons",
-    "description": "A crude hand to hand weapon consisting of jagged metal blades affixed to a thick leather strap.",
+    "description": "A crude hand to hand weapon consisting of jagged metal blades affixed to thick leather straps.",
     "material": [ "steel" ],
     "volume": "1540 ml",
     "weight": "1000 g",
-    "bashing": 6,
-    "cutting": 15,
+    "bashing": 3,
+    "cutting": 12,
     "price_postapoc": "2 USD",
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE" ]
+    "flags": [ "UNARMED_WEAPON" ]
   }
 ]

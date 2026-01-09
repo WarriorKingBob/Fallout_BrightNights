@@ -51,7 +51,7 @@
       }
     ],
     "techniques": [ "tec_boxing_rapid", "tec_renoboxing_haymaker", "tec_renoboxing_eyegouge", "tec_boxing_counter" ],
-    "weapons": [ "gloves_boxing_goldplated", "gloves_boxing_doubleplated", "gloves_boxing_plated" ]
+    "weapons": [ "spiked_boxing", "gloves_boxing_plated" ]
   },
   {
     "type": "martial_art",
@@ -110,7 +110,7 @@
       "tec_boxing_rapid",
       "tec_renoboxing_eyegouge"
     ],
-    "weapons": [ "gloves_boxing_goldplated", "gloves_boxing_doubleplated", "gloves_boxing_plated" ]
+    "weapons": [ "spiked_boxing", "gloves_boxing_plated" ]
   },
   {
     "type": "martial_art",

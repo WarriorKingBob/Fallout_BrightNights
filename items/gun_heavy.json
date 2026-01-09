@@ -118,7 +118,7 @@
     "reload_noise_volume": 10,
     "color": "green",
     "name": { "str": "Winchester P94 Plasma Caster" },
-    "description": "A Winchester Model P94 plasma caster. A large industrial-grade energy weapon, capable of rapidly firing superheated bolts of plasma down a superconducting barrel. Instead of using compressed hydrogen canisters for ammunition, the plasma caster has an internal mechanism for turning oxygen into plasma. However, this means that the caster uses an enormous amount of power per shot. An advanced UPS may be required for prologed use.",
+    "description": "A Winchester Model P94 plasma caster. A large industrial-grade energy weapon, capable of rapidly firing superheated bolts of plasma down a superconducting barrel. Instead of using compressed hydrogen canisters for ammunition, the plasma caster has an internal mechanism for turning hydrogen into plasma. However, this means that the caster uses an enormous amount of power per shot. An advanced UPS may be required for prologed use.",
     "price": "17500 USD",
     "material": [ "superalloy" ],
     "ups_charges": 100,
