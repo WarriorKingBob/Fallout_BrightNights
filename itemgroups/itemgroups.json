@@ -566,8 +566,8 @@
     "id": "fallout_raider_helmets",
     "subtype": "distribution",
     "entries": [
-      { "item": "wastehound_mask", "prob": 15 },
-      { "item": "helmet_biker_retro", "prob": 15 },
+      { "item": "helmet_scrap", "prob": 15 },
+      { "item": "helmet_motor", "prob": 15 },
       { "item": "helmet_fiend", "prob": 5 }
     ]
   },

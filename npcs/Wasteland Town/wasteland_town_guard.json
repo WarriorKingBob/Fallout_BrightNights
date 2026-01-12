@@ -132,7 +132,7 @@
       {
         "distribution": [
           { "item": "fo_ncr_trooper_helmet", "prob": 100 },
-          { "item": "helmet_biker_retro", "prob": 100 },
+          { "item": "helmet_motor", "prob": 100 },
           { "item": "helmet_combat_light", "prob": 100 },
           { "item": "pot_helmet", "prob": 100 },
           { "item": "helmet_army", "prob": 100 },

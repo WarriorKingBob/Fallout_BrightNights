@@ -113,8 +113,8 @@
       { "item": "bandolier_rifle", "prob": 15 },
       {
         "distribution": [
-          { "item": "wastehound_mask", "prob": 100 },
-          { "item": "helmet_biker_retro", "prob": 100 },
+          { "item": "helmet_scrap", "prob": 100 },
+          { "item": "helmet_motor", "prob": 100 },
           { "item": "helmet_fiend", "prob": 100 },
           { "item": "pot_helmet", "prob": 100 },
           { "item": "helmet_army", "prob": 100 },
