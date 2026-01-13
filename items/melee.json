@@ -83,16 +83,16 @@
     "copy-from": "jian",
     "name": { "str": "electrified jian (off)", "str_pl": "electrified jians (off)" },
     "//": "Description is similar to flammenschwert and have reference to General Jingwei.",
-    "description": "这是一把中国古代双刃直剑，配有精美的护手，剑首系有流苏，是民间传说中的四大兵器之一，与刀、枪、棍并列。 这把剑经改装后配备高压电击装置，握把处已进行绝缘处理以防止使用者触电。 精卫将军会很满意的！",
+    "description": "这是一把中国古代双刃直剑，配有精美的护手，剑首系有流苏，是民间传说中的四大兵器之一，与刀、枪、棍并列。 这把剑经改装后配备高压电击枪，通过电子计分电路与剑尖相连。握把处已进行绝缘处理以防止使用者触电。 精卫将军会很满意的！它现在在开启状态。",
     "price": "1000 USD",
     "ammo": "battery",
     "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "NONCONDUCTIVE", "COMBAT_NPC_USE" ],
     "use_action": {
       "type": "transform",
-      "msg": "You press a button and the jian crackles with electricity.",
+      "msg": "你按下按钮，剑刃滋滋作响，电光闪烁。",
       "active": true,
       "need_charges": 1,
-      "need_charges_msg": "The %s's batteries are dead.",
+      "need_charges_msg": "剑的电池没电了。",
       "target": "sword_chinese_shock_on"
     },
     "magazines": [
@@ -116,11 +116,11 @@
     "type": "TOOL",
     "copy-from": "sword_chinese_shock",
     "name": { "str": "electrified jian (on)", "str_pl": "electrified jians (on)" },
-    "description": "这是一把中国古代双刃直剑，配有精美的护手，剑首系有流苏，是民间传说中的四大兵器之一，与刀、枪、棍并列。 这把剑经改装后配备高压电击装置，握把处已进行绝缘处理以防止使用者触电。 精卫将军会很满意的！它现在在开启状态。",
+    "description": "这是一把中国古代双刃直剑，配有精美的护手，剑首系有流苏，是民间传说中的四大兵器之一，与刀、枪、棍并列。 这把剑经改装后配备高压电击枪，通过电子计分电路与剑尖相连。握把处已进行绝缘处理以防止使用者触电。 精卫将军会很满意的！它现在在开启状态。",
     "price": "1000 USD",
-    "use_action": { "type": "transform", "msg": "You press a button and the jian turns off.", "target": "sword_chinese_shock" },
+    "use_action": { "type": "transform", "msg": "你按下按钮，电击枪停止运转。", "target": "sword_chinese_shock" },
     "revert_to": "sword_chinese_shock",
-    "revert_msg": "The %s's batteries run dry.",
+    "revert_msg": "剑的电池没电了。",
     "//": "Roughly +25% electric damage",
     "attacks": [
       {

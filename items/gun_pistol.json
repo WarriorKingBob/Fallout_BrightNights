@@ -64,7 +64,7 @@
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
     "dispersion": 240,
     "durability": 8,
-    "magazines": [ [ "9mm", [ "chinesepistolmag", "chinesepistollargemag" ] ] ],
+    "magazines": [ [ "10mm", [ "chinesepistolmag", "chinesepistollargemag" ] ] ],
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ]
   },
   {
