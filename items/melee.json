@@ -83,7 +83,7 @@
     "copy-from": "jian",
     "name": { "str": "electrified jian (off)", "str_pl": "electrified jians (off)" },
     "//": "Description is similar to flammenschwert and have reference to General Jingwei.",
-    "description": "这是一把中国古代双刃直剑，配有精美的护手，剑首系有流苏，是民间传说中的四大兵器之一，与刀、枪、棍并列。 这把剑经改装后配备高压电击枪，通过电子计分电路与剑尖相连。握把处已进行绝缘处理以防止使用者触电。 精卫将军会很满意的！它现在在开启状态。",
+    "description": "这是一把中国古代双刃直剑，配有精美的护手，剑首系有流苏，是民间传说中的四大兵器之一，与刀、枪、棍并列。 这把剑经改装后配备高压电击枪，通过电子计分电路与剑尖相连。握把处已进行绝缘处理以防止使用者触电。 精卫将军会很满意的！",
     "price": "1000 USD",
     "ammo": "battery",
     "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "NONCONDUCTIVE", "COMBAT_NPC_USE" ],

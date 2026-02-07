@@ -174,7 +174,7 @@
       "0": [ { "item": "guns_milspec", "chance": 18, "repeat": [ 1, 2 ] } ]
     },
     "item": {
-      "1": [ { "item": "armor_combat_light", "chance": 5 }, { "item": "helmet_combat_light", "chance": 9 } ],
+      "1": [ { "item": "armor_combat_light", "chance": 5 }, { "item": "helmet_army", "chance": 9 } ],
       "5": [
         { "item": "10mm_fmj", "chance": 45, "repeat": [ 1, 2 ] },
         { "item": "5mmincendiary", "chance": 35, "repeat": [ 1, 2 ] },
@@ -222,7 +222,7 @@
       "+": [
         { "item": "fo_stimpak_kit", "chance": 55, "repeat": [ 1, 4 ] },
         { "item": "armor_combat_light", "chance": 8 },
-        { "item": "helmet_combat_light", "chance": 12 }
+        { "item": "helmet_army", "chance": 12 }
       ],
       "9": [
         { "item": "10mm_fmj", "chance": 78, "repeat": [ 1, 2 ] },

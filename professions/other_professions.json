@@ -114,7 +114,7 @@
         "items": [
           "winter_pants_army",
           "undershirt",
-          "helmet_combat_light_winter",
+          "helmet_army_winter",
           "armor_combat_light_winter",
           "balclava_winter",
           "gloves_liner",
@@ -157,7 +157,7 @@
         "items": [
           "winter_pants_army",
           "undershirt",
-          "helmet_combat_light_winter",
+          "helmet_army_winter",
           "armor_combat_light_winter",
           "balclava_winter",
           "glasses_bal",
@@ -203,7 +203,7 @@
         "items": [
           "winter_pants_army",
           "undershirt",
-          "helmet_combat_light_winter",
+          "helmet_army_winter",
           "armor_combat_light_winter_medic",
           "balclava_winter",
           "gloves_liner",

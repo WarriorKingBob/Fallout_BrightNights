@@ -135,7 +135,7 @@
       { "item": "127mmpistol", "charges": 7, "prob": 3 },
       { "item": "colt_rangemaster", "ammo-item": "223", "charges": 10, "prob": 15 },
       { "item": "bozar", "ammo-item": "223", "charges": 50, "prob": 2 },
-      { "item": "m199", "ammo-item": "223", "charges": 10, "prob": 5 },
+      { "item": "m199", "ammo-item": "50bmg", "charges": 10, "prob": 5 },
       { "item": "m4a1", "ammo-item": "223", "charges": 10, "prob": 15 },
       {
         "item": "m16a4",
@@ -203,7 +203,7 @@
       { "item": "helmet_riot", "prob": 15 },
       { "item": "chestguard_hard", "prob": 20 },
       { "item": "armguard_hard", "prob": 20 },
-      { "item": "helmet_combat_light", "prob": 10 },
+      { "item": "helmet_army", "prob": 10 },
       { "group": "clothing_military", "prob": 10 },
       { "item": "jumpsuit_vault_13_utility", "prob": 3 },
       { "item": "jumpsuit_vault_13_armored", "prob": 3 }
@@ -333,7 +333,7 @@
       { "item": "127mmpistol", "charges": 7, "prob": 10 },
       { "item": "colt_rangemaster", "ammo-item": "223", "charges": 15, "prob": 15 },
       { "item": "bozar", "ammo-item": "223", "charges": 50, "prob": 10 },
-      { "item": "m199", "ammo-item": "223", "charges": 10, "prob": 5 },
+      { "item": "m199", "ammo-item": "50bmg", "charges": 10, "prob": 5 },
       { "item": "m4a1", "ammo-item": "223", "charges": 10, "prob": 15 },
       {
         "item": "m16a4",

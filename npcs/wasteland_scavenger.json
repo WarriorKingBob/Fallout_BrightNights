@@ -198,7 +198,7 @@
       { "item": "helmet_motor", "prob": 60 },
       { "item": "hat_peoples", "prob": 15 },
       { "item": "helmet_fiend", "prob": 15 },
-      { "item": "helmet_combat_light", "prob": 15 },
+      { "item": "helmet_army", "prob": 15 },
       { "item": "hat_hard_hooded", "prob": 15 },
       { "item": "hat_hunting", "prob": 15 },
       { "item": "straw_hat", "prob": 15 },

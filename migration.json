@@ -22,7 +22,7 @@
   {
     "id": "jeans_ncr",
     "type": "MIGRATION",
-    "replace": "pants_army"
+    "replace": "ncr_pants_trooper"
   },
   {
     "id": "rad_x",

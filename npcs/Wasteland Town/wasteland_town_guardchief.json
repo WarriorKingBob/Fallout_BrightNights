@@ -39,7 +39,7 @@
     "id": "NC_WASTETOWN_G_CHIEF_worn",
     "subtype": "collection",
     "entries": [
-      { "item": "helmet_combat_light" },
+      { "item": "helmet_army" },
       { "item": "armor_combat_light" },
       { "item": "socks" },
       { "item": "boots_combat" },
@@ -199,7 +199,7 @@
     },
     "end": {
       "effect": [
-        { "u_buy_item": "helmet_combat_light", "count": 1 },
+        { "u_buy_item": "helmet_army", "count": 1 },
         { "u_buy_item": "fo_stimpak_kit", "count": 2 },
         { "u_buy_item": "kevlar", "count": 1 },
         { "u_buy_item": "cap_bottle", "count": 50 },

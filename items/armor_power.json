@@ -2,24 +2,24 @@
   {
     "id": "power_armor_t51",
     "type": "TOOL_ARMOR",
-    "name": { "str": "T-51 power armor" },
-    "description": "The T-51b powered infantry armor is designed with the latest passive defense features for both civilian and military disturbances. It requires power.",
-    "weight": "15 kg",
-    "volume": "18 L",
+    "name": { "str": "T-51b power armor" },
+    "description": "The T-51b power armor is an improvement from the T-45 power armor with designs based on the third-generation light power armor. It requires UPS.",
+    "weight": "20 kg",
+    "volume": "27 L",
     "price": "70000 USD",
     "to_hit": 1,
     "bashing": 1,
-    "material": [ "steel" ],
+    "material": [ "superalloy", "carbide", "kevlar_rigid" ],
     "symbol": "[",
     "color": "light_gray",
     "covers": [ "torso", "arms", "hands", "legs", "feet" ],
     "qualities": [ [ "HV_INSULATION", 1 ] ],
     "coverage": 100,
-    "encumbrance": 30,
-	"storage": "2500 ml",
+    "encumbrance": 40,
+    "storage": "2500 ml",
     "warmth": 90,
-    "material_thickness": 15,
-    "environmental_protection": 15,
+    "material_thickness": 9,
+    "environmental_protection": 9,
     "use_action": {
       "type": "set_transform",
       "turn_off": false,
@@ -39,10 +39,11 @@
     "repairs_like": "power_armor_t51",
     "looks_like": "power_armor_t51",
     "type": "TOOL_ARMOR",
-    "name": { "str": "T-51 power armor (on)", "str_pl": "T-51 power armors (on)" },
-    "description": "The T-51b powered infantry armor is designed with the latest passive defense features for both civilian and military disturbances. It is turned on and continually drawing power.  Use it to turn it off.",
+    "name": { "str": "T-51b power armor (active)", "str_pl": "T-51b power armors (active)" },
+    "description": "The T-51b power armor is an improvement from the T-45 power armor with designs based on the third-generation light power armor. It is turned on and continually drawing power. Use it to turn it off.",
     "extend": { "flags": [ "CLIMATE_CONTROL", "TRADER_AVOID" ] },
-    "power_draw": 1500000,
+    "//": "20% more more draw than light power armor",
+    "power_draw": 900000,
     "revert_to": "power_armor_t51",
     "use_action": {
       "type": "set_transform",
@@ -53,28 +54,29 @@
       "target": "power_armor_t51"
     },
     "covers": [ "torso", "arms", "hands", "legs", "feet" ],
-    "encumbrance": 30,
-    "weight_capacity_bonus": "15 kg"
+    "encumbrance": 0,
+    "environmental_protection": 15,
+    "weight_capacity_bonus": "20 kg"
   },
   {
     "id": "power_armor_helmet_t51",
     "type": "TOOL_ARMOR",
     "name": { "str": "T-51b power helmet" },
-    "description": "A basic helmet, designed for use with the the T-51b Power Helmet.  Offers excellent protection from both attacks and environmental hazards.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.",
+    "description": "A T-51b power armor helmet based on the third-generation light power armor helmet. In addition to the features of a T-45 power armor helmet, it also has night vision and infrared for detecting Chinese Crimson Dragoon units during the Battle of Anchorage.",
     "weight": "4 kg",
     "volume": "5 L",
     "price": "25000 USD",
     "to_hit": 1,
     "bashing": 1,
-    "material": [ "steel" ],
+    "material": [ "superalloy", "carbide", "kevlar_rigid" ],
     "symbol": "[",
     "color": "light_gray",
     "covers": [ "head", "eyes", "mouth" ],
     "coverage": 100,
     "encumbrance": 30,
     "warmth": 90,
-    "material_thickness": 15,
-    "environmental_protection": 15,
+    "material_thickness": 9,
+    "environmental_protection": 9,
     "qualities": [ [ "GLARE", 2 ] ],
     "use_action": {
       "type": "set_transformed",
@@ -90,46 +92,139 @@
     "id": "power_armor_helmet_t51_on",
     "copy-from": "power_armor_helmet_t51",
     "repairs_like": "power_armor_helmet_t51",
-    "looks_like": "power_armor_helmet_t51",
     "type": "TOOL_ARMOR",
     "name": { "str": "T-51b power helmet (active)", "str_pl": "T-51b power helmets (active)" },
-    "description": "A basic helmet, designed for use with the the T-51b Power Helmet.  Offers excellent protection from both attacks and environmental hazards.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.",
-    "extend": { "flags": [ "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] },
-    "power_draw": 500000,
-    "qualities": [ [ "GLARE", 2 ] ],
+    "description": "A T-51b power armor helmet based on the third-generation light power armor helmet. In addition to the features of a T-45 power armor helmet, it also has night vision and infrared for detecting Chinese Crimson Dragoon units during the Battle of Anchorage.",
+    "extend": { "flags": [ "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "ZOOM", "TRADER_AVOID" ] },
+    "//": "20% more power draw than light power armor helmet",
+    "power_draw": 300000,
     "revert_to": "power_armor_helmet_t51",
-    "use_action": {
-      "type": "set_transformed",
-      "dependencies": "POWERARMOR_EXO",
-      "menu_text": "Turn off",
-      "msg": "The %s powers down.",
-      "target": "power_armor_helmet_t51"
-    },
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "power_armor_helmet_t51"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Activite flashlight",
+        "msg": "You activate your %s's flashlight.",
+        "target": "power_armor_helmet_t51_light",
+        "active": true
+      }
+    ],
     "covers": [ "head", "eyes", "mouth" ],
-    "encumbrance": 30,
+    "encumbrance": 0,
+    "environmental_protection": 15,
     "weight_capacity_bonus": "4 kg"
+  },
+  {
+    "id": "power_armor_helmet_t51_light",
+    "copy-from": "power_armor_helmet_t51_on",
+    "repairs_like": "power_armor_helmet_t51",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "T-51b power helmet (active) (flashlight)", "str_pl": "T-51b power helmets (active) (flashlight)" },
+    "description": "A T-51b power armor helmet based on the third-generation light power armor helmet. In addition to the features of a T-45 power armor helmet, it also has night vision and infrared for detecting Chinese Crimson Dragoon units during the Battle of Anchorage. The helmet's flashlight is currently on.",
+    "extend": { "flags": [ "LIGHT_500" ] },
+    "//": "Heavy duty flashlight but regular flashlight power draw. Due to game limitations you cannot directly go back to active mode.",
+    "power_draw": 310000,
+    "revert_to": "power_armor_helmet_t51",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "power_armor_helmet_t51"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Switch to night vision",
+        "msg": "You deactivate your %s's light and activate night vision.",
+        "target": "power_armor_helmet_t51_nv",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "power_armor_helmet_t51_nv",
+    "copy-from": "power_armor_helmet_t51_on",
+    "repairs_like": "power_armor_helmet_t51",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "T-51b power helmet (active) (nv)", "str_pl": "T-51b power helmets (active) (nv)" },
+    "description": "A T-51b power armor helmet based on the third-generation light power armor helmet. In addition to the features of a T-45 power armor helmet, it also has night vision and infrared for detecting Chinese Crimson Dragoon units during the Battle of Anchorage. The helmet's night vision is currently on.",
+    "extend": { "flags": [ "GNV_EFFECT" ] },
+    "power_draw": 300375,
+    "revert_to": "power_armor_helmet_t51",
+    "//": "Due to game limitations you cannot directly go back to active mode.",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "power_armor_helmet_t51"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Switch to infrared",
+        "msg": "You deactivate your %s's night vision and activate infrared.",
+        "target": "power_armor_helmet_t51_ir",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "power_armor_helmet_t51_ir",
+    "copy-from": "power_armor_helmet_t51_on",
+    "repairs_like": "power_armor_helmet_t51",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "T-51b power helmet (active) (infrared)", "str_pl": "T-51b power helmets (active) (infrared)" },
+    "description": "A T-51b power armor helmet based on the third-generation light power armor helmet. In addition to the features of a T-45 power armor helmet, it also has night vision and infrared for detecting Chinese Crimson Dragoon units during the Battle of Anchorage. The helmet's infrared is currently on.",
+    "extend": { "flags": [ "IR_EFFECT" ] },
+    "power_draw": 301000,
+    "revert_to": "power_armor_helmet_t51",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "power_armor_helmet_t51"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Deactivate infrared",
+        "msg": "You deactivate your %s's infrared.",
+        "target": "power_armor_helmet_t51_on",
+        "active": true
+      }
+    ]
   },
   {
     "id": "power_armor_t45",
     "type": "TOOL_ARMOR",
-    "name": { "str": "T-45 Power armor" },
-    "description": "A suit of T-45D power armor, T-51's weaker cousin, T-45 is bulky, but still effective. It requires power.",
-    "weight": "17 kg",
-    "volume": "21 L",
-    "price": "115000 USD",
+    "repairs_like": "power_armor_basic",
+    "name": { "str": "T-45 power armor" },
+    "description": "The US Military, in cooperation with West Tek Corporation, built the T-45 Power Armor. This model is based on the second-generation power armor but trades some protection for more utilty in the helmet and less power draw when active. It requires UPS.",
+    "weight": "30 kg",
+    "volume": "50 L",
+    "price": "70 kUSD",
     "to_hit": 1,
     "bashing": 1,
-    "material": [ "hardsteel", "steel" ],
+    "material": [ "steel", "carbide", "kevlar_rigid" ],
     "symbol": "[",
     "color": "dark_gray",
     "covers": [ "torso", "arms", "hands", "legs", "feet" ],
     "qualities": [ [ "HV_INSULATION", 1 ] ],
     "coverage": 100,
-    "encumbrance": 80,
-	  "storage": "4 L",
+    "encumbrance": 45,
+    "storage": "4 L",
     "warmth": 60,
-    "material_thickness": 10,
-    "environmental_protection": 16,
+    "material_thickness": 8,
+    "environmental_protection": 8,
     "use_action": {
       "type": "set_transform",
       "turn_off": false,
@@ -139,19 +234,20 @@
       "active": true,
       "need_worn": true,
       "set_charges": 2,
-      "set_charges_msg": "You need a UPS or a bionic armor interface to power this." },
+      "set_charges_msg": "You need a UPS or a bionic armor interface to power this."
+    },
     "flags": [ "USE_UPS", "NAT_UPS", "POWERARMOR_EXO", "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE" ]
   },
   {
     "id": "power_armor_t45_on",
     "copy-from": "power_armor_t45",
-    "repairs_like": "power_armor_light",
     "looks_like": "power_armor_t45",
     "type": "TOOL_ARMOR",
-    "name": { "str": "T-45 Power armor (on)", "str_pl": "T-45 Power armors (on)" },
-    "description": "A suit of T-45D power armor, T-51's weaker cousin, T-45 is bulky, but still effective. It is turned on and continually drawing power.  Use it to turn it off.",
+    "name": { "str": "T-45 power armor (active)", "str_pl": "T-45 power armors (active)" },
+    "description": "The US Military, in cooperation with West Tek Corporation, built the T-45 Power Armor. This model is based on the second-generation power armor but trades some protection for more utilty in the helmet and less power draw when active. It is turned on and continually drawing power. Use it to turn it off.",
     "extend": { "flags": [ "CLIMATE_CONTROL", "TRADER_AVOID" ] },
-    "power_draw": 1500000,
+    "//": "80% power draw of power armor",
+    "power_draw": 1200000,
     "revert_to": "power_armor_t45",
     "use_action": {
       "type": "set_transform",
@@ -161,28 +257,28 @@
       "msg": "The %s disengages.",
       "target": "power_armor_t45"
     },
-    "covers": [ "torso", "arms", "hands", "legs", "feet" ],
-    "encumbrance": 40,
-    "weight_capacity_bonus": "17 kg"
+    "encumbrance": 5,
+    "environmental_protection": 14,
+    "weight_capacity_bonus": "50 kg"
   },
   {
     "id": "power_armor_helmet_t45",
     "type": "TOOL_ARMOR",
     "name": { "str": "T-45 power helmet" },
-    "description": "A T-45 power helmet. Bulky, but it works",
-    "weight": "5 kg",
+    "description": "A T-45 power helmet based on the second-generation power armor helmet but trades some protection for more utility. In addition to the power armor helmet's features, it also has a built-in flashlight and magnifying optics for scouting.",
+    "weight": "4 kg",
     "volume": "5775 ml",
     "price": "37500 USD",
     "to_hit": 1,
     "bashing": 1,
-    "material": [ "hardsteel", "steel" ],
+    "material": [ "steel", "carbide", "kevlar_rigid" ],
     "symbol": "[",
     "color": "dark_gray",
     "covers": [ "head", "eyes", "mouth" ],
     "coverage": 100,
-    "encumbrance": 80,
+    "encumbrance": 40,
     "warmth": 60,
-    "material_thickness": 10,
+    "material_thickness": 8,
     "environmental_protection": 16,
     "qualities": [ [ "GLARE", 2 ] ],
     "use_action": {
@@ -199,46 +295,82 @@
     "id": "power_armor_helmet_t45_on",
     "copy-from": "power_armor_helmet_t45",
     "repairs_like": "power_armor_helmet_t45",
-    "looks_like": "power_armor_helmet_t45",
     "type": "TOOL_ARMOR",
     "name": { "str": "T-45 power helmet (active)", "str_pl": "T-45 power helmets (active)" },
-    "description": "A T-45 power helmet. Bulky, but it works",
-    "extend": { "flags": [ "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] },
-    "power_draw": 500000,
-    "qualities": [ [ "GLARE", 2 ] ],
+    "description": "A T-45 power helmet based on the second-generation power armor helmet but trades some protection for more utility. In addition to the power armor helmet's features, it also has a built-in flashlight and magnifying optics for scouting.",
+    "extend": { "flags": [ "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "ZOOM", "TRADER_AVOID" ] },
+    "//": "80% power draw of power armor helmet",
+    "power_draw": 400000,
+    "charges_per_use": 1,
     "revert_to": "power_armor_helmet_t45",
-    "use_action": {
-      "type": "set_transformed",
-      "dependencies": "POWERARMOR_EXO",
-      "menu_text": "Turn off",
-      "msg": "The %s powers down.",
-      "target": "power_armor_helmet_t45"
-    },
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "power_armor_helmet_t45"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Activate light",
+        "msg": "You activate your %s's flashlight.",
+        "target": "power_armor_helmet_t45_light",
+        "active": true
+      }
+    ],
     "covers": [ "head", "eyes", "mouth" ],
-    "encumbrance": 40,
-    "weight_capacity_bonus": "5 kg"
+    "encumbrance": 10,
+    "weight_capacity_bonus": "5500 g"
+  },
+  {
+    "id": "power_armor_helmet_t45_light",
+    "copy-from": "power_armor_helmet_t45_on",
+    "repairs_like": "power_armor_helmet_t45",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "T-45 power helmet (active) (flashlight)", "str_pl": "T-45 power helmets (active) (flashlight)" },
+    "description": "A T-45 power helmet based on the second-generation power armor helmet but trades some protection for more utility. In addition to the power armor helmet's features, it also has a built-in flashlight and magnifier optics for scouting. The helmet's flashlight is currently on.",
+    "extend": { "flags": [ "LIGHT_500" ] },
+    "//": "Heavy duty flashlight but regular flashlight power draw.",
+    "power_draw": 410000,
+    "revert_to": "power_armor_helmet_t45",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "power_armor_helmet_t45"
+      },
+      {
+        "type": "transform",
+        "msg": "You deactivate your %s's flashlight.",
+        "target": "power_armor_helmet_t45_on",
+        "active": true
+      }
+    ]
   },
   {
     "id": "power_armor_x01",
     "type": "TOOL_ARMOR",
-    "name": { "str": "Enclave X-01 Power Armor" },
-    "description": "Developed after the Cataclysm, the X-01 is the most advanced power armor model the Enclave have built for their soldiers. It requires power.",
+    "name": { "str": "Enclave X-01 power armor" },
+    "description": "Developed by the Enclave after the Cataclysm, the X-01 is the most advanced power armor model ever built. It requires UPS.",
     "weight": "20 kg",
-    "volume": "24 L",
+    "volume": "27 L",
     "price": "70000 USD",
     "to_hit": 1,
     "bashing": 1,
-    "material": [ "ceramic", "superalloy" ],
+    "material": [ "ceramic", "superalloy", "carbide", "kevlar_rigid" ],
     "symbol": "[",
     "color": "light_gray",
     "covers": [ "torso", "arms", "hands", "legs", "feet" ],
     "qualities": [ [ "HV_INSULATION", 1 ] ],
     "coverage": 100,
-    "encumbrance": 30,
-	  "storage": "2500 ml",
-    "warmth": 90,
-    "material_thickness": 15,
-    "environmental_protection": 35,
+    "encumbrance": 40,
+    "storage": "2500 ml",
+    "warmth": 60,
+    "material_thickness": 9,
+    "environmental_protection": 10,
     "use_action": {
       "type": "set_transform",
       "turn_off": false,
@@ -258,10 +390,10 @@
     "repairs_like": "power_armor_x01",
     "looks_like": "power_armor_x01",
     "type": "TOOL_ARMOR",
-    "name": { "str": "Enclave X-01 Power Armor (on)", "str_pl": "Enclave X-01 Power Armors (on)" },
-    "description": "Developed after the Cataclysm, the X-01 is the most advanced power armor model the Enclave have built for their soldiers. It is turned on and continually drawing power.  Use it to turn it off.",
+    "name": { "str": "Enclave X-01 power Armor (active)", "str_pl": "Enclave X-01 power Armors (active)" },
+    "description": "Developed by the Enclave after the Cataclysm, the X-01 is the most advanced power armor model ever built. It is turned on and continually drawing power. Use it to turn it off.",
     "extend": { "flags": [ "CLIMATE_CONTROL", "TRADER_AVOID" ] },
-    "power_draw": 1500000,
+    "power_draw": 900000,
     "revert_to": "power_armor_x01",
     "use_action": {
       "type": "set_transform",
@@ -271,29 +403,29 @@
       "msg": "The %s disengages.",
       "target": "power_armor_x01"
     },
-    "covers": [ "torso", "arms", "hands", "legs", "feet" ],
-    "encumbrance": 30,
-    "weight_capacity_bonus": "20 kg"
+    "encumbrance": 0,
+    "environmental_protection": 16,
+    "weight_capacity_bonus": "30 kg"
   },
   {
     "id": "power_armor_helmet_x01",
     "type": "TOOL_ARMOR",
-    "name": { "str": "enclave X-01 power helmet" },
-    "description": "An enclave power armor helmet. It looks quite menacing.",
-    "weight": "6 kg",
-    "volume": "6700 ml",
+    "name": { "str": "Enclave X-01 power helmet" },
+    "description": "An X-01 power armor helmet. In addition to the T-51 power armor helmet's features, it also incldes radiation monitor and a military GPS unit to enable navigation for its soldiers while out in the wasteland. Its design makes it look quite menacing.",
+    "weight": "3 kg",
+    "volume": "3 L",
     "price": "25000 USD",
     "to_hit": 1,
     "bashing": 1,
-    "material": [ "ceramic", "superalloy" ],
+    "material": [ "ceramic", "superalloy", "carbide", "kevlar_rigid" ],
     "symbol": "[",
     "color": "light_gray",
     "covers": [ "head", "eyes", "mouth" ],
     "coverage": 100,
     "encumbrance": 30,
     "warmth": 90,
-    "material_thickness": 15,
-    "environmental_protection": 15,
+    "material_thickness": 9,
+    "environmental_protection": 10,
     "qualities": [ [ "GLARE", 2 ] ],
     "use_action": {
       "type": "set_transformed",
@@ -303,162 +435,419 @@
       "need_worn": true,
       "active": true
     },
-    "flags": [ "USE_UPS", "NAT_UPS", "WATERPROOF", "STURDY", "SUN_GLASSES" ]
+    "flags": [ "USE_UPS", "NAT_UPS", "POWERARMOR_EXTERNAL", "WATERPROOF", "STURDY", "PARTIAL_DEAF", "SUN_GLASSES" ]
   },
   {
     "id": "power_armor_helmet_x01_on",
     "copy-from": "power_armor_helmet_x01",
     "repairs_like": "power_armor_helmet_x01",
-    "looks_like": "power_armor_helmet_x01",
     "type": "TOOL_ARMOR",
-    "name": { "str": "enclave x-01 power armor helmet (active)", "str_pl": "enclave x-01 power armor helmets (active)" },
-    "description": "An enclave power armor helmet. It looks quite menacing.",
-    "extend": { "flags": [ "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] },
-    "power_draw": 500000,
+    "name": { "str": "Enclave x-01 power armor helmet (active)", "str_pl": "Enclave x-01 power armor helmets (active)" },
+    "description": "An X-01 power armor helmet. Made for long operations in the wasteland, in addition to the T-51b power armor helmet's features, it also incldes a radiation monitor and a military GPS unit. Its design makes it look quite menacing.",
+    "extend": { "flags": [ "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "ZOOM", "TRADER_AVOID" ] },
+    "power_draw": 300000,
     "revert_to": "power_armor_helmet_x01",
-    "use_action": {
-      "type": "set_transformed",
-      "dependencies": "POWERARMOR_EXO",
-      "menu_text": "Turn off",
-      "msg": "The %s powers down.",
-      "target": "power_armor_helmet_x01"
-    },
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "power_armor_helmet_x01"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Activate light",
+        "msg": "You activate your %s's flashlight.",
+        "target": "power_armor_helmet_x01_light",
+        "active": true
+      },
+      { "type": "gps_device", "radius": 120, "additional_charges_per_tile": 0.1 },
+      "RADGLOVE"
+    ],
     "covers": [ "head" ],
     "techniques": [ "WBLOCK_1" ],
-    "encumbrance": 30,
-    "weight_capacity_bonus": "6 kg"
+    "encumbrance": 0,
+    "environmental_protection": 16,
+    "weight_capacity_bonus": "3 kg"
   },
   {
-    "id": "fo_power_armor_t45_outcast",
+    "id": "power_armor_helmet_x01_light",
+    "copy-from": "power_armor_helmet_x01_on",
+    "repairs_like": "power_armor_helmet_x01",
     "type": "TOOL_ARMOR",
-    "name": { "str": "outcast T-45 Power armor" },
-    "description": "A suit of T-45D power armor, T-51's weaker cousin, T-45 is bulky, but still effective. This variant is used by the BoS outcasts, as indicated by its black and red color scheme. It requires power.",
-    "weight": "17 kg",
-    "volume": "21 L",
-    "price": "115000 USD",
-    "to_hit": 1,
-    "bashing": 1,
-    "material": [ "hardsteel", "steel" ],
-    "symbol": "[",
-    "color": "dark_gray",
-    "covers": [ "torso", "arms", "hands", "legs", "feet" ],
-    "qualities": [ [ "HV_INSULATION", 1 ] ],
-    "coverage": 100,
-    "encumbrance": 80,
-    "storage": "4 L",
-    "warmth": 60,
-    "material_thickness": 6,
-    "environmental_protection": 10,
+    "name": {
+      "str": "Enclave x-01 power armor helmet (active) (flashlight)",
+      "str_pl": "Enclave x-01 power armor helmets (active) (flashlight)"
+    },
+    "description": "An X-01 power armor helmet. Made for long operations in the wasteland, in addition to the T-51b power armor helmet's features, it also incldes a radiation monitor and a military GPS unit. Its design makes it look quite menacing. The helmet's flashlight is currently on.",
+    "extend": { "flags": [ "LIGHT_500" ] },
+    "//": "Heavy duty flashlight but regular flashlight power draw. Due to game limitations you cannot directly go back to active mode.",
+    "power_draw": 310000,
+    "revert_to": "power_armor_helmet_x01",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "power_armor_helmet_x01"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Switch to night vision",
+        "msg": "You deactivate your %s's light and activate night vision.",
+        "target": "power_armor_helmet_x01_nv",
+        "active": true
+      },
+      { "type": "gps_device", "radius": 120, "additional_charges_per_tile": 0.1 },
+      "RADGLOVE"
+    ]
+  },
+  {
+    "id": "power_armor_helmet_x01_nv",
+    "copy-from": "power_armor_helmet_x01_on",
+    "repairs_like": "power_armor_helmet_x01",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "Enclave x-01 power armor helmet (active) (nv)", "str_pl": "Enclave x-01 power armor helmets (active) (nv)" },
+    "description": "An X-01 power armor helmet. Made for long operations in the wasteland, in addition to the T-51b power armor helmet's features, it also incldes a radiation monitor and a military GPS unit. Its design makes it look quite menacing. The helmet's night vision is currently on.",
+    "extend": { "flags": [ "GNV_EFFECT" ] },
+    "power_draw": 300375,
+    "revert_to": "power_armor_helmet_x01",
+    "//": "Due to game limitations you cannot directly go back to active mode.",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "power_armor_helmet_x01"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Switch to infrared",
+        "msg": "You deactivate your %s's night vision and activate infrared.",
+        "target": "power_armor_helmet_x01_ir",
+        "active": true
+      },
+      { "type": "gps_device", "radius": 120, "additional_charges_per_tile": 0.1 },
+      "RADGLOVE"
+    ]
+  },
+  {
+    "id": "power_armor_helmet_x01_ir",
+    "copy-from": "power_armor_helmet_x01_on",
+    "repairs_like": "power_armor_helmet_x01",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "Enclave x-01 power armor helmet (active) (infrared)",
+      "str_pl": "Enclave x-01 power armor helmet (active) (infrared)"
+    },
+    "description": "An X-01 power armor helmet. Made for long operations in the wasteland, in addition to the T-51b power armor helmet's features, it also incldes a radiation monitor and a military GPS unit. Its design makes it look quite menacing. The helmet's infrared is currently on.",
+    "extend": { "flags": [ "IR_EFFECT" ] },
+    "power_draw": 301000,
+    "revert_to": "power_armor_helmet_x01",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "power_armor_helmet_x01"
+      },
+      {
+        "type": "transform",
+        "msg": "You deactivate your %s's infrared.",
+        "target": "power_armor_helmet_x01_on",
+        "active": true
+      },
+      { "type": "gps_device", "radius": 120, "additional_charges_per_tile": 0.1 },
+      "RADGLOVE"
+    ]
+  },
+  {
+    "id": "fo_power_armor_t45_bos",
+    "looks_like": "power_armor_t45",
+    "copy-from": "power_armor_t45",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "Brotherhood of Steel T-45 power armor" },
+    "description": "The US Military, in cooperation with West Tek Corporation, built the T-45 Power Armor. This model is based on the second-generation power armor but trades some protection for more utilty in the helmet and less power draw when active. This variant is used by the Brotherhood of Steel, as indicated by their emblem on the chest. It requires UPS.",
     "use_action": {
       "type": "set_transform",
       "turn_off": false,
       "flag": "POWERARMOR_EXTERNAL",
       "msg": "The %s engages.",
-      "target": "fo_power_armor_t45_outcast_on",
+      "target": "fo_power_armor_t45_bos_on",
       "active": true,
       "need_worn": true,
       "set_charges": 2,
       "set_charges_msg": "You need a UPS or a bionic armor interface to power this."
-    },
-    "flags": [ "USE_UPS", "NAT_UPS", "POWERARMOR_EXO", "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE" ]
+    }
   },
   {
-    "id": "fo_power_armor_t45_outcast_on",
-    "copy-from": "fo_power_armor_t45_outcast",
-    "repairs_like": "power_armor_light",
+    "id": "fo_power_armor_t45_bos_on",
+    "copy-from": "power_armor_t45_on",
     "looks_like": "power_armor_t45",
     "type": "TOOL_ARMOR",
-    "name": { "str": "outcast T-45 Power armor (on)", "str_pl": "outcast T-45 Power armors (on)" },
-    "description": "A suit of T-45D power armor, T-51's weaker cousin, T-45 is bulky, but still effective. This variant is used by the BoS outcasts, as indicated by its black and red color scheme. It is turned on and continually drawing power.  Use it to turn it off.",
-    "extend": { "flags": [ "CLIMATE_CONTROL", "TRADER_AVOID" ] },
-    "power_draw": 1500000,
-    "revert_to": "power_armor_t45",
+    "name": { "str": "Brotherhood of Steel T-45 power armor (active)", "str_pl": "Brotherhood of Steel T-45 power armors (active)" },
+    "description": "The US Military, in cooperation with West Tek Corporation, built the T-45 Power Armor. This model is based on the second-generation power armor but trades some protection for more utilty in the helmet and less power draw when active. This variant is used by the Brotherhood of Steel, as indicated by their emblem on the chest. It is turned on and continually drawing power. Use it to turn it off.",
+    "revert_to": "fo_power_armor_t45_bos",
     "use_action": {
       "type": "set_transform",
       "turn_off": true,
       "flag": "POWERARMOR_EXTERNAL",
       "menu_text": "Turn off",
       "msg": "The %s disengages.",
-      "target": "fo_power_armor_t45_outcast"
-    },
-    "covers": [ "torso", "arms", "hands", "legs", "feet" ],
-    "encumbrance": 40,
-    "weight_capacity_bonus": "17 kg"
+      "target": "fo_power_armor_t45_bos"
+    }
   },
   {
-    "id": "fo_power_armor_helmet_t45_outcast",
+    "id": "fo_power_armor_helmet_t45_bos",
+    "copy-from": "power_armor_helmet_t45",
     "type": "TOOL_ARMOR",
-    "name": { "str": "outcast T-45 power helmet" },
-    "description": "A T-45 power helmet. Bulky, but it works. This variant is used by the BoS outcasts, as indicated by its black and red color scheme.",
-    "weight": "5 kg",
-    "volume": "5775 ml",
-    "price": "37500 USD",
-    "to_hit": 1,
-    "bashing": 1,
-    "material": [ "hardsteel", "steel" ],
-    "symbol": "[",
-    "color": "dark_gray",
-    "covers": [ "head", "eyes", "mouth" ],
-    "coverage": 100,
-    "encumbrance": 80,
-    "warmth": 60,
-    "material_thickness": 6,
-    "environmental_protection": 10,
-    "qualities": [ [ "GLARE", 2 ] ],
+    "name": { "str": "Brotherhood of Steel T-45 power helmet" },
+    "description": "A T-45 power helmet based on the second-generation power armor helmet but trades some protection for more utility. In addition to the power armor helmet's features, it also has a built-in flashlight and magnifier optics for scouting. This variant is used by the Brotherhood of Steel, but as their emblem is on the chest, the helmet is visually identical to the US military version.",
     "use_action": {
       "type": "set_transformed",
       "dependencies": "POWERARMOR_EXO",
       "msg": "The %s seals shut and beeps once.",
-      "target": "fo_power_armor_helmet_t45_outcast_on",
+      "target": "fo_power_armor_helmet_t45_bos_on",
       "need_worn": true,
       "active": true
-    },
-    "flags": [ "USE_UPS", "NAT_UPS", "POWERARMOR_EXTERNAL", "WATERPROOF", "STURDY", "PARTIAL_DEAF", "SUN_GLASSES" ]
+    }
   },
   {
-    "id": "fo_power_armor_helmet_t45_outcast_on",
-    "copy-from": "fo_power_armor_helmet_t45_outcast",
+    "id": "fo_power_armor_helmet_t45_bos_on",
+    "copy-from": "power_armor_helmet_t45_on",
     "repairs_like": "power_armor_helmet_t45",
-    "looks_like": "power_armor_helmet_t45",
     "type": "TOOL_ARMOR",
-    "name": { "str": "outcast T-45 power helmet (active)", "str_pl": "outcast T-45 power helmets (active)" },
-    "description": "A T-45 power helmet. Bulky, but it works. This variant is used by the BoS outcasts, as indicated by its black and red color scheme.",
-    "extend": { "flags": [ "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] },
-    "power_draw": 500000,
-    "qualities": [ [ "GLARE", 2 ] ],
-    "revert_to": "power_armor_helmet_t45",
+    "name": {
+      "str": "Brotherhood of Steel T-45 power helmet (active)",
+      "str_pl": "Brotherhood of Steel T-45 power helmets (active)"
+    },
+    "description": "A T-45 power helmet based on the second-generation power armor helmet but trades some protection for more utility. In addition to the power armor helmet's features, it also has a built-in flashlight and magnifier optics for scouting. This variant is used by the Brotherhood of Steel, but as their emblem is on the chest, the helmet is visually identical to the US military version.",
+    "revert_to": "fo_power_armor_helmet_t45_bos",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "fo_power_armor_helmet_t45_bos"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Activate light",
+        "msg": "You activate your %s's flashlight.",
+        "target": "fo_power_armor_helmet_t45_bos_light",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "fo_power_armor_helmet_t45_bos_light",
+    "copy-from": "power_armor_helmet_t45_on",
+    "repairs_like": "power_armor_helmet_t45",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "Brotherhood of Steel T-45 power helmet (active) (flashlight)",
+      "str_pl": "Brotherhood of Steel T-45 power helmets (active) (flashlight)"
+    },
+    "description": "A T-45 power helmet based on the second-generation power armor helmet but trades some protection for more utility. In addition to the power armor helmet's features, it also has a built-in flashlight and magnifier optics for scouting. This variant is used by the Brotherhood of Steel, but as their emblem is on the chest, the helmet is visually identical to the US military version. The helmet's flashlight is currently on.",
+    "revert_to": "fo_power_armor_helmet_t45_bos",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "fo_power_armor_helmet_t45_bos"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Deactivate light",
+        "msg": "You deactivate your %s's light.",
+        "target": "fo_power_armor_helmet_t45_bos_on",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "fo_power_armor_t51_bos",
+    "looks_like": "power_armor_t51",
+    "copy-from": "power_armor_t51",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "Brotherhood of Steel T-51b power armor" },
+    "description": "The T-51b power armor is an improvement from the T-45 power armor with designs based on the third-generation light power armor. This variant is used by the Brotherhood of Steel, as indicated by their emblem on the chest. It requires UPS.",
+    "use_action": {
+      "type": "set_transform",
+      "turn_off": false,
+      "flag": "POWERARMOR_EXTERNAL",
+      "msg": "The %s engages.",
+      "target": "fo_power_armor_t51_bos_on",
+      "active": true,
+      "need_worn": true,
+      "set_charges": 2,
+      "set_charges_msg": "You need a UPS or a bionic armor interface to power this."
+    }
+  },
+  {
+    "id": "fo_power_armor_t51_bos_on",
+    "copy-from": "power_armor_t51_on",
+    "looks_like": "power_armor_t51",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "Brotherhood of Steel T-51b power armor (active)",
+      "str_pl": "Brotherhood of Steel T-51b power armors (active)"
+    },
+    "description": "The T-51b power armor is an improvement from the T-45 power armor with designs based on the third-generation light power armor. This variant is used by the Brotherhood of Steel, as indicated by their emblem on the chest. It is turned on and continually drawing power. Use it to turn it off.",
+    "revert_to": "fo_power_armor_t51_bos",
+    "use_action": {
+      "type": "set_transform",
+      "turn_off": true,
+      "flag": "POWERARMOR_EXTERNAL",
+      "menu_text": "Turn off",
+      "msg": "The %s disengages.",
+      "target": "fo_power_armor_t51_bos"
+    }
+  },
+  {
+    "id": "fo_power_armor_helmet_t51_bos",
+    "copy-from": "power_armor_helmet_t51",
+    "looks_like": "power_armor_helmet_t51",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "Brotherhood of Steel T-51b power helmet" },
+    "description": "A T-51B power armor helmet based on the third-generation light power armor helmet. In addition to the features of a T-45 power armor helmet, it also has night vision and infrared for detecting Chinese Crimson Dragoon units during the Battle of Anchorage. This variant is used by the Brotherhood of Steel, but as their emblem is on the chest, the helmet is visually identical to the US military version.",
     "use_action": {
       "type": "set_transformed",
       "dependencies": "POWERARMOR_EXO",
-      "menu_text": "Turn off",
-      "msg": "The %s powers down.",
-      "target": "fo_power_armor_helmet_t45_outcast"
+      "msg": "The %s seals shut and beeps once.",
+      "target": "fo_power_armor_helmet_t51_bos_on",
+      "need_worn": true,
+      "active": true
+    }
+  },
+  {
+    "id": "fo_power_armor_helmet_t51_bos_on",
+    "copy-from": "power_armor_helmet_t51_on",
+    "repairs_like": "power_armor_helmet_t51",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "Brotherhood of Steel T-51b power helmet (active)",
+      "str_pl": "Brotherhood of Steel T-51b power helmets (active)"
     },
-    "covers": [ "head", "eyes", "mouth" ],
-    "encumbrance": 40,
-    "weight_capacity_bonus": "5 kg"
+    "description": "A T-51b power armor helmet based on the third-generation light power armor helmet. In addition to the features of a T-45 power armor helmet, it also has night vision and infrared for detecting Chinese Crimson Dragoon units during the Battle of Anchorage. This variant is used by the Brotherhood of Steel, but as their emblem is on the chest, the helmet is visually identical to the US military version.",
+    "revert_to": "fo_power_armor_helmet_t51_bos",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "fo_power_armor_helmet_t51_bos"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Activate light",
+        "msg": "You activate your %s's flashlight.",
+        "target": "fo_power_armor_helmet_t51_bos_light",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "fo_power_armor_helmet_t51_bos_light",
+    "copy-from": "power_armor_helmet_t51_light",
+    "repairs_like": "power_armor_helmet_t51",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "Brotherhood of Steel T-51b power helmet (active) (flashlight)",
+      "str_pl": "Brotherhood of Steel T-51b power helmets (active) (flashlight)"
+    },
+    "description": "A T-51b power armor helmet based on the third-generation light power armor helmet. In addition to the features of a T-45 power armor helmet, it also has night vision and infrared for detecting Chinese Crimson Dragoon units during the Battle of Anchorage. This variant is used by the Brotherhood of Steel, but as their emblem is on the chest, the helmet is visually identical to the US military version. The helmet's flashlight is currently on.",
+    "revert_to": "fo_power_armor_helmet_t51_bos",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "fo_power_armor_helmet_t51_bos"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Switch to night vision",
+        "msg": "You deactivate your %s's light and activate night vision.",
+        "target": "fo_power_armor_helmet_t51_bos_nv",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "fo_power_armor_helmet_t51_bos_nv",
+    "copy-from": "power_armor_helmet_t51_nv",
+    "repairs_like": "power_armor_helmet_t51",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "Brotherhood of Steel T-51b power helmet (active) (nv)",
+      "str_pl": "Brotherhood of Steel T-51b power helmets (active) (nv)"
+    },
+    "description": "A T-51b power armor helmet based on the third-generation light power armor helmet. In addition to the features of a T-45 power armor helmet, it also has night vision and infrared for detecting Chinese Crimson Dragoon units during the Battle of Anchorage. This variant is used by the Brotherhood of Steel, but as their emblem is on the chest, the helmet is visually identical to the US military version. The helmet's night vision is currently on.",
+    "extend": { "flags": [ "GNV_EFFECT" ] },
+    "power_draw": 300375,
+    "revert_to": "fo_power_armor_helmet_t51_bos",
+    "//": "Due to game limitations you cannot directly go back to active mode.",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "fo_power_armor_helmet_t51_bos"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Switch to infrared",
+        "msg": "You deactivate your %s's night vision and activate infrared.",
+        "target": "fo_power_armor_helmet_t51_bos_ir",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "fo_power_armor_helmet_t51_bos_ir",
+    "copy-from": "power_armor_helmet_t51_ir",
+    "repairs_like": "power_armor_helmet_t51",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "Brotherhood of Steel T-51b power helmet (active) (infrared)",
+      "str_pl": "Brotherhood of Steel T-51b power helmets (active) (infrared)"
+    },
+    "description": "A T-51b power armor helmet based on the third-generation light power armor helmet. In addition to the features of a T-45 power armor helmet, it also has night vision and infrared for detecting Chinese Crimson Dragoon units during the Battle of Anchorage. This variant is used by the Brotherhood of Steel, but as their emblem is on the chest, the helmet is visually identical to the US military version. The helmet's infrared is currently on.",
+    "revert_to": "fo_power_armor_helmet_t51_bos",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "fo_power_armor_helmet_t51_bos"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Deactivate infrared",
+        "msg": "You deactivate your %s's infrared.",
+        "target": "fo_power_armor_helmet_t51_bos_on",
+        "active": true
+      }
+    ]
   },
   {
     "id": "power_armor_t51_nuka",
+    "copy-from": "power_armor_t51",
     "type": "TOOL_ARMOR",
-    "name": { "str": "Nuka Cola T-51 power armor" },
-    "description": "The T-51b powered infantry armor is designed with the latest passive defense features for both civilian and military disturbances. This is an extremely rare variant of T-51 Power Armor, designed as part of a promotional campaign between Nuka Cola and the US Army. Due to its use in civilian expos, most of the ballistic armor has been removed. It requires power.",
-    "weight": "15 kg",
-    "volume": "18 L",
-    "price": "70000 USD",
-    "to_hit": 1,
-    "bashing": 1,
-    "material": [ "steel" ],
-    "symbol": "[",
-    "color": "light_gray",
-    "covers": [ "torso", "arms", "hands", "legs", "feet" ],
-    "qualities": [ [ "HV_INSULATION", 1 ] ],
-    "coverage": 100,
-    "encumbrance": 30,
-    "storage": "2500 ml",
-    "warmth": 90,
-    "material_thickness": 9,
-    "environmental_protection": 15,
+    "name": { "str": "Nuka Cola T-51b power armor" },
+    "description": "The T-51b power armor is an improvement from the T-45 power armor with designs based on the third-generation light power armor. This is a rare variant of T-51 Power Armor, designed as part of a promotional campaign between Nuka Cola and the US Army. Due to its use in civilian expos, most of the helmet functions have been removed. It requires UPS.",
     "use_action": {
       "type": "set_transform",
       "turn_off": false,
@@ -469,19 +858,15 @@
       "need_worn": true,
       "set_charges": 2,
       "set_charges_msg": "You need a UPS or a bionic armor interface to power this."
-    },
-    "flags": [ "USE_UPS", "NAT_UPS", "POWERARMOR_EXO", "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE" ]
+    }
   },
   {
     "id": "power_armor_t51_nuka_on",
-    "copy-from": "power_armor_t51_nuka",
+    "copy-from": "power_armor_t51_on",
     "repairs_like": "power_armor_t51",
-    "looks_like": "power_armor_t51",
     "type": "TOOL_ARMOR",
-    "name": { "str": "Nuka Cola T-51 power armor (on)", "str_pl": "Nuka Cola T-51 power armors (on)" },
-    "description": "The T-51b powered infantry armor is designed with the latest passive defense features for both civilian and military disturbances. This is an extremely rare variant of T-51 Power Armor, designed as part of a promotional campaign between Nuka Cola and the US Army. Due to its use in civilian expos, most of the ballistic armor has been removed. It requires power.  It is turned on and continually drawing power.  Use it to turn it off.",
-    "extend": { "flags": [ "CLIMATE_CONTROL", "TRADER_AVOID" ] },
-    "power_draw": 1500000,
+    "name": { "str": "Nuka Cola T-51b power armor (active)", "str_pl": "Nuka Cola T-51b power armors (active)" },
+    "description": "The T-51b power armor is an improvement from the T-45 power armor with designs based on the third-generation light power armor. This is a rare variant of T-51 Power Armor, designed as part of a promotional campaign between Nuka Cola and the US Army. Due to its use in civilian expos, most of the helmet functions have been removed. It is turned on and continually drawing power.  Use it to turn it off.",
     "revert_to": "power_armor_t51_nuka",
     "use_action": {
       "type": "set_transform",
@@ -490,31 +875,14 @@
       "menu_text": "Turn off",
       "msg": "The %s disengages.",
       "target": "power_armor_t51_nuka"
-    },
-    "covers": [ "torso", "arms", "hands", "legs", "feet" ],
-    "encumbrance": 30,
-    "weight_capacity_bonus": "15 kg"
+    }
   },
   {
     "id": "power_armor_helmet_t51_nuka",
+    "copy-from": "power_armor_helmet_t51",
     "type": "TOOL_ARMOR",
     "name": { "str": "Nuka Cola T-51b power helmet" },
-    "description": "A basic helmet, designed for use with the the T-51b Power Helmet. This is an extremely rare variant of T-51 Power Armor, designed as part of a promotional campaign between Nuka Cola and the US Army. Due to its use in civilian expos, most of the ballistic armor has been removed.  Offers excellent protection from both attacks and environmental hazards.  Like all West-Tek power armor, the control and climate-regulation systems require direct skin contact.",
-    "weight": "4 kg",
-    "volume": "5 L",
-    "price": "25000 USD",
-    "to_hit": 1,
-    "bashing": 1,
-    "material": [ "steel" ],
-    "symbol": "[",
-    "color": "light_gray",
-    "covers": [ "head", "eyes", "mouth" ],
-    "coverage": 100,
-    "encumbrance": 30,
-    "warmth": 90,
-    "material_thickness": 9,
-    "environmental_protection": 15,
-    "qualities": [ [ "GLARE", 2 ] ],
+    "description": "A T-51B power armor helmet based on the third-generation light power armor helmet. This is a rare variant of T-51 Power Armor, designed as part of a promotional campaign between Nuka Cola and the US Army. Due to its use in civilian expos, it has a weaker flashlight and does not have night vision, infrared, nor magnifying optics.",
     "use_action": {
       "type": "set_transformed",
       "dependencies": "POWERARMOR_EXO",
@@ -522,30 +890,63 @@
       "target": "power_armor_helmet_t51_nuka_on",
       "need_worn": true,
       "active": true
-    },
-    "flags": [ "USE_UPS", "NAT_UPS", "POWERARMOR_EXTERNAL", "WATERPROOF", "STURDY", "PARTIAL_DEAF", "SUN_GLASSES" ]
+    }
   },
   {
     "id": "power_armor_helmet_t51_nuka_on",
     "copy-from": "power_armor_helmet_t51_nuka",
     "repairs_like": "power_armor_helmet_t51",
-    "looks_like": "power_armor_helmet_t51",
     "type": "TOOL_ARMOR",
     "name": { "str": "Nuka Cola T-51b power helmet (active)", "str_pl": "Nuka Cola T-51b power helmets (active)" },
-    "description": "A basic helmet, designed for use with the the T-51b Power Helmet.  Offers excellent protection from both attacks and environmental hazards.  This is an extremely rare variant of T-51 Power Armor, designed as part of a promotional campaign between Nuka Cola and the US Army. Due to its use in civilian expos, most of the ballistic armor has been removed.  Like all West-Tek power armor, the control and climate-regulation systems require direct skin contact.",
+    "description": "A T-51B power armor helmet based on the third-generation light power armor helmet. This is a rare variant of T-51 Power Armor, designed as part of a promotional campaign between Nuka Cola and the US Army. Due to its use in civilian expos, it has a weaker flashlight and does not have night vision, infrared, nor magnifying optics.",
     "extend": { "flags": [ "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] },
-    "power_draw": 500000,
-    "qualities": [ [ "GLARE", 2 ] ],
     "revert_to": "power_armor_helmet_t51_nuka",
-    "use_action": {
-      "type": "set_transformed",
-      "dependencies": "POWERARMOR_EXO",
-      "menu_text": "Turn off",
-      "msg": "The %s powers down.",
-      "target": "power_armor_helmet_t51_nuka"
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "power_armor_helmet_t51_nuka"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Activate flashlight",
+        "msg": "You activate your %s's flashlight.",
+        "target": "power_armor_helmet_t51_nuka_light",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "power_armor_helmet_t51_nuka_light",
+    "copy-from": "power_armor_helmet_t51_nuka_on",
+    "repairs_like": "power_armor_helmet_t51",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "Nuka Cola T-51b power helmet (active) (flashlight)",
+      "str_pl": "Nuka Cola T-51b power helmets (active) (flashlight)"
     },
-    "covers": [ "head", "eyes", "mouth" ],
-    "encumbrance": 30,
-    "weight_capacity_bonus": "4 kg"
+    "description": "A T-51B power armor helmet based on the third-generation light power armor helmet. This is a rare variant of T-51 Power Armor, designed as part of a promotional campaign between Nuka Cola and the US Army. Due to its use in civilian expos, it has a weaker flashlight and does not have night vision, infrared, nor magnifying optics. The helmet's flashlight is currently on.",
+    "extend": { "flags": [ "LIGHT_300" ] },
+    "//": "Regular flashlight level.",
+    "power_draw": 310000,
+    "revert_to": "power_armor_helmet_t51_nuka",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "menu_text": "Turn off",
+        "msg": "The %s powers down.",
+        "target": "power_armor_helmet_t51_nuka"
+      },
+      {
+        "type": "transform",
+        "menu_text": "Deactivate flashlight",
+        "msg": "You deactivate your %s's flashlight.",
+        "target": "power_armor_helmet_t51_nuka_on",
+        "active": true
+      }
+    ]
   }
 ]

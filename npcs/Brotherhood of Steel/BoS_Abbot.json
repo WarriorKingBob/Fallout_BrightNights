@@ -173,7 +173,7 @@
         { "u_buy_item": "medium_battery_cell" },
         { "u_buy_item": "aer9" },
         { "u_buy_item": "armor_combat_light", "count": 1 },
-        { "u_buy_item": "helmet_combat_light", "count": 1 },
+        { "u_buy_item": "helmet_army", "count": 1 },
         { "u_buy_item": "colt6250_weathered", "count": 1 },
         { "u_buy_item": "colt6250mag", "count": 2 },
         { "u_buy_item": "5mm", "count": 50 },

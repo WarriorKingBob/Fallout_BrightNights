@@ -1,24 +1,10 @@
 [
   {
     "id": "dress_shirt_NCR",
-    "looks_like": "longshirt",
-    "repairs_like": "longshirt",
+    "copy-from": "tshirt",
     "type": "ARMOR",
-    "name": { "str": "NCR dress shirt" },
-    "description": "A tan button-down shirt with long sleeves, and an NCR patch on the front.  Looks professional!",
-    "weight": "250 g",
-    "volume": "750 ml",
-    "price": "15 USD",
-    "material": [ "cotton" ],
-    "symbol": "[",
-    "color": "brown",
-    "covers": [ "torso", "arms" ],
-    "coverage": 90,
-    "encumbrance": 5,
-    "storage": "250 ml",
-    "warmth": 10,
-    "material_thickness": 1,
-    "flags": [ "VARSIZE", "FANCY" ]
+    "name": { "str": "NCR combat shirt" },
+    "description": "A tan button-down shirt with short sleeves, and an NCR patch on the front. Standard shirt for NCR personnel out in the field."
   },
   {
     "id": "ncr_armor_trooper",
@@ -26,7 +12,7 @@
     "repairs_like": "lsurvivor_suit",
     "type": "ARMOR",
     "name": { "str": "NCR Trooper Armor" },
-    "description": "Standard issue body armor for NCR's rank and file soldiers. Consists of a khaki army jacket with a steel breastplate emblazoned with the emblem of the NCR. ",
+    "description": "Standard issue body armor for NCR's rank and file soldiers. Consists of a khaki cotton army jacket with a steel breastplate emblazoned with the emblem of the NCR. ",
     "weight": "800 g",
     "volume": "3 L",
     "price": "150 USD",
@@ -34,13 +20,21 @@
     "material": [ "steel", "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "torso", "arms" ],
-    "coverage": 90,
-    "encumbrance": 20,
+    "armor_portion_data": [
+      { "covers": [ "torso" ], "coverage": 95, "encumbrance": 15 },
+      { "covers": [ "arms" ], "coverage": 30, "encumbrance": 5 }
+    ],
     "storage": "500 ml",
     "warmth": 10,
     "material_thickness": 4,
     "flags": [ "VARSIZE", "RAINPROOF" ]
+  },
+  {
+    "id": "ncr_pants_trooper",
+    "copy-from": "pants",
+    "type": "ARMOR",
+    "name": { "str": "NCR Trooper Pants" },
+    "description": "A pair of tan khaki pants, more for protection from wind than enemy attacks. Standard issue for NCR's rank and file soldiers."
   },
   {
     "id": "ncr_armor_ranger",
@@ -53,12 +47,14 @@
     "volume": "5 L",
     "price": "150 USD",
     "bashing": 8,
-    "material": [ "leather", "cotton", "steel" ],
+    "material": [ "leather", "steel" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "torso", "arms", "legs" ],
-    "coverage": 95,
-    "encumbrance": 25,
+    "armor_portion_data": [
+      { "covers": [ "torso" ], "coverage": 95, "encumbrance": 25 },
+      { "covers": [ "arms" ], "coverage": 30, "encumbrance": 10 },
+      { "covers": [ "legs" ], "coverage": 70, "encumbrance": 15 }
+    ],
     "storage": "500 ml",
     "warmth": 15,
     "material_thickness": 5,
@@ -79,9 +75,11 @@
     "material": [ "kevlar", "leather", "steel" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "torso", "arms", "legs" ],
-    "coverage": 95,
-    "encumbrance": 30,
+    "armor_portion_data": [
+      { "covers": [ "torso" ], "coverage": 95, "encumbrance": 30 },
+      { "covers": [ "arms" ], "coverage": 30, "encumbrance": 10 },
+      { "covers": [ "legs" ], "coverage": 70, "encumbrance": 20 }
+    ],
     "storage": "500 ml",
     "warmth": 15,
     "material_thickness": 6,
@@ -94,7 +92,7 @@
     "repairs_like": "mask_hsurvivor",
     "type": "TOOL_ARMOR",
     "name": { "str": "NCR Veteran Ranger Helmet" },
-    "description": "A menacing helmet worn by NCR veteran rangers, the best of the best. An army helmet integrated with a reinforced gas mask to protect the face and eyes. Wear it with a duster and the armor for that signature badass look. ",
+    "description": "A menacing helmet worn by NCR veteran rangers, the best of the best. An army helmet integrated with a reinforced gas mask to protect the face and eyes. Wear it with a duster and the armor for that signature badass look.",
     "weight": "2125 g",
     "volume": "7 L",
     "price": "150 USD",

@@ -50,7 +50,7 @@
     "subtype": "collection",
     "entries": [
       { "item": "armor_combat_light_winter" },
-      { "item": "helmet_combat_light_winter" },
+      { "item": "helmet_army_winter" },
       { "item": "socks" },
       { "item": "boots_combat" }
 

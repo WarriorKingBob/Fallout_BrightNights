@@ -39,7 +39,7 @@
       { "group": "fallout_5mm_maggroup", "prob": 1, "count": [ 1, 4 ] },
       { "group": "fallout_10mm_maggroup", "prob": 1, "count": [ 1, 4 ] },
       { "item": "armor_combat_light", "prob": 3, "damage": [ 3, 4 ] },
-      { "item": "helmet_combat_light", "prob": 3, "damage": [ 3, 4 ] },
+      { "item": "helmet_army", "prob": 3, "damage": [ 3, 4 ] },
       { "group": "guns_rifle_common", "prob": 1, "damage": [ 0, 4 ] },
       { "group": "ammo_rifle_common", "prob": 78 },
       { "group": "mags_rifle_rare", "prob": 14 },
@@ -904,16 +904,12 @@
     "entries": [
       { "collection": [ { "item": "power_armor_t45" }, { "item": "power_armor_helmet_t45" } ], "prob": 100 },
       {
-        "collection": [ { "item": "fo_power_armor_t45_outcast" }, { "item": "fo_power_armor_helmet_t45_outcast" } ],
+        "collection": [ { "item": "fo_power_armor_t45_bos" }, { "item": "fo_power_armor_helmet_t45_bos" } ],
         "prob": 20
       },
       { "collection": [ { "item": "power_armor_t51" }, { "item": "power_armor_helmet_t51" } ], "prob": 15 },
       { "collection": [ { "item": "power_armor_x01" }, { "item": "power_armor_helmet_x01" } ], "prob": 10 },
-      { "collection": [ { "item": "armor_combat_light" }, { "item": "helmet_combat_light" } ], "prob": 10 },
-      {
-        "collection": [ { "item": "armor_combat_light_winter" }, { "item": "helmet_combat_light_winter" } ],
-        "prob": 10
-      }
+      { "collection": [ { "item": "armor_combat_light" }, { "item": "helmet_army" } ], "prob": 10 }
     ]
   },
   {
@@ -923,16 +919,12 @@
     "entries": [
       { "collection": [ { "item": "power_armor_t45" }, { "item": "power_armor_helmet_t45" } ], "prob": 35 },
       {
-        "collection": [ { "item": "fo_power_armor_t45_outcast" }, { "item": "fo_power_armor_helmet_t45_outcast" } ],
+        "collection": [ { "item": "fo_power_armor_t45_bos" }, { "item": "fo_power_armor_helmet_t45_bos" } ],
         "prob": 20
       },
       { "collection": [ { "item": "power_armor_t51" }, { "item": "power_armor_helmet_t51" } ], "prob": 15 },
       { "collection": [ { "item": "power_armor_x01" }, { "item": "power_armor_helmet_x01" } ], "prob": 10 },
-      { "collection": [ { "item": "armor_combat_light" }, { "item": "helmet_combat_light" } ], "prob": 25 },
-      {
-        "collection": [ { "item": "armor_combat_light_winter" }, { "item": "helmet_combat_light_winter" } ],
-        "prob": 25
-      }
+      { "collection": [ { "item": "armor_combat_light" }, { "item": "helmet_army" } ], "prob": 25 }
     ]
   },
   {

@@ -39,7 +39,7 @@
     "subtype": "collection",
     "entries": [
       { "item": "ncr_armor_trooper" },
-      { "item": "pants_army" },
+      { "item": "ncr_pants_trooper" },
       { "item": "gloves_leather" },
       { "item": "socks" },
       { "item": "boots" },
