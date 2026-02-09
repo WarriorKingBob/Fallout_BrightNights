@@ -46,7 +46,6 @@
     "symbol": "[",
     "looks_like": "football_armor",
     "color": "red",
-    "covers": [ "torso" ],
     "armor_portion_data": [
       { "covers": [ "torso" ], "coverage": 90, "encumbrance": 20 },
       { "covers": [ "arms" ], "coverage": 30, "encumbrance": 10 }
