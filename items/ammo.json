@@ -235,8 +235,9 @@
     "ammo_type": "20ga",
     "casing": "20ga_hull",
     "range": 12,
-    "damage": { "damage_type": "bullet", "amount": 60 },
+    "damage": { "damage_type": "bullet", "amount": 14, "armor_penetration": 7 },
     "recoil": 1700,
+    "shot": { "count": 5, "half_angle": 4 },
     "loudness": 160,
     "effects": [ "COOKOFF", "SHOT" ]
   }
