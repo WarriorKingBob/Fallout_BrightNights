@@ -310,7 +310,7 @@
     "type": "item_group",
     "id": "mags_smg_fallout_common",
     "//": "Common smg mags.",
-    "items": [ [ "10mmsmgmag", 100 ], [ "thompson_bigmag", 50 ], [ "fnp90mag", 50 ], [ "127mmsmgmag", 50 ], [ "thompson_drum", 25 ] ]
+    "items": [ [ "10mmsmgmag", 100 ], [ "thompson_bigmag", 50 ], [ "127mmsmgmag", 50 ], [ "thompson_drum", 25 ] ]
   },
   {
     "type": "item_group",

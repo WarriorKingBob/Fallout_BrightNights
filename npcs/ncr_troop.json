@@ -177,8 +177,6 @@
     "id": "drops_ncr_ranger_ammo",
     "subtype": "distribution",
     "entries": [
-      { "item": "38_super", "prob": 20 },
-      { "item": "38super_fmj", "prob": 20 },
       { "item": "44fmj", "prob": 15 },
       { "item": "44magnum", "prob": 35 },
       { "item": "38_fmj", "prob": 25 },
@@ -329,8 +327,6 @@
     "id": "drops_ncr_ranger_vet_ammo",
     "subtype": "distribution",
     "entries": [
-      { "item": "38_super", "prob": 20 },
-      { "item": "38super_fmj", "prob": 20 },
       { "item": "44fmj", "prob": 15 },
       { "item": "44magnum", "prob": 35 },
       { "item": "38_fmj", "prob": 25 },

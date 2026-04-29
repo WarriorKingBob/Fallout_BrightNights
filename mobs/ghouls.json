@@ -29,19 +29,7 @@
     "death_drops": "mon_ghoul_death_drops",
     "upgrades": { "half_life": 23, "into_group": "GROUP_GHOUL_UPGRADE" },
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "STUMBLES",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "BLEED",
-      "NO_BREATHE",
-      "PUSH_MON",
-      "SWIMS"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "BLEED", "NO_BREATHE", "PUSH_MON", "SWIMS" ]
   },
   {
     "id": "mon_fallout_ghoul_vault",
@@ -72,19 +60,7 @@
     "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ] ],
     "death_drops": "mon_ghoul_vault_death_drops",
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "STUMBLES",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "BLEED",
-      "NO_BREATHE",
-      "PUSH_MON",
-      "SWIMS"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "BLEED", "NO_BREATHE", "PUSH_MON", "SWIMS" ]
   },
   {
     "id": "mon_fallout_ghoul_roamer",
@@ -115,19 +91,7 @@
     "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ] ],
     "death_drops": "mon_ghoul_roamer_death_drops",
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "STUMBLES",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "BLEED",
-      "NO_BREATHE",
-      "PUSH_MON",
-      "SWIMS"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "BLEED", "NO_BREATHE", "PUSH_MON", "SWIMS" ]
   },
   {
     "id": "mon_fallout_ghoul_runner",
@@ -154,19 +118,7 @@
     "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ] ],
     "death_drops": "mon_ghoul_death_drops",
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "STUMBLES",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "BLEED",
-      "NO_BREATHE",
-      "PUSH_MON",
-      "SWIMS"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "BLEED", "NO_BREATHE", "PUSH_MON", "SWIMS" ]
   },
   {
     "id": "mon_fallout_ghoul_reaver",
@@ -197,25 +149,13 @@
     "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ] ],
     "death_drops": "mon_ghoul_reaver_death_drops",
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "STUMBLES",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "BLEED",
-      "NO_BREATHE",
-      "PUSH_MON",
-      "SWIMS"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "BLEED", "NO_BREATHE", "PUSH_MON", "SWIMS" ]
   },
   {
     "id": "mon_radghoul",
     "type": "MONSTER",
     "name": { "str": "Glowing One" },
-   "description": "This ghoul was engulfed by the radiation that created it, and as a result is uneffected by radiation.",
+    "description": "This ghoul was engulfed by the radiation that created it, and as a result is uneffected by radiation.",
     "default_faction": "ghoul",
     "bodytype": "human",
     "species": [ "FO_GHOUL", "HUMAN" ],
@@ -238,19 +178,7 @@
     "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ] ],
     "death_drops": "mon_ghoul_death_drops",
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "STUMBLES",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "BLEED",
-      "NO_BREATHE",
-      "PUSH_MON",
-      "SWIMS"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "BLEED", "NO_BREATHE", "PUSH_MON", "SWIMS" ]
   },
   {
     "type": "MONSTER",
@@ -360,92 +288,14 @@
     "hp": 85,
     "death_function": [ "NORMAL" ],
     "death_drops": "mon_chinese_rifle_death_drops",
-    "starting_ammo": { "545": 150 },
+    "starting_ammo": { "556": 150 },
     "special_attacks": [
       [ "GRAB", 5 ],
       {
         "type": "gun",
         "cooldown": 4,
-        "gun_type": "ak74",
-        "ammo_type": "545",
-        "max_ammo": 500,
-        "fake_str": 4,
-        "fake_dex": 5,
-        "fake_per": 3,
-        "fake_int": 1,
-        "fake_skills": [ [ "gun", 5 ], [ "rifle", 5 ] ],
-        "move_cost": 100,
-        "targeting_cost": 40,
-        "ranges": [ [ 4, 25, "DEFAULT" ], [ 4, 25, "BURST" ] ],
-        "require_targeting_player": true,
-        "require_targeting_npc": true,
-        "require_targeting_monster": true,
-        "no_crits": true,
-        "targeting_volume": 20,
-        "description": "P-P-P-POW",
-        "no_ammo_sound": "chk, chk!"
-      }
-    ],
-    "description": "A pre-war Chinese soldier who has been transformed by the radioactive storms that proliferated after the great war. His immense longevity has granted him countless combat opportunities over the years.",
-    "flags": [
-      "HUMAN",
-      "GOODHEARING",
-      "GROUP_MORALE",
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "WARM",
-      "SWARMS",
-      "BLEED",
-      "BASHES",
-      "HUMAN",
-      "PATH_AVOID_DANGER_1",
-      "PUSH_MON"
-    ],
-    "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "PLAYER_CLOSE" ],
-    "fear_triggers": [ "FRIEND_DIED" ],
-    "categories": [ "CLASSIC" ]
-  },
-  {
-    "type": "MONSTER",
-    "id": "mon_ghoul_chinese",
-    "name": { "str": "Chinese Trooper Ghoul" },
-    "default_faction": "ghoul",
-    "bodytype": "human",
-    "species": [ "FO_GHOUL", "HUMAN" ],
-    "symbol": "C",
-    "color": "red",
-    "volume": "62500 ml",
-    "weight": "81500 g",
-    "material": [ "flesh" ],
-    "diff": 15,
-    "aggression": 100,
-    "morale": 100,
-    "regen_morale": true,
-    "speed": 95,
-    "melee_skill": 3,
-    "melee_dice": 2,
-    "melee_dice_sides": 5,
-    "melee_cut": 2,
-    "dodge": 1,
-    "armor_bash": 7,
-    "armor_cut": 7,
-    "armor_stab": 5,
-    "armor_bullet": 5,
-    "armor_acid": 1,
-    "vision_day": 30,
-    "vision_night": 8,
-    "hp": 85,
-    "death_function": [ "NORMAL" ],
-    "death_drops": "mon_chinese_rifle_death_drops",
-    "starting_ammo": { "545": 150 },
-    "special_attacks": [
-      [ "GRAB", 5 ],
-      {
-        "type": "gun",
-        "cooldown": 4,
-        "gun_type": "ak74",
-        "ammo_type": "545",
+        "gun_type": "type93",
+        "ammo_type": "223",
         "max_ammo": 500,
         "fake_str": 4,
         "fake_dex": 5,

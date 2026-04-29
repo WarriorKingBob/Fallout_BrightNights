@@ -125,7 +125,6 @@
       { "item": "ak112", "prob": 10, "charges": 30 },
       { "item": "colt6250", "prob": 20, "charges": 30 },
       { "item": "10mmsmg", "prob": 20, "charges": 30 },
-      { "item": "fn_p90", "prob": 20, "charges": 30 },
       { "item": "10mmgatling", "prob": 20, "charges": 30 },
       { "item": "127mmsmg", "prob": 20, "charges": 30 },
       { "item": "sw_22", "contents-item": [ "suppressor_compact" ], "prob": 5, "charges": 30 },
@@ -170,7 +169,6 @@
       { "item": "10mmsmgmag", "prob": 7, "charges": 30 },
       { "item": "10mmgatlingmag", "prob": 10, "charges": 60 },
       { "item": "10mmgatlingmagxl", "prob": 8, "charges": 75 },
-      { "item": "fnp90mag", "prob": 10, "charges": 30 },
       { "item": "127mmpistolmag", "prob": 10, "charges": 30 },
       { "item": "127mmsmgmag", "prob": 10, "charges": 30 },
       { "item": "citykillermag", "prob": 10, "charges": 30 }

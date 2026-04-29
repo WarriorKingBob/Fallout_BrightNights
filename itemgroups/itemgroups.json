@@ -319,14 +319,12 @@
   {
     "type": "item_group",
     "id": "fallout_10mm_maggroup",
-    "//": "P90 doesn't really belong here but it was for Fallout P90.",
     "subtype": "distribution",
     "entries": [
       { "item": "colt6250mag", "charges": 12, "prob": 70, "ammo-item": "10mm_fmj" },
       { "item": "10mmsmgmag", "charges": 30, "prob": 20, "ammo-item": "10mm_fmj" },
       { "item": "10mmgatlingmag", "charges": 60, "prob": 15 },
-      { "item": "10mmgatlingmagxl", "charges": 75, "prob": 5 },
-      { "item": "fnp90mag", "charges": 24, "prob": 15 }
+      { "item": "10mmgatlingmagxl", "charges": 75, "prob": 5 }
     ]
   },
   {
@@ -363,8 +361,7 @@
     "entries": [
       { "item": "colt6250", "ammo-item": "10mm_fmj", "charges": 12, "prob": 70 },
       { "item": "colt6250_weathered", "ammo-item": "10mm_fmj", "charges": 12, "prob": 10 },
-      { "item": "10mmsmg", "ammo-item": "10mm_fmj", "charges": 30, "prob": 15 },
-      { "item": "fn_p90", "ammo-item": "57mm", "charges": 24, "prob": 5 }
+      { "item": "10mmsmg", "ammo-item": "10mm_fmj", "charges": 30, "prob": 20 }
     ]
   },
   {
