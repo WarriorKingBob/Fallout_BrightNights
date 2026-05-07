@@ -998,8 +998,7 @@
     "items": [
       { "item": "Fallout_Expansion_common_vault_mission_hologram", "prob": 68 },
       { "item": "Fallout_Expansion_irradiated_vault_mission_hologram", "prob": 68 },
-      { "item": "Fallout_Expansion_nuka_plant_mission_hologram", "prob": 68 },
-      { "item": "Fallout_Expansion_research_facility_mission_hologram", "prob": 68 }
+      { "item": "Fallout_Expansion_nuka_plant_mission_hologram", "prob": 68 }
     ]
   },
   {
@@ -1011,8 +1010,7 @@
     "items": [
       { "item": "Fallout_Expansion_common_vault_mission_hologram", "prob": 68 },
       { "item": "Fallout_Expansion_irradiated_vault_mission_hologram", "prob": 68 },
-      { "item": "Fallout_Expansion_nuka_plant_mission_hologram", "prob": 68 },
-      { "item": "Fallout_Expansion_research_facility_mission_hologram", "prob": 68 }
+      { "item": "Fallout_Expansion_nuka_plant_mission_hologram", "prob": 68 }
     ]
   },
   {

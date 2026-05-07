@@ -69,12 +69,7 @@
     "difficulty": 3,
     "value": 368000,
     "start": {
-      "assign_mission_target": {
-        "om_terrain": "FO_COMMON_VAULT_H",
-        "reveal_radius": 5,
-        "om_special": "Common Vault",
-        "search_range": 368
-      }
+      "assign_mission_target": { "om_terrain": "FO_COMMON_VAULT_H", "reveal_radius": 5, "om_special": "Common Vault", "search_range": 368 }
     },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
@@ -99,12 +94,7 @@
     "difficulty": 3,
     "value": 368000,
     "start": {
-      "assign_mission_target": {
-        "om_terrain": "FO_RAD_VAULT_H",
-        "reveal_radius": 5,
-        "om_special": "Irradiated Vault",
-        "search_range": 368
-      }
+      "assign_mission_target": { "om_terrain": "FO_RAD_VAULT_H", "reveal_radius": 5, "om_special": "Irradiated Vault", "search_range": 368 }
     },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
@@ -129,12 +119,7 @@
     "difficulty": 3,
     "value": 368000,
     "start": {
-      "assign_mission_target": {
-        "om_terrain": "FO_NUKAPLANT_1_1",
-        "reveal_radius": 5,
-        "om_special": "Nuka Cola Plant",
-        "search_range": 368
-      }
+      "assign_mission_target": { "om_terrain": "FO_NUKAPLANT_1_1", "reveal_radius": 5, "om_special": "Nuka Cola Plant", "search_range": 368 }
     },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
@@ -159,12 +144,7 @@
     "difficulty": 3,
     "value": 368000,
     "start": {
-      "assign_mission_target": {
-        "om_terrain": "FO_WESTTEK_2_1",
-        "reveal_radius": 5,
-        "om_special": "West-Tek Research Facility",
-        "search_range": 368
-      }
+      "assign_mission_target": { "om_terrain": "FO_WESTTEK_2_1", "reveal_radius": 5, "om_special": "West-Tek Research Facility" }
     },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
