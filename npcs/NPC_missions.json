@@ -140,11 +140,11 @@
     "name": { "str": "Go to West-Tek Research Facility" },
     "description": "Go to West-Tek Research Facility",
     "goal": "MGOAL_GO_TO_TYPE",
-    "destination": "FO_WESTTEK_2_1",
+    "destination": "FO_WESTTEK_2_roof_1",
     "difficulty": 3,
     "value": 368000,
     "start": {
-      "assign_mission_target": { "om_terrain": "FO_WESTTEK_2_1", "reveal_radius": 5, "om_special": "West-Tek Research Facility" }
+      "assign_mission_target": { "om_terrain": "FO_WESTTEK_2_roof_1", "reveal_radius": 5, "om_special": "West-Tek Research Facility" }
     },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {

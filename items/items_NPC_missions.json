@@ -81,7 +81,7 @@
     "id": "Fallout_Expansion_research_facility_mission_hologram",
     "type": "TOOL",
     "name": { "str": "Hologram Projector - Locator of West-Tek Research Facility" },
-    "description": "This is a hologram projector which generates an interactive hologram when you activate it. Hologram can talk to you, answer some of your questions, but most importantly, it can locate West-Tek Research Facility. Note: This item does not spawn, as the mission for it is bugged.",
+    "description": "This is a hologram projector which generates an interactive hologram when you activate it. Hologram can talk to you, answer some of your questions, but most importantly, it can locate West-Tek Research Facility.",
     "weight": "85 g",
     "volume": "15 ml",
     "price": "500 USD",
