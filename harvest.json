@@ -73,5 +73,20 @@
       { "drop": "raw_fur", "type": "skin", "mass_ratio": 0.02 },
       { "drop": "mutant_fat", "type": "flesh", "mass_ratio": 0.07 }
     ]
+  },
+  {
+    "id": "fo_CBM_courser",
+    "type": "harvest",
+    "entries": [
+      { "drop": "harvest_power_storage_mil", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "harvest_bionics_op2_off", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "harvest_bionics_op2_def", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "harvest_bionics_op2_utl", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "fo_synth_component", "scale_num": [ 1, 1 ], "max": 1, "type": "bionic" },
+      { "drop": "blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "human_flesh", "type": "flesh", "mass_ratio": 0.25 },
+      { "drop": "human_fat", "type": "flesh", "mass_ratio": 0.08 },
+      { "drop": "bone_human", "type": "bone", "mass_ratio": 0.1 }
+    ]
   }
 ]

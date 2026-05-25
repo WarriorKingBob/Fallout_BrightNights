@@ -290,7 +290,7 @@
     "encumbrance": 20,
     "storage": "6 L",
     "warmth": 30,
-    "material_thickness": 4,
+    "material_thickness": 5,
     "environmental_protection": 2,
     "flags": [ "VARSIZE", "POCKETS", "OUTER" ]
   }

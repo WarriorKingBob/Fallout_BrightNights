@@ -389,5 +389,21 @@
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3
+  },
+  {
+    "type": "GENERIC",
+    "id": "fo_synth_component",
+    "symbol": "S",
+    "color": "red",
+    "name": { "str": "synth component" },
+    "category": "other",
+    "description": "A mysterious electronic component found by dissecting a courser. It appears to be some sort of transmitter, but destination cannot be determined. It could be gutted for spare parts.",
+    "price": "10 USD",
+    "material": [ "steel", "flesh" ],
+    "volume": "10 ml",
+    "weight": "28 g",
+    "bashing": 4,
+    "cutting": 4,
+    "to_hit": -3
   }
 ]

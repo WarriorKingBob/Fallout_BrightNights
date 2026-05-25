@@ -492,7 +492,7 @@
       { "monster": "mon_fo_robobrain", "freq": 15, "cost_multiplier": 0 },
       { "monster": "mon_fo_gen1_synth", "freq": 33, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
       { "monster": "mon_fo_spore_carrier", "freq": 10, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
-      { "monster": "mon_synth_courser_pistol", "freq": 6, "cost_multiplier": 0 },
+      { "monster": "mon_synth_courser_rifle", "freq": 6, "cost_multiplier": 0 },
       { "monster": "mon_cyberdeathclaw_young", "freq": 5, "cost_multiplier": 0 },
       { "monster": "mon_cyberdeathclaw_young", "freq": 6, "cost_multiplier": 0, "pack_size": [ 1, 3 ] },
       { "monster": "mon_fo_gen1_synth", "freq": 6, "cost_multiplier": 0, "pack_size": [ 3, 6 ] }
@@ -509,7 +509,7 @@
       { "monster": "mon_fo_robobrain", "freq": 15, "cost_multiplier": 0 },
       { "monster": "mon_fo_gen1_synth", "freq": 33, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
       { "monster": "mon_fo_spore_carrier", "freq": 10, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
-      { "monster": "mon_synth_courser_pistol", "freq": 6, "cost_multiplier": 0 },
+      { "monster": "mon_synth_courser_rifle", "freq": 6, "cost_multiplier": 0 },
       { "monster": "mon_fo_gen1_synth", "freq": 6, "cost_multiplier": 0, "pack_size": [ 3, 6 ] },
       { "monster": "mon_cyberdeathclaw_young", "freq": 5, "cost_multiplier": 0 },
       { "monster": "mon_cyberdeathclaw_young", "freq": 6, "cost_multiplier": 0, "pack_size": [ 1, 3 ] }
@@ -526,7 +526,7 @@
       { "monster": "mon_fo_robobrain", "freq": 15, "cost_multiplier": 0 },
       { "monster": "mon_fo_gen1_synth", "freq": 33, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
       { "monster": "mon_fo_spore_carrier", "freq": 10, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
-      { "monster": "mon_synth_courser_pistol", "freq": 6, "cost_multiplier": 0 },
+      { "monster": "mon_synth_courser_rifle", "freq": 6, "cost_multiplier": 0 },
       { "monster": "mon_fo_gen1_synth", "freq": 6, "cost_multiplier": 0, "pack_size": [ 3, 6 ] },
       { "monster": "mon_cyberdeathclaw_young", "freq": 5, "cost_multiplier": 0 },
       { "monster": "mon_cyberdeathclaw_young", "freq": 6, "cost_multiplier": 0, "pack_size": [ 1, 3 ] }
@@ -542,7 +542,7 @@
       { "monster": "mon_fo_ghoul_scientist", "freq": 50, "cost_multiplier": 0 },
       { "monster": "mon_fo_robobrain", "freq": 15, "cost_multiplier": 0 },
       { "monster": "mon_fo_gen1_synth", "freq": 33, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
-      { "monster": "mon_synth_courser_pistol", "freq": 6, "cost_multiplier": 0 },
+      { "monster": "mon_synth_courser_rifle", "freq": 6, "cost_multiplier": 0 },
       { "monster": "mon_fo_gen1_synth", "freq": 6, "cost_multiplier": 0, "pack_size": [ 3, 6 ] },
       { "monster": "mon_cyberdeathclaw_young", "freq": 5, "cost_multiplier": 0 },
       { "monster": "mon_cyberdeathclaw_young", "freq": 6, "cost_multiplier": 0, "pack_size": [ 1, 3 ] }
@@ -559,7 +559,6 @@
       { "monster": "mon_fo_ghoul_scientist", "freq": 50, "cost_multiplier": 0 },
       { "monster": "mon_fo_robobrain", "freq": 15, "cost_multiplier": 0 },
       { "monster": "mon_fo_gen1_synth", "freq": 33, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
-      { "monster": "mon_synth_courser_pistol", "freq": 6, "cost_multiplier": 0 },
       { "monster": "mon_fo_gen1_synth", "freq": 6, "cost_multiplier": 0, "pack_size": [ 3, 6 ] },
       { "monster": "mon_cyberdeathclaw_young", "freq": 5, "cost_multiplier": 0 },
       { "monster": "mon_cyberdeathclaw_young", "freq": 6, "cost_multiplier": 0, "pack_size": [ 1, 3 ] }
@@ -576,7 +575,6 @@
       { "monster": "mon_fo_robobrain", "freq": 15, "cost_multiplier": 0 },
       { "monster": "mon_fo_gen1_synth", "freq": 33, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
       { "monster": "mon_fo_spore_carrier", "freq": 10, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
-      { "monster": "mon_synth_courser_pistol", "freq": 6, "cost_multiplier": 0 },
       { "monster": "mon_fo_gen1_synth", "freq": 6, "cost_multiplier": 0, "pack_size": [ 3, 6 ] },
       { "monster": "mon_cyberdeathclaw_young", "freq": 5, "cost_multiplier": 0 },
       { "monster": "mon_cyberdeathclaw_young", "freq": 6, "cost_multiplier": 0, "pack_size": [ 1, 3 ] }

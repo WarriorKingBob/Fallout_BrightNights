@@ -277,12 +277,6 @@
   },
   {
     "type": "speech",
-    "speaker": "mon_fo_gen15_synth",
-    "sound": "\"Emergency alert.\"",
-    "volume": 30
-  },
-  {
-    "type": "speech",
     "speaker": "mon_fo_gen2_synth",
     "sound": "\"Sensor anomaly detected.\"",
     "volume": 30

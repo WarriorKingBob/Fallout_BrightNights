@@ -1,0 +1,460 @@
+[
+  {
+    "type": "item_group",
+    "id": "mon_ghoul_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 34, "count": [ 1, 2 ] },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 30, "count": [ 1, 2 ] },
+      { "group": "fallout_misc_itemgroup_med", "prob": 6, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_ghoul_vault_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 33 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 6, "count": [ 1, 2 ] },
+      { "item": "colt6250", "prob": 1, "charges": 12, "damage": [ 0, 4 ] },
+      { "item": "colt6250mag", "charges": 12, "prob": 1 },
+      { "group": "fallout_10mm_ammogroup", "prob": 78 },
+      { "item": "vault_knife", "prob": 40, "damage": [ 0, 4 ] },
+      { "item": "fo_misc_pipboy", "prob": 15, "damage": [ 0, 4 ] },
+      { "group": "fallout_vault_suitgroups", "prob": 80, "damage": [ 0, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_ghoul_roamer_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 33 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 15, "count": [ 1, 3 ] },
+      { "group": "fallout_5mm_maggroup", "prob": 1, "count": [ 1, 4 ] },
+      { "group": "fallout_10mm_maggroup", "prob": 1, "count": [ 1, 4 ] },
+      { "item": "armor_combat_light", "prob": 3, "damage": [ 3, 4 ] },
+      { "item": "helmet_army", "prob": 3, "damage": [ 3, 4 ] },
+      { "group": "guns_rifle_common", "prob": 1, "damage": [ 0, 4 ] },
+      { "group": "ammo_rifle_common", "prob": 78 },
+      { "group": "mags_rifle_rare", "prob": 14 },
+      { "group": "military", "prob": 7, "count": [ 1, 2 ] },
+      { "group": "sopmod", "prob": 7, "count": [ 1, 3 ] },
+      { "group": "default_zombie_items_bags", "prob": 20 },
+      { "group": "default_zombie_items_pockets", "prob": 21 },
+      { "group": "mil_food_nodrugs", "prob": 23, "count": [ 1, 3 ] },
+      { "group": "infantry_common_gear", "prob": 23, "count": [ 1, 3 ] },
+      { "item": "ak112", "prob": 1, "charges": 30, "damage": [ 0, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_ghoul_reaver_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 33 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 6, "count": [ 1, 2 ] },
+      { "group": "fallout_5mm_maggroup", "prob": 15 },
+      { "group": "fallout_10mm_maggroup", "prob": 15 },
+      { "group": "ammo_pistol_common", "prob": 30 },
+      { "group": "mags_pistol_common", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_ghoul_raider_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 33 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 10, "count": [ 1, 2 ] },
+      { "group": "fallout_5mm_maggroup", "prob": 30 },
+      { "group": "fallout_10mm_maggroup", "prob": 30 },
+      { "group": "fallout_low_gungroups", "prob": 1, "damage": [ 0, 4 ] },
+      { "group": "fallout_10mm_ammogroup", "prob": 63 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_raider_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 33 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 10, "count": [ 1, 2 ] },
+      { "group": "fallout_raidermelee_drops", "prob": 37, "damage": [ 0, 4 ] },
+      { "group": "fallout_raider_helmets", "prob": 30, "damage": [ 0, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_raider_scrapper_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 10, "count": [ 1, 2 ] },
+      { "group": "fallout_raidermelee_drops", "prob": 37, "damage": [ 0, 4 ] },
+      { "group": "fallout_raider_helmets", "prob": 15, "damage": [ 0, 4 ] },
+      { "group": "fallout_scrapper_armor", "prob": 3, "damage": [ 0, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_raider_pistol_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 33 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 10, "count": [ 1, 2 ] },
+      { "group": "fallout_raidermelee_drops", "prob": 37, "damage": [ 0, 4 ] },
+      { "group": "fallout_raider_helmets", "prob": 15, "damage": [ 0, 4 ] },
+      { "group": "fallout_raider_pistolchoice", "prob": 1, "damage": [ 0, 4 ] },
+      { "group": "ammo_pistol_common", "prob": 37 },
+      { "group": "fallout_10mm_ammogroup", "prob": 37 },
+      { "group": "fallout_10mm_maggroup", "prob": 20 },
+      { "group": "mags_pistol_common", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_raider_rifle_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 10, "count": [ 1, 2 ] },
+      { "group": "fallout_raidermelee_drops", "prob": 37, "damage": [ 0, 4 ] },
+      { "group": "fallout_raider_helmets", "prob": 15, "damage": [ 0, 4 ] },
+      { "group": "fallout_raider_riflechoice", "prob": 1, "damage": [ 0, 4 ] },
+      { "group": "ammo_rifle_reloaded", "prob": 51 },
+      { "group": "ammo_rifle_common", "prob": 37 },
+      { "group": "mags_rifle_common", "prob": 37 },
+      { "item": "rangemastermag", "charges": 10, "prob": 1 },
+      { "item": "rangemastermag2", "charges": 20, "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_raider_junkie_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 25, "count": [ 1, 2 ] },
+      { "group": "stash_drugs", "prob": 64, "count": [ 3, 6 ] },
+      { "group": "fallout_raidermelee_drops", "prob": 37, "damage": [ 0, 4 ] },
+      { "group": "fallout_raider_helmets", "prob": 15, "damage": [ 0, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_human_vault_wanderer_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 25, "count": [ 1, 2 ] },
+      { "item": "colt6250", "prob": 1, "charges": 12, "damage": [ 0, 4 ] },
+      { "item": "colt6250mag", "charges": 12, "prob": 1 },
+      { "group": "fallout_10mm_ammogroup", "prob": 35 },
+      { "item": "vault_knife", "prob": 60, "damage": [ 0, 4 ] },
+      { "group": "fallout_vault_suitgroups", "prob": 80, "damage": [ 0, 4 ] },
+      { "group": "fallout_energy_gungroups", "prob": 1, "damage": [ 0, 4 ] },
+      { "group": "everyday_gear", "prob": 35, "count": [ 1, 4 ] },
+      { "group": "gear_survival", "prob": 65, "count": [ 3, 4 ] },
+      { "group": "rad_gear", "prob": 75, "count": [ 1, 2 ] },
+      { "item": "fo_powfist", "prob": 4 },
+      { "item": "fo_misc_pipboy", "prob": 15, "damage": [ 0, 4 ] },
+      { "group": "npc_hacker", "prob": 25, "count": [ 1, 3 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_human_vault_dweller_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 33 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 25, "count": [ 1, 2 ] },
+      { "item": "colt6250", "prob": 1, "charges": 12, "damage": [ 0, 4 ] },
+      { "item": "colt6250mag", "charges": 12, "prob": 1, "count": [ 1, 2 ] },
+      { "group": "fallout_10mm_ammogroup", "prob": 78 },
+      { "item": "vault_knife", "prob": 60, "damage": [ 0, 4 ] },
+      { "group": "fallout_vault_suitgroups", "prob": 80, "damage": [ 0, 4 ] },
+      { "group": "fallout_energy_gungroups", "prob": 1, "damage": [ 0, 4 ] },
+      { "group": "everyday_gear", "prob": 30, "count": [ 1, 2 ] },
+      { "group": "gear_survival", "prob": 40, "count": [ 1, 2 ] },
+      { "group": "rad_gear", "prob": 35, "count": [ 1, 2 ] },
+      { "item": "fo_misc_pipboy", "prob": 15, "damage": [ 0, 4 ] },
+      { "group": "npc_hacker", "prob": 10, "count": [ 1, 3 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_hubologist_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 33 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 6, "count": [ 1, 2 ] },
+      { "item": "cathedralrobe", "prob": 80, "damage": [ 0, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_chinese_rifle_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "military", "prob": 55, "count": [ 2, 3 ] },
+      { "group": "mil_food_nodrugs", "prob": 55, "count": [ 2, 3 ] },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 10, "count": [ 1, 2 ] },
+      { "item": "hat_peoples", "prob": 25, "damage": [ 0, 4 ] },
+      { "item": "boots", "prob": 75, "damage": [ 0, 4 ] },
+      { "item": "jumpsuit_china", "prob": 80, "damage": [ 0, 4 ] },
+      { "item": "type93", "prob": 1, "charges": 30, "damage": [ 1, 4 ] },
+      { "item": "stanag30", "prob": 15, "damage": [ 0, 4 ] },
+      { "item": "stanag10", "prob": 15, "damage": [ 0, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_human_powerwan_melee_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 25, "count": [ 1, 2 ] },
+      { "group": "everyday_gear", "prob": 30, "count": [ 1, 2 ] },
+      { "group": "gear_survival", "prob": 40, "count": [ 1, 2 ] },
+      { "group": "rad_gear", "prob": 75, "count": [ 1, 2 ] },
+      { "group": "npc_hacker", "prob": 15, "count": [ 1, 3 ] },
+      { "group": "fallout_pow_armorchoice", "prob": 15, "damage": [ 0, 4 ] },
+      { "group": "fallout_powmelee_drops", "prob": 37, "damage": [ 0, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_human_powerwan_gun_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_death_drops" },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 25, "count": [ 1, 2 ] },
+      { "group": "everyday_gear", "prob": 30, "count": [ 1, 2 ] },
+      { "group": "gear_survival", "prob": 40, "count": [ 1, 2 ] },
+      { "group": "rad_gear", "prob": 75, "count": [ 1, 2 ] },
+      { "group": "npc_hacker", "prob": 15, "count": [ 1, 3 ] },
+      { "group": "fallout_pow_armorchoice", "prob": 15, "damage": [ 0, 4 ] },
+      { "group": "fallout_energy_gungroups", "prob": 1, "damage": [ 0, 4 ] },
+      { "group": "fallout_556mm_gungroups", "prob": 1, "damage": [ 0, 4 ] },
+      { "group": "mags_milspec", "prob": 15 },
+      { "group": "ammo_rifle_common", "prob": 63 },
+      { "group": "ammo_rifle_milspec", "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_chinese_shock_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "military", "prob": 55, "count": [ 2, 3 ] },
+      { "group": "mil_food_nodrugs", "prob": 51 },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 10, "count": [ 1, 2 ] },
+      { "item": "hat_peoples", "prob": 25, "damage": [ 0, 4 ] },
+      { "item": "boots", "prob": 75, "damage": [ 0, 4 ] },
+      { "item": "jumpsuit_china", "prob": 80, "damage": [ 0, 4 ] },
+      { "group": "fallout_chinese_swords", "prob": 37, "damage": [ 1, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_lobotomite_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "item": "subsuit_xl" },
+      { "item": "scalpel", "prob": 11, "damage": [ 0, 4 ] },
+      { "group": "fallout_misc_itemgroup_food", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 33 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 25, "count": [ 1, 2 ] },
+      { "group": "everyday_gear", "prob": 25, "count": [ 1, 2 ] },
+      { "group": "gear_survival", "prob": 10, "count": [ 1, 2 ] },
+      { "group": "rad_gear", "prob": 25, "count": [ 1, 2 ] },
+      { "group": "bionics", "prob": 8 },
+      { "group": "bionics_common", "prob": 2 },
+      { "group": "bionics_mil", "prob": 3 },
+      { "group": "bionics_tech", "prob": 3 },
+      { "group": "npc_hacker", "prob": 15, "count": [ 1, 3 ] },
+      { "group": "fallout_raidermelee_drops", "prob": 37, "damage": [ 0, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_supermutant_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_items", "prob": 85 },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "trash", "prob": 65, "count": [ 2, 3 ] },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 10, "count": [ 1, 2 ] },
+      { "group": "fallout_raidermelee_drops", "prob": 37, "damage": [ 0, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_supermutant_mut_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_items", "prob": 85 },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "trash", "prob": 65, "count": [ 2, 3 ] },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 10, "count": [ 1, 2 ] },
+      { "group": "fallout_raidermelee_drops", "prob": 37, "damage": [ 0, 4 ] },
+      { "group": "mutagens", "prob": 9, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_supermutant_gun_a_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_items", "prob": 85 },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "trash", "prob": 65, "count": [ 2, 3 ] },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 10, "count": [ 1, 2 ] },
+      { "group": "fallout_raidermelee_drops", "prob": 37, "damage": [ 0, 4 ] },
+      { "group": "fallout_raider_riflechoice", "prob": 1, "damage": [ 0, 4 ] },
+      { "group": "ammo_rifle_common", "prob": 37 },
+      { "group": "mags_rifle_common", "prob": 37 },
+      { "item": "rangemastermag", "charges": 10, "prob": 1 },
+      { "item": "rangemastermag2", "charges": 20, "prob": 1 },
+      { "group": "mutagens", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_supermutant_gun_b_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_items", "prob": 85 },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "trash", "prob": 65, "count": [ 2, 3 ] },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 10, "count": [ 1, 2 ] },
+      { "group": "fallout_raidermelee_drops", "prob": 37, "damage": [ 0, 4 ] },
+      { "group": "fallout_raider_riflechoice", "prob": 1, "damage": [ 0, 4 ] },
+      { "group": "guns_rifle_milspec", "prob": 1, "damage": [ 0, 4 ] },
+      { "group": "ammo_rifle_common", "prob": 63 },
+      { "group": "mags_rifle_common", "prob": 51 },
+      { "item": "rangemastermag", "charges": 10, "prob": 1 },
+      { "item": "rangemastermag2", "charges": 20, "prob": 1 },
+      { "group": "mutagens", "prob": 7 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_supermutant_behemoth_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_items", "prob": 85 },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51, "count": [ 1, 2 ] },
+      { "group": "trash", "prob": 65, "count": [ 5, 10 ] },
+      { "group": "mutagens", "prob": 15, "count": [ 1, 2 ] },
+      { "group": "supplies_hardware", "prob": 37, "count": [ 1, 2 ] },
+      { "group": "supplies_plumbing", "prob": 37, "count": [ 1, 2 ] },
+      { "group": "supplies_electronics", "prob": 37, "count": [ 1, 2 ] },
+      { "group": "supplies_reagents_lab", "prob": 37, "count": [ 1, 2 ] },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37, "count": [ 1, 2 ] },
+      { "group": "fallout_misc_itemgroup_med", "prob": 10, "count": [ 1, 2 ] },
+      { "group": "fallout_raidermelee_drops", "prob": 37, "damage": [ 0, 4 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_supmutant_vault_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "default_zombie_items", "prob": 85 },
+      { "group": "fallout_misc_itemgroup_food", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 33 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 6, "count": [ 1, 2 ] },
+      { "item": "colt6250", "prob": 1, "charges": 12, "damage": [ 0, 4 ] },
+      { "item": "colt6250mag", "charges": 12, "prob": 1 },
+      { "group": "fallout_10mm_ammogroup", "prob": 35 },
+      { "item": "vault_knife", "prob": 40, "damage": [ 0, 4 ] },
+      { "group": "fallout_vault_suitgroups", "prob": 80, "damage": [ 0, 4 ] },
+      { "group": "mutagens", "prob": 7, "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_dead_zetan_drops",
+    "subtype": "collection",
+    "entries": [
+      { "item": "zetan_pistol" },
+      { "item": "canister_zetan_ufo", "charges": 100 },
+      { "item": "canister_zetan", "count": [ 6, 8 ], "charges": 100 },
+      { "group": "alien_gear_fallout", "prob": 65, "count": [ 1, 3 ] },
+      { "group": "alien_junk_fallout", "prob": 65, "count": [ 1, 3 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_synth_courser_rifle_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "item": "tac_helmet" },
+      { "item": "institute_laser_rifle" },
+      { "group": "clothing_soldier_shirt" },
+      { "item": "fo_courser_uniform" },
+      { "item": "kevlar", "prob": 50 },
+      { "item": "pants_army" },
+      { "item": "webbing_belt" },
+      { "distribution": [ { "item": "socks", "prob": 95 }, { "item": "socks_wool", "prob": 5 } ] },
+      { "item": "boots_combat" },
+      {
+        "distribution": [
+          { "collection": [ { "item": "sports_bra" }, { "item": "boy_shorts" } ] },
+          { "distribution": [ { "item": "briefs" }, { "item": "boxer_briefs" }, { "item": "boxer_shorts" } ] }
+        ]
+      },
+      { "group": "fallout_misc_itemgroup_food", "prob": 51 },
+      { "group": "fallout_misc_itemgroup_drink", "prob": 37 },
+      { "group": "fallout_misc_itemgroup_med", "prob": 25, "count": [ 1, 2 ] },
+      {
+        "distribution": [ { "item": "fo_mob_stealthboy_mki", "prob": 90 }, { "item": "fo_mob_stealthboy_mkii", "prob": 10 } ]
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_synth_death_drops",
+    "subtype": "distribution",
+    "entries": [ { "item": "institute_laser_pistol", "prob": 50 }, { "item": "institute_laser_rifle", "prob": 50 } ]
+  }
+]
