@@ -411,7 +411,7 @@
     "id": "power_armor_helmet_x01",
     "type": "TOOL_ARMOR",
     "name": { "str": "Enclave X-01 power helmet" },
-    "description": "An X-01 power armor helmet. In addition to the T-51 power armor helmet's features, it also incldes radiation monitor and a military GPS unit to enable navigation for its soldiers while out in the wasteland. Its design makes it look quite menacing.",
+    "description": "An X-01 power armor helmet. In addition to the T-51 power armor helmet's features, it also incldes radiation monitor and a military GPS unit to enable navigation for its soldiers while out in the wasteland, but this is only available when the helmet is powered off. Its design makes it look quite menacing.",
     "weight": "3 kg",
     "volume": "3 L",
     "price": "25000 USD",
@@ -427,14 +427,19 @@
     "material_thickness": 9,
     "environmental_protection": 10,
     "qualities": [ [ "GLARE", 2 ] ],
-    "use_action": {
-      "type": "set_transformed",
-      "dependencies": "POWERARMOR_EXO",
-      "msg": "The %s seals shut and beeps once.",
-      "target": "power_armor_helmet_x01_on",
-      "need_worn": true,
-      "active": true
-    },
+    "//": "Due to game limitations, gps and radiation biomonitor cannot be turned on while power armor is active.",
+    "use_action": [
+      {
+        "type": "set_transformed",
+        "dependencies": "POWERARMOR_EXO",
+        "msg": "The %s seals shut and beeps once.",
+        "target": "power_armor_helmet_x01_on",
+        "need_worn": true,
+        "active": true
+      },
+      { "type": "gps_device", "radius": 120, "additional_charges_per_tile": 0.1 },
+      "RADGLOVE"
+    ],
     "flags": [ "USE_UPS", "NAT_UPS", "POWERARMOR_EXTERNAL", "WATERPROOF", "STURDY", "PARTIAL_DEAF", "SUN_GLASSES" ]
   },
   {
@@ -461,9 +466,7 @@
         "msg": "You activate your %s's flashlight.",
         "target": "power_armor_helmet_x01_light",
         "active": true
-      },
-      { "type": "gps_device", "radius": 120, "additional_charges_per_tile": 0.1 },
-      "RADGLOVE"
+      }
     ],
     "covers": [ "head" ],
     "techniques": [ "WBLOCK_1" ],
@@ -499,9 +502,7 @@
         "msg": "You deactivate your %s's light and activate night vision.",
         "target": "power_armor_helmet_x01_nv",
         "active": true
-      },
-      { "type": "gps_device", "radius": 120, "additional_charges_per_tile": 0.1 },
-      "RADGLOVE"
+      }
     ]
   },
   {
@@ -529,9 +530,7 @@
         "msg": "You deactivate your %s's night vision and activate infrared.",
         "target": "power_armor_helmet_x01_ir",
         "active": true
-      },
-      { "type": "gps_device", "radius": 120, "additional_charges_per_tile": 0.1 },
-      "RADGLOVE"
+      }
     ]
   },
   {
@@ -560,9 +559,7 @@
         "msg": "You deactivate your %s's infrared.",
         "target": "power_armor_helmet_x01_on",
         "active": true
-      },
-      { "type": "gps_device", "radius": 120, "additional_charges_per_tile": 0.1 },
-      "RADGLOVE"
+      }
     ]
   },
   {
