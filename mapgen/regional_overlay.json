@@ -3,13 +3,14 @@
     "type": "region_overlay",
     "regions": [ "all" ],
     "city": {
-      "shops": {
-        "FO_SUPERMART_1": 400,
+      "shops": { "FO_SUPERMART_1": 400, "FO_S_RADKING1": 270, "FO_ROBREPAIR_1": 400, "FO_VAULTOFFICE_1": 300 },
+      "urban_shops": {
         "FO_LARGECRATER_1": 500,
-        "FO_NATGUARDH_1": 150,
+        "FO_SUPERMART_1": 400,
         "FO_S_RADKING1": 270,
         "FO_ROBREPAIR_1": 400,
-        "FO_VAULTOFFICE_1": 300
+        "FO_VAULTOFFICE_1": 300,
+        "FO_NATGUARDH_1": 150
       }
     }
   }
